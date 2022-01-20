@@ -1,0 +1,16 @@
+{
+  "name": "portal-cadastro-mock-server",
+  "version": "1.0.0",
+  "description": "mock server para o portal de cadastro",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "nodemon": "^2.0.15"
+  }
+}

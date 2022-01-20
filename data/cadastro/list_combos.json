@@ -1,0 +1,114 @@
+{
+  "especialidades": [
+    {
+      "id": -2,
+      "nome": "Não Informada"
+    },
+    {
+      "id": -1,
+      "nome": "Não Cadastrada"
+    },
+    {
+      "id": 1,
+      "nome": "ALERGIA"
+    },
+    {
+      "id": 2,
+      "nome": "ANATOMO PATOLÓGICO"
+    },
+    {
+      "id": 3,
+      "nome": "ANESTESIOLOGISTA"
+    }
+  ],
+  "familiasProduto": [
+    {
+      "id": -1,
+      "nome": "Nao Informado",
+      "descricao": "Nao Informado"
+    },
+    {
+      "id": 1,
+      "nome": "ANATOMIA",
+      "descricao": "ANATOMIA"
+    },
+    {
+      "id": 2,
+      "nome": "ANESTESIOLOGIA",
+      "descricao": "ANESTESIOLOGIA"
+    },
+    {
+      "id": 3,
+      "nome": "ATENDMTCOLETA",
+      "descricao": "ATENDMTCOLETA"
+    }
+  ],
+  "categoriasTipoProduto": [
+    {
+      "idCategoriaUnidade": 1,
+      "nomeCategoria": "Análise Clínica",
+      "idTipoProduto": 1,
+      "nomeTipo": "Exame"
+    },
+    {
+      "idCategoriaUnidade": 2,
+      "nomeCategoria": "Anatomia Patológica",
+      "idTipoProduto": 1,
+      "nomeTipo": "Exame"
+    },
+    {
+      "idCategoriaUnidade": 3,
+      "nomeCategoria": "Diagnóstico por Imagem",
+      "idTipoProduto": 1,
+      "nomeTipo": "Exame"
+    }
+  ],
+  "centrosProducao": [
+    {
+      "idUnidade": 126,
+      "centroLogistico": "D489",
+      "nomeCentroLogistico": "NTO-CASCAVEL I"
+    },
+    {
+      "idUnidade": 1768,
+      "centroLogistico": "G137",
+      "nomeCentroLogistico": "NTO - MATRIZ"
+    },
+    {
+      "idUnidade": 1655,
+      "centroLogistico": "G004",
+      "nomeCentroLogistico": "NTO - MATRIZ PADRAO"
+    }
+  ],
+  "classificacoesProduto": [
+    {
+      "id": 1,
+      "nome": "Normal"
+    },
+    {
+      "id": 2,
+      "nome": "Derivado"
+    },
+    {
+      "id": 3,
+      "nome": "Perfil"
+    }
+  ],
+  "registrosTuss": [
+    {
+      "id": 10101012,
+      "descricao": "Consulta em consultório (no horário normal ou preestabelecido)",
+      "grupo": "PROCEDIMENTOS GERAIS"
+    },
+    {
+      "id": 10101039,
+      "descricao": "Consulta em pronto socorro",
+      "grupo": "PROCEDIMENTOS GERAIS"
+    },
+    {
+      "id": 10102019,
+      "descricao": "Visita hospitalar (paciente internado)",
+      "grupo": "PROCEDIMENTOS GERAIS"
+    }
+  ]
+}

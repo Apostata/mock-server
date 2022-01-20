@@ -1,0 +1,1565 @@
+[
+  {
+    "id": 14275,
+    "nome": "COVID-19 RT-PCR CORONAVIRUS",
+    "categoria": {
+      "id": 1,
+      "nome": "Análise Clínica"
+    },
+    "sinonimias": [
+      "CORONAVÍRUS (COVID-19), DIVERSOS, DETECÇÃO POR RT-PCR ",
+      "Detecção qualitativa para coronavírus ",
+      "PCR para Coronavírus ",
+      "PCR para Covid 19"
+    ],
+    "mnemonicos": null,
+    "material": {
+      "id": 421,
+      "nome": "Aspirado"
+    },
+    "codTuss": "40314618",
+    "descricaoTuss": "Coronavírus Covid-19, pesquisa por método molecular",
+    "grupoTuss": ["PROCEDIMENTOS LABORATORIAIS"],
+    "codMultimed": null,
+    "idDasa": "53456",
+    "codSap": "70009839",
+    "preparos": [
+      {
+        "descricao": "Agendamento On-line habilitado somente para hospitais e unidades de atendimento, caso deseje realizar o atendimento domiciliar entrar em contato com a nossa Central Telefônica .",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "LOCAL DA COLETA DO EXAME",
+        "codigoApi": "local_coleta_exame",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "É obrigatório apresentar o pedido médico somente para realizar o exame via convênio, consulte os critérios de liberação com seu plano de saúde. Exames particulares não necessitam de pedido médico.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PEDIDO MÉDICO",
+        "codigoApi": "pedido_medico",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Este exame não necessita de jejum.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE JEJUM",
+        "codigoApi": "informacao_jejum",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Este exame necessita de agendamento prévio",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE AGENDAMENTO",
+        "codigoApi": "informacao_agendamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Material de nasofaringe.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES SOBRE O MATERIAL COLHIDO",
+        "codigoApi": "orientacao_material_colhido",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "O exame pode detectar a carga viral em média até o 10º dia de sintomas. É direcionado a quem apresenta sintomas gripais e/ou teve contato, dentro desse período, com pessoas que testaram positivo para Coronavírus, e para profissionais da saúde ou serviços essenciais, conforme relação do governo federal.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      }
+    ],
+    "subEspecialidade": {
+      "id": 9,
+      "nome": "BIOMOL"
+    },
+    "especialidade": {
+      "id": 13,
+      "nome": "GENÉTICA"
+    },
+    "marcasAtivas": [
+      {
+        "id": 19,
+        "mnemonico": "Alta",
+        "nome": "Alta Excelência Diagnóstica",
+        "slogan": "Laboratório de Exames e Imagem",
+        "segmento": "Premium",
+        "url": "www.altadiagnosticos.com.br/",
+        "whatsapp": "11 99974-5554",
+        "urlAgendamento": "agendamentoonline.altadiagnosticos.com.br/",
+        "urlLaudo": "altadiagnosticos.com.br/resultados-de-exames/",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 10,
+        "mnemonico": "Alvaro",
+        "nome": "Laboratório Álvaro",
+        "slogan": "Análises Clínicas e Diagnósticos",
+        "segmento": "Executive",
+        "url": "www.alvaro.com.br/",
+        "urlAgendamento": "agendamentoonline.alvaro.com.br/",
+        "urlLaudo": "alvaro.com.br/resultados-de-exames/",
+        "ufs": ["PR"]
+      },
+      {
+        "id": 14,
+        "mnemonico": "Atalaia",
+        "nome": "Atalaia Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Executive",
+        "url": "www.atalaia.com.br/",
+        "whatsapp": "62 99105-4890",
+        "urlAgendamento": "agendamentoonline.atalaia.com.br/",
+        "urlLaudo": "atalaia.com.br/resultados-de-exames",
+        "ufs": ["GO"]
+      },
+      {
+        "id": 3,
+        "mnemonico": "Bronstein",
+        "nome": "Bronstein Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Standard",
+        "url": "www.bronstein.com.br/",
+        "whatsapp": "21 2227-8080",
+        "urlAgendamento": "agendamentoonline.bronstein.com.br/",
+        "urlLaudo": "bronstein.com.br/resultados-de-exames",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 101,
+        "mnemonico": "Cedic Cedilab",
+        "nome": "Cedic Cedilab",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.cediccedilab.com.br/",
+        "urlAgendamento": "agendamentoonline.cediccedilab.com.br/",
+        "urlLaudo": "cediccedilab.com.br/resultados-de-exames",
+        "ufs": ["MT"]
+      },
+      {
+        "id": 34,
+        "mnemonico": "Cerpe",
+        "nome": "Cerpe Diagnósticos",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Executive",
+        "url": "www.cerpe.com.br/",
+        "whatsapp": "81 9143-1466",
+        "urlAgendamento": "agendamentoonline.cerpe.com.br/",
+        "urlLaudo": "cerpe.com.br/resultados-de-exames",
+        "ufs": ["PE"]
+      },
+      {
+        "id": 27,
+        "mnemonico": "Cytolab",
+        "nome": "Cytolab Laboratório",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Standard",
+        "url": "www.cytolab.com.br/",
+        "urlAgendamento": "agendamentoonline.cytolab.com.br/",
+        "urlLaudo": "cytolab.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 1,
+        "mnemonico": "Delboni",
+        "nome": "Delboni Auriemo",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.delboniauriemo.com.br/",
+        "whatsapp": "11 3049-6999",
+        "urlAgendamento": "agendamentoonline.delboniauriemo.com.br/",
+        "urlLaudo": "delboniauriemo.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 5,
+        "mnemonico": "Delboni Prime",
+        "nome": "Delboni Prime",
+        "segmento": "Standard",
+        "url": "www.clubda.com.br/",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 102,
+        "mnemonico": "Deliberato",
+        "nome": "Diagnosticos da America S.A - Deliberato",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Standard",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 15,
+        "mnemonico": "Exame",
+        "nome": "Exame Imagem e Laboratório",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.laboratorioexame.com.br/",
+        "whatsapp": "61 99134-3105",
+        "urlAgendamento": "agendamentoonline.laboratorioexame.com.br/",
+        "ufs": ["DF", "GO"]
+      },
+      {
+        "id": 8,
+        "mnemonico": "Frischmann",
+        "nome": "Frischmann Aisengart Medicina Diagnóstica",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Executive",
+        "url": "www.labfa.com.br/",
+        "whatsapp": "41 8900-9730",
+        "urlAgendamento": "agendamentoonline.labfa.com.br/",
+        "urlLaudo": "labfa.com.br/resultados-de-exames/",
+        "ufs": ["PR"]
+      },
+      {
+        "id": 104,
+        "mnemonico": "Gene One",
+        "nome": "Diagnosticos da America S.A - Geneone",
+        "slogan": "Genômica e Testes Genéticos",
+        "segmento": "Standard",
+        "ufs": ["RS"]
+      },
+      {
+        "id": 37,
+        "mnemonico": "Gilson Cidrim",
+        "nome": "Laboratório Gilson Cidrim",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Standard",
+        "url": "www.gilsoncidrim.com.br/index.php",
+        "urlAgendamento": "agendamentoonline.gilsoncidrim.com.br/",
+        "urlLaudo": "gilsoncidrim.com.br/resultados-de-exames",
+        "ufs": ["PE"]
+      },
+      {
+        "id": 12,
+        "mnemonico": "Image ",
+        "nome": "Imagem Memorial Laboratório e Imagem",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.imagememorial.com.br/",
+        "whatsapp": "71 8104-7390",
+        "urlAgendamento": "agendamentoonline.imagememorial.com.br/",
+        "urlLaudo": "imagememorial.com.br/",
+        "ufs": ["BA"]
+      },
+      {
+        "id": 105,
+        "mnemonico": "Itulab",
+        "nome": "Diagnosticos da America S.A - Itulab",
+        "slogan": "Laboratório de Exames e Imagem",
+        "segmento": "Standard",
+        "url": "www.itulab.com.br",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 11,
+        "mnemonico": "LabPasteur",
+        "nome": "LabPasteur Medicina Diagnóstica",
+        "slogan": "Medicina Diagnóstica",
+        "segmento": "Standard",
+        "url": "www.labpasteur.med.br/",
+        "ufs": ["CE"]
+      },
+      {
+        "id": 39,
+        "mnemonico": "Laboratório Oswaldo Cruz",
+        "nome": "Laboratório Oswaldo Cruz - São José dos Campos",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Executive",
+        "url": "www.oswaldocruz.com/site/",
+        "urlLaudo": "oswaldocruz.com/site/resultados-online",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 2,
+        "mnemonico": "Lavoisier",
+        "nome": "Medicina Diagnóstica Lavoisier",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Standard",
+        "url": "www.lavoisier.com.br/",
+        "whatsapp": "11 3047-4488",
+        "urlAgendamento": "agendamentoonline.lavoisier.com.br/",
+        "urlLaudo": "lavoisier.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 40,
+        "mnemonico": "Leme",
+        "nome": "Laboratório Leme",
+        "segmento": "Executive",
+        "url": "www.lableme.com.br/",
+        "ufs": ["BA"]
+      },
+      {
+        "id": 4,
+        "mnemonico": "Lâmina",
+        "nome": "Lâmina Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.lamina.com.br/",
+        "whatsapp": "21 99189-6917",
+        "urlAgendamento": "agendamentoonline.lamina.com.br/",
+        "urlLaudo": "lamina.com.br/resultados-de-exames",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 13,
+        "mnemonico": "Lâmina Diagnósticos",
+        "nome": "Lâmina Medicina Diagnóstica - Santa Catarina",
+        "slogan": "Referência em Diagnóstico por Imagem",
+        "segmento": "Executive",
+        "url": "www.laminadiagnosticos.com.br/",
+        "whatsapp": "48 98824-8555",
+        "urlAgendamento": "agendamentoonline.laminadiagnosticos.com.br/",
+        "urlLaudo": "laminadiagnosticos.com.br/resultados-de-exames",
+        "ufs": ["SC"]
+      },
+      {
+        "id": 103,
+        "mnemonico": "Padrão",
+        "nome": "Diagnosticos da America S.A - Padrao",
+        "slogan": "Medicina Diagnóstica",
+        "segmento": "Standard",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 32,
+        "mnemonico": "Previlab",
+        "nome": "Previlab Laboratório",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Standard",
+        "url": "www.previlab.com.br/",
+        "urlAgendamento": "agendamentoonline.previlab.com.br/",
+        "urlLaudo": "previlab.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 42,
+        "mnemonico": "Salomão Zoppi",
+        "nome": "Salomão Zoppi",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Standard",
+        "url": "salomaozoppi.com.br/",
+        "whatsapp": "11 98929-0019",
+        "urlAgendamento": "agendamentoonline.salomaozoppi.com.br/",
+        "urlLaudo": "salomaozoppi.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 24,
+        "mnemonico": "Sergio Franco",
+        "nome": "Sérgio Franco Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "sergiofranco.com.br/",
+        "whatsapp": "21 2672-7070",
+        "urlAgendamento": "agendamentoonline.sergiofranco.com.br/",
+        "urlLaudo": "sergiofranco.com.br/resultados-de-exames",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 59,
+        "mnemonico": "Valeclin",
+        "nome": "Diagnosticos da America S.A - Valeclin",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Standard",
+        "url": "www.valeclin.com.br",
+        "urlAgendamento": "agendamentoonline.valeclin.com.br/",
+        "urlLaudo": "www.valeclin.com.br/web/resultado-de-exames/",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 41,
+        "mnemonico": "Vital Brasil",
+        "nome": "Vital Brasil",
+        "segmento": "Standard",
+        "url": "",
+        "ufs": ["SP"]
+      }
+    ],
+    "marcasInativas": [
+      {
+        "id": 17,
+        "mnemonico": "CDPI",
+        "nome": "CDPI",
+        "slogan": "Diagnóstico por Imagem",
+        "segmento": "Standard",
+        "url": "",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 31,
+        "mnemonico": "Corporativo",
+        "nome": "Corporativo",
+        "segmento": "Executive",
+        "url": "",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 22,
+        "mnemonico": "Unimagem",
+        "nome": "Unimagem",
+        "slogan": "Diagnóstico por Imagem",
+        "segmento": "Executive",
+        "url": "www.unimagemdiagnosticos.com.br/",
+        "ufs": ["CE"]
+      }
+    ],
+    "errors": [],
+    "medinc": {
+      "id": "40314618-001T",
+      "descricao": "Coronavírus (Covid-19), Diversos, detecção por RT-PCR"
+    },
+    "loinc": {}
+  },
+  {
+    "id": 11364,
+    "nome": "USG DE ABDOME TOTAL",
+    "categoria": {
+      "id": 3,
+      "nome": "Diagnóstico por Imagem"
+    },
+    "sinonimias": [
+      "ULTRASSOM ABDOMINAL TOTAL",
+      "ULTRASSONOGRAFIA ABDOME TOTAL",
+      "ULTRASSONOGRAFIA ABDOMINAL TOTAL",
+      "US ABDOME TOTAL",
+      "US ABDOMINAL TOTAL",
+      "USG ABDOME TOTAL",
+      "USG ABDOMINAL TOTAL"
+    ],
+    "mnemonicos": null,
+    "material": null,
+    "codTuss": "",
+    "descricaoTuss": null,
+    "grupoTuss": null,
+    "codMultimed": null,
+    "idDasa": "9649",
+    "codSap": "70002086",
+    "preparos": [
+      {
+        "descricao": "\n\n\nAdultos: Ingerir 4 copos de água (não pode ser outro líquido) 1 hora antes do exame e não urinar (exame realizado com a bexiga cheia).\nCrianças que já ingerem água, podem ingerir durante o período do jejum.\n\n\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\nChegar com 30 minutos de antecedência do horário agendado.\nÉ obrigatório trazer o pedido médico e um documento de identificação .\nTrazer exames anteriores da região a ser examinada.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\"\nNão pode ser realizados no mesmo dia, exames de Endoscopia + USG de Abdomen Total.\n\"",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\"Chegar com 30 minutos de antecedência do horário agendado.\nÉ obrigatório trazer pedido médico e documento de identificação .\nTrazer exames anteriores da região a ser examinada.\n\"",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE AGENDAMENTO",
+        "codigoApi": "informacao_agendamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\"Chegar com 30 minutos de antecedência do horário agendado.\nÉ obrigatório trazer pedido médico e documento de identificação. \nTrazer exames anteriores da região a ser examinada\n\"",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE AGENDAMENTO",
+        "codigoApi": "informacao_agendamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\"Chegar com 30 minutos de antecedência do horário agendado.\r\nÉ obrigatório trazer pedido médico e documento de identificação. \r\nTrazer exames anteriores da região a ser examinada.  \r\n\"",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE AGENDAMENTO",
+        "codigoApi": "informacao_agendamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\"Cliente menor de 18 anos (17 anos 11 meses e 29 dias) é obrigatório a presença de um responsável legal para a realização do exame.\n\"",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES DE IDADE",
+        "codigoApi": "restricao_idade",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\"Cliente menor de 18 anos (17 anos 11 meses e 29 dias) é obrigatório a presença de um responsável legal para a realização do exame.\r\n\"",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES ESPECÍFICAS",
+        "codigoApi": "restricao_espeficica",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\"Crianças:\nRecém-nascido a 5 meses - restringir última mamada.\nDe 6 meses a 11 meses - jejum de 2 horas\nDe 1 a 3 anos e 11 meses - jejum de 3 horas\nDe 4 a 7 anos e 11 meses - jejum de 4 horas\nDe 8 a 11 anos e 11 meses - jejum de 6 horas\n\nMaiores de 12 anos e adultos - jejum de 8 horas.\n\"",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE JEJUM",
+        "codigoApi": "informacao_jejum",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\"De 6 meses a 11 meses: oferecer água (respeitando os limites da criança).\n\nCrianças de 1 a 3 anos e 11 meses:\nIngerir de 100 a 200 ml de água 1 hora do exame.\n\nCrianças de 4 a 7 anos e 11 meses:\nIngerir de 200 a 400 ml de água 1 hora antes do exame.\n\nCrianças de 8 a 11 anos e 11 meses: \ningerir de 300 a 500 ml de água 1 hora antes do exame.\n\nMaiores de 12 anos e adulto:\nIngerir 6 copos de água 1 hora antes do exame.\n\nNão esvaziar a bexiga após a ingestão da água.\n\n\";",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\"Não realizar exame em conjunto com exames de urina.\n\nCliente com sonda e necessário fechar a sonda 1 hora antes do exame.\n\n1. Clientes com incontinência urinária/ Clientes que fazem uso de fralda geriátrica:\n - Tanto a ingestão de água como a repleção vesical (quantidade de urina retida na bexiga),\n deverão respeitar os limites máximos aceitos pelo cliente.\n - Cliente deve comunicar ao médico que irá realizar o exame sobre a sua dificuldade em manter a repleção vesical adequada e também deve estar ciente de que a repleção inadequada pode limitar a análise.\n\n2. Clientes renais crônicos (realizando hemodiálise) / Clientes com insuficiência cardíaca grave (com orientação médica para restrição de ingestão de agua):\n- Respeitar orientação do médico solicitante.\n- Cliente deve comunicar ao médico que irá realizar o exame sobre a sua condição clínica e tambem deve estar ciente de que a repleção inadequada pode limitar a análise.\n\"",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\"Preparo adulto: MARCAÇÂO PELA MANHÃ: Jejum de 8 horas de sólidos. Ingerir 4 copos de água (não pode ser outro líquido) 2 horas antes do exame e reter a urina. MARCAÇÂO A TARDE: O cliente poderá comer até 8 horas antes do exame: frutas, torradas sem manteiga ou geleia, legumes e arroz cozidos ou em sopa.\nPreparo Crianças, com idade de: \n- 0 até 2 meses - jejum de 2 horas\n- 3 meses a 3 anos - jejum de 3 horas\n- 4 a 5 anos - jejum de 4 horas\n-6 a 8 anos - jejum de 5 horas\n-9 a 12 anos - jejum de 6 horas\nMaiores de 12 anos preparo de adulto.\n-Atenção na última refeição evitar alimentos gordurosos e pesados.\n-Não poderá tomar leite ou derivados.\n-1 hora antes do exame ingerir 4 copos de água e evitar urinar.\n-Crianças que já ingerem agua podem e devem ingerir durante o período de jejum.\n- Portador de Insuficiência Renal Crônica não necessita ingerir agua, evitar urinar antes do exame.\n\";",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "24",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "QTD DE HORAS DO INÍCIO PREPARO (ALERTA APLICATIVO)",
+        "codigoApi": "quantidde_horas_inicio_preparo",
+        "tipoValor": "Horario"
+      },
+      {
+        "descricao": "3",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "JEJUM MÍNIMO",
+        "codigoApi": "jejum_minimo",
+        "tipoValor": "Horario"
+      },
+      {
+        "descricao": "4",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "JEJUM MÍNIMO",
+        "codigoApi": "jejum_minimo",
+        "tipoValor": "Horario"
+      },
+      {
+        "descricao": "6",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "JEJUM MÁXIMO",
+        "codigoApi": "jejum_maximo",
+        "tipoValor": "Horario"
+      },
+      {
+        "descricao": "6",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "QTD DE HORAS DO INÍCIO PREPARO (ALERTA APLICATIVO)",
+        "codigoApi": "quantidde_horas_inicio_preparo",
+        "tipoValor": "Horario"
+      },
+      {
+        "descricao": "8",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "JEJUM MÁXIMO",
+        "codigoApi": "jejum_maximo",
+        "tipoValor": "Horario"
+      },
+      {
+        "descricao": "8",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "JEJUM MÍNIMO",
+        "codigoApi": "jejum_minimo",
+        "tipoValor": "Horario"
+      },
+      {
+        "descricao": "8",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "QTD DE HORAS DO INÍCIO PREPARO (ALERTA APLICATIVO)",
+        "codigoApi": "quantidde_horas_inicio_preparo",
+        "tipoValor": "Horario"
+      },
+      {
+        "descricao": "Adultos ou maior de 12 anos:\nJejum de 8 horas\n\nCrianças:\nDe 0 até 2 meses: jejum de 2 horas\nDe 3 meses a 3 anos: jejum de 3 horas\nDe 4 a 5 anos: jejum de 4 horas\nDe 6 a 8 anos: jejum de 5 horas\nDe 9 a 12 anos: jejum de 6 horas",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE JEJUM",
+        "codigoApi": "informacao_jejum",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Atenção: tempo de jejum conforme faixa etária.\nRecém-nascido à 5 meses: Restringir última mamada.\nDe 6 meses à 11 meses: Jejum de 2 horas e oferecer àgua (respeitando os limites da criança).\nCrianças de 1 à 3 anos e 11 meses: Jejum de 3 horas. Líquido: 100 à 200 ml de àgua 1 hora antes do exame.\nCrianças de 4 à 7 anos e 11 meses: Jejum de 4 horas. Líquido: 200 à 400 ml de àgua 1 hora antes do exame.\nCrianças de 8 à 11 anos e 11 meses: Jejum de 6 horas. Líquido: 300 à 500 ml de àgua 1 hora antes do exame.\nMaiores de 12 anos e adultos: Jejum 8 horas. Tomar 6 copos de àgua 1 hora antes do exame. Não esvaziar a bexiga e cliente com sonda é necessário fechar a sonda 1 hora antes do exame.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE JEJUM",
+        "codigoApi": "informacao_jejum",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "ATENÇÃO: Tempo de Jejum Diferenciado:\n\nCrianças:\n\nDE 0 a 01 ano: Jejum de 2 horas\nDE 2 a 6 anos: Jejum 3 horas\nDE 7 a 11 anos: Jejum 4 horas\nDE 12 a 17 anos: Jejum 6 horas\n\nADULTO (a partir de 18 anos): MANHÃ e TARDE: Jejum de 8 horas\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE JEJUM",
+        "codigoApi": "informacao_jejum",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Bebês: suspender a última mamada, inclusive água.\nCrianças até 01 ano de idade: jejum de 03 horas.\nCrianças de 01 ano a 12 anos de idade: jejum de 06 horas.\n\nMaiores de 12 anos e adultos: jejum absoluto de 08 horas, inclusive água.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE JEJUM",
+        "codigoApi": "informacao_jejum",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Chegar 30 minutos antes do horário agendado.\nÉ importante trazer exames anteriores da região a ser examinada.\nNão realizar o exame em conjunto com exames de urina.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Chegar 30 minutos antes do horário agendado.\nTrazer exames anteriores da região    a ser examinada.\nTrazer pedido médico, documento pessoal com foto, cartão do convênio.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Chegar com 30 minutos de antecedência do horário agendado.\nÉ obrigatório trazer pedido médico e documento de identificação .\nTrazer exames anteriores da região a ser examinada.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Chegar com 30 minutos de antecedência do horário agendado.\nÉ obrigatório trazer pedido médico e documento de identificação.\nTrazer exames anteriores da região a ser examinada.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Chegar com 30 minutos de antecedência do horário agendado.\nÉ obrigatório trazer pedido médico e documento de identificação.\nTrazer exames anteriores da região a ser examinada. \n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Chegar com 30 minutos de antecedência do horário agendado.\nTrazer exames anteriores da região a ser examinada.\nÉ obrigatório trazer pedido médico e documento de identificação.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Chegar com 30 minutos de antecedência do horário agendado.\r\nÉ obrigatório trazer pedido médico e documento de identificação .\r\nTrazer exames anteriores da região a ser examinada.\r\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Chegar com 30 minutos de antecedência do horário agendado. É obrigatório trazer pedido médico e documento de identificação . Trazer exames anteriores da região a ser examinada. ",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Chegar com 30 minutos de antecedência do horário agendado. É obrigatório trazer pedido médico e documento de identificação. Trazer exames anteriores da região a ser examinada.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Cliente com diabetes marcar nos primeiros horários.\nCrianças até 4 anos não precisa de preparo.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Cliente com sonda e necessário fechar a sonda 1 hora antes do exame. Clientes com incontinência urinária/ Clientes que fazem uso de fralda geriátrica: Tanto a ingestão de água como a repleção vesical (quantidade de urina retida na bexiga), deverão respeitar os limites máximos aceitos pelo cliente. Cliente deve comunicar ao médico que irá realizar o exame sobre a sua dificuldade em manter a repleção vesical adequada e também deve estar ciente de que a repleção inadequada pode limitar a análise. Clientes renais crônicos (realizando hemodiálise) Clientes com insuficiência cardíaca grave (com orientação médica para restrição de ingestão de água): Respeitar orientação do médico solicitante. Cliente deve comunicar ao médico que irá realizar o exame sobre a sua condição clínica e também deve estar ciente de que a repleção inadequada pode limitar a análise.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Cliente menor de 17 anos (17 anos 11 meses e 29 dias) é obrigatório a presença de um responsável legal para a realização do exame.\n\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES DE IDADE",
+        "codigoApi": "restricao_idade",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Cliente menor de 18 anos (17 anos 11 meses e 29 dias) é obrigatório a presença de um responsável legal para a realização do exame.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES DE IDADE",
+        "codigoApi": "restricao_idade",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Cliente menor de 18 anos (17 anos 11 meses e 29 dias) é obrigatório a presença de um responsável legal para a realização do exame.\r\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES DE IDADE",
+        "codigoApi": "restricao_idade",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Cliente menor de 18 anos (17 anos 11 meses e 29 dias) é obrigatório a presença de um responsável legal para a realização do exame. ",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES DE IDADE",
+        "codigoApi": "restricao_idade",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Cliente menor de 18 anos (17 anos, 11 meses e 29 dias) é obrigatório a presença de um responsável legal para a realização do exame.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES DE IDADE",
+        "codigoApi": "restricao_idade",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Crianças de 01 ano a 12 anos de idade:\nIngerir de 04 a 05 copos com água 01 hora antes do exame. \n\nMaiores de 12 anos e adultos:\nIngerir 06 copos com água 01 hora antes do exame. \n\nNão esvaziar a bexiga após a ingestão da água.\n\nClientes com sonda vesical, realizar o preparo acima e fechar a sonda 02 horas antes do exame.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Crianças menores de 1 ano - jejum de 3 horas Crianças de 1 a 4 anos - jejum de 4 horas  Maiores de 5 anos e adultos - jejum de 6 horas.  ",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE JEJUM",
+        "codigoApi": "informacao_jejum",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Crianças:\nDe 0 a 3 anos de idade: 3 horas de jejum. \nDe 4 a 6 anos de idade: 4 horas de jejum\nDe 7 a 17 anos de idade: 6 horas de jejum\n\nAdulto: 8 horas de Jejum\n\nPode tomar água sem gás \n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE JEJUM",
+        "codigoApi": "informacao_jejum",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Crianças:\nPara todas as idades infantis, na última refeição evitar alimentos gordurosos e pesados.\nCriança que já ingerem água podem ingerir durante o período de jejum.\nTrazer alimento (mamadeira) para ser oferecido após a realização do exame.\n\nAdulto:\nMarcação pela manhã: \nIngerir 4 copos de água (não pode ser outro líquido) uma hora antes do exame e reter a urina até a realização do exame.\n\nMarcação a tarde: \nO cliente poder comer até 8 horas antes do exame: frutas, torradas sem manteiga ou geleia, legumes e arroz cozidos ou em sopa. Não pode tomar leite ou derivados. Ingerir 4 copos de água (não pode ser outro liquido) uma hora antes do exame e reter a urina até a realização do exame.\n\n\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Crianças:\nRecém-nascido a 1 ano – jejum de 2 horas;\nDe 2 a 6 anos – jejum de 3 horas;\nDe 7 a 11 anos – jejum de 4 horas;\nDe 12 a 17 anos – jejum de 6 horas;\n\nA partir de 18 anos - jejum de 8 horas.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE JEJUM",
+        "codigoApi": "informacao_jejum",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Crianças:\nRecém-nascido a 5 meses - Restringir última mamada.\nDe 6 meses a 11 meses - Jejum de 2 horas;\nDe 1 a 3 anos e 11 meses - Jejum de 3 horas;\nDe 4 a 7 anos e 11 meses - Jejum de 4 horas;\nDe 8 a 11 anos e 11 meses - Jejum de 6 horas;\n\nMaiores de 12 anos e adultos - Jejum de 8 horas.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE JEJUM",
+        "codigoApi": "informacao_jejum",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Crianças:\r\nRecém-nascido a 5 meses - restringir última mamada.\r\nDe 6 meses a 11 meses - jejum de 2 horas\r\nDe 1 a 3 anos e 11 meses - jejum de 3 horas\r\nDe 4 a 7 anos e 11 meses - jejum de 4 horas\r\nDe 8 a 11 anos e 11 meses - jejum de 6 horas\r\n\r\nMaiores de 12 anos e adultos - jejum de 8 horas.\r\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE JEJUM",
+        "codigoApi": "informacao_jejum",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Crianças: Recém-nascido a 5 meses - Restringir última mamada. \nDe 6 meses a 11 meses - Jejum de 2 horas;\nDe 1 a 3 anos e 11 meses - Jejum de 3 horas;\nDe 4 a 7 anos e 11 meses - Jejum de 4 horas;\nDe 8 a 11 anos e 11 meses - Jejum de 6 horas;\nMaiores de 12 anos e adultos - Jejum de 8 horas.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE JEJUM",
+        "codigoApi": "informacao_jejum",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Crianças: trazer alimento (mamadeira) para ingerir após a realização do exame.\nPortador de insuficiência renal crônica não necessita ingerir água.\nExame de endoscopia digestiva alta não deverá ser feita no mesmo dia.\nEvitar alimentos pesados e gordurosos nas 8hs que antecedem o exame.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "De 0 ate 2 meses - jejum de 2 horas;\nDe 3 meses a 3 anos - jejum de 3 horas;\nDe 4 a 5 anos - jejum de 4 horas;\nDe 6 a 8 anos - jejum de 5 horas;\nDe 9 a 12 anos - jejum de 6 horas;\nMaior de 12 anos e adulto: jejum de 8 horas\n\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE JEJUM",
+        "codigoApi": "informacao_jejum",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "De 6 meses a 11 meses: Oferecer água (respeitando os limites da criança).\n\nCrianças de 1 a 3 anos e 11 meses:\nIngerir de 100 a 200 ml de água 1 hora do exame.\n\nCrianças de 4 a 7 anos e 11 meses:\nIngerir de 200 a 400 ml de água 1 hora antes do exame.\n\nCrianças de 8 a 11 anos e 11 meses: \ningerir de 300 a 500 ml de água 1 hora antes do exame.\n\nMaiores de 12 anos e adulto:\nIngerir 6 copos de água 1 hora antes do exame.\n\nNão esvaziar a bexiga após a ingestão da água.\n\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "De 6 meses a 11 meses: oferecer água (respeitando os limites da criança).\n\nCrianças de 1 a 3 anos e 11 meses:\nIngerir de 100 a 200 ml de água 1 hora do exame.\n\nCrianças de 4 a 7 anos e 11 meses:\nIngerir de 200 a 400 ml de água 1 hora antes do exame.\n\nCrianças de 8 a 11 anos e 11 meses: \ningerir de 300 a 500 ml de água 1 hora antes do exame.\n\nMaiores de 12 anos e adulto:\nIngerir 6 copos de água 1 hora antes do exame.\n\nNão esvaziar a bexiga após a ingestão da água.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "De 6 meses a 11 meses: oferecer água (respeitando os limites da criança).\r\n\r\nCrianças de 1 a 3 anos e 11 meses:\r\nIngerir de 100 a 200 ml de água 1 hora do exame.\r\n\r\nCrianças de 4 a 7 anos e 11 meses:\r\nIngerir de 200 a 400 ml de água 1 hora antes do exame.\r\n\r\nCrianças de 8 a 11 anos e 11 meses: \r\ningerir de 300 a 500 ml de água 1 hora antes do exame.\r\n\r\nMaiores de 12 anos e adulto:\r\nIngerir 6 copos de água 1 hora antes do exame.\r\n\r\nNão esvaziar a bexiga após a ingestão da água.\r\n\r\n;",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "De 6 meses a 11 meses: Oferecer água (respeitando os limites da criança). \nCrianças de 1 a 3 anos e 11 meses: Ingerir de 100 a 200 ml de água 1 hora do exame. \nCrianças de 4 a 7 anos e 11 meses: Ingerir de 200 a 400 ml de água 1 hora antes do exame. \nCrianças de 8 a 11 anos e 11 meses: ingerir de 300 a 500 ml de água 1 hora antes do exame. \nMaiores de 12 anos e adultos: Ingerir 6 copos de água 1 hora antes do exame. \nNão esvaziar a bexiga após a ingestão da água.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "É necessário agendamento para este exame. Para ter um atendimento rápido e com prioridade na unidade agende seus exames online e confira",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Entre 2 e 5 anos",
+        "id": null,
+        "nome": "INFORMAÇÕES DE AGENDAMENTO",
+        "codigoApi": "informacao_agendamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "É necessário agendamento para este exame. Para ter um atendimento rápido e com prioridade na unidade agende seus exames online e confira",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE AGENDAMENTO",
+        "codigoApi": "informacao_agendamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "É necessário agendamento para este exame. Para ter um atendimento rápido e com prioridade na unidade, agende seus exames online e confira.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE AGENDAMENTO",
+        "codigoApi": "informacao_agendamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "É necessário agendamento para este exame. Para ter um atendimento rápido e com prioridade na unidade, agende seus exames online e confira.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "É necessário agendamento prévio.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE AGENDAMENTO",
+        "codigoApi": "informacao_agendamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Exame agendado pela manhã: 8 horas de jejum;\nExame agendado a tarde: 4 horas de jejum;\n40 min antes do exame tomar 4 copos de agua e não urinar.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Exame de Endoscopia e Ultrassom de Abdome Total , não podem ser\nRealizados no mesmo dia.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Jejum absoluto de 6 horas.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE JEJUM",
+        "codigoApi": "informacao_jejum",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Jejum absoluto de 8 horas.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE JEJUM",
+        "codigoApi": "informacao_jejum",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Levar mamadeira ou lanche para pós-exame.  Na véspera do exame: 1. Dieta leve (sopa de legumes, verduras, frutas, chás com bolacha de água e sal), devendo evitar refrigerantes, água com gás, sucos, leite e derivados, pão, macarrão, ovo, doces e alimentos gordurosos.  Ingerir 8 copos com água 2 horas antes do exame (exceto para pacientes com insuficiência renal crônica, oligúricos ou anúricos).  2. Tomar 1 comprimido de Dimeticona (Flagaz ou Luftal), via oral, de 6 em 6 horas, iniciando 1 dia antes do exame.  Não esvaziar a bexiga após a ingestão da água.  ",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "MARCAÇÃO PELA MANHÃ: poderá tomar água durante o jejum.\nMARCAÇÃO À TARDE: substituir o almoço por chá, suco, sopa sem gordura e após esse horário, jejum de 8 horas, podendo ingerir durante o jejum apenas água.\nNÃO poderá tomar leite ou derivados.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não é necessária a presença de acompanhante",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "NECESSIDADE DE ACOMPANHANTE",
+        "codigoApi": "necessidade_acompanhante",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não há necessidade da suspensão de medicações, contanto que sejam tomadas somente com 1/4 copo de água.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÃO DE MEDICAMENTO",
+        "codigoApi": "restricao_medicamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não há necessidade da suspensão de medicações, contanto que sejam tomadas somente com 1/4 de copo de água.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÃO DE MEDICAMENTO",
+        "codigoApi": "restricao_medicamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não há necessidade da suspensão de medicações, contanto que sejam tomadas somente com água (no máximo 1/4 de copo de água).",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÃO DE MEDICAMENTO",
+        "codigoApi": "restricao_medicamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não há necessidade da suspensão de medicações, contanto que sejam tomadas somente com um quarto copo de água.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÃO DE MEDICAMENTO",
+        "codigoApi": "restricao_medicamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não há necessidade de suspender medicações.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÃO DE MEDICAMENTO",
+        "codigoApi": "restricao_medicamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não realizamos passagem de sonda vesical em nenhuma de nossas unidades.\n1 - Clientes com incontinência urinária ou que fazem uso de fralda geriatrica: Tanto a ingestão de àgua como a repleção vesical (quantidade de urina retida na bexiga), deverão respeitar os limites máximos aceitos pelo cliente. Cliente deve comunicar ao médico que irá realizar o exame sobre a sua dificuldade em manter a repleção vesical adequada e também deve estar ciente de que a repleção inadequada pode limitar a análise.\n2 - Clientes renais crônicos (realizando hemodiálise) ou com insuficiência cardiaca grave (com orientação médica para restrição de ingestão de àgua): Respeitar orientação do médico solicitante. Cliente deve comunicar ao médico que irá realizar o exame sobre a sua condição clinica e também deve estar ciente de que a repleção inadequada pode limitar a análise.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES ESPECÍFICAS",
+        "codigoApi": "restricao_espeficica",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não realizar exame em conjunto com exames de urina.\n\nCliente com sonda e necessário fechar a sonda 1 hora antes do exame.\n\n1. Clientes com incontinência urinária/ Clientes que fazem uso de fralda geriátrica:\n - Tanto a ingestão de água como a repleção vesical (quantidade de urina retida na bexiga),\n deverão respeitar os limites máximos aceitos pelo cliente.\n - Cliente deve comunicar ao médico que irá realizar o exame sobre a sua dificuldade em manter a repleção vesical adequada e também deve estar ciente de que a repleção inadequada pode limitar a análise.\n\n2. Clientes renais crônicos (realizando hemodiálise) / Clientes com insuficiência cardíaca grave (com orientação médica para restrição de ingestão de agua):\n- Respeitar orientação do médico solicitante.\n- Cliente deve comunicar ao médico que irá realizar o exame sobre a sua condição clínica e tambem deve estar ciente de que a repleção inadequada pode limitar a análise.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não realizar exame em conjunto com exames de urina.\r\n\r\nCliente com sonda e necessário fechar a sonda 1 hora antes do exame.\r\n\r\n1. Clientes com incontinência urinária/ Clientes que fazem uso de fralda geriátrica:\r\n - Tanto a ingestão de água como a repleção vesical (quantidade de urina retida na bexiga),\r\n deverão respeitar os limites máximos aceitos pelo cliente.\r\n - Cliente deve comunicar ao médico que irá realizar o exame sobre a sua dificuldade em manter a repleção vesical adequada e também deve estar ciente de que a repleção inadequada pode limitar a análise.\r\n\r\n2. Clientes renais crônicos (realizando hemodiálise) / Clientes com insuficiência cardíaca grave (com orientação médica para restrição de ingestão de agua):\r\n- Respeitar orientação do médico solicitante.\r\n- Cliente deve comunicar ao médico que irá realizar o exame sobre a sua condição clínica e tambem deve estar ciente de que a repleção inadequada pode limitar a análise.\r\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não realizar exame em conjunto com exames de urina. \nCliente com sonda e necessário fechar a sonda 1 hora antes do exame. \n\n1. Clientes com incontinência urinária/ Clientes que fazem uso de fralda geriátrica:\n - Tanto a ingestão de água como a repleção vesical (quantidade de urina retida na bexiga), deverão respeitar os limites máximos aceitos pelo cliente.\n -Cliente deve comunicar ao médico que irá realizar o exame sobre a sua dificuldade em manter a repleção vesical adequada e também deve estar ciente de que a repleção inadequada pode limitar a análise. \n\n2. Clientes renais crônicos (realizando hemodiálise) / Clientes com insuficiência cardíaca grave (com orientação médica para restrição de ingestão de agua):\n- Respeitar orientação do médico solicitante.\n- Cliente deve comunicar ao médico que irá realizar o exame sobre a sua condição clínica e tambem deve estar ciente de que a repleção inadequada pode limitar a análise. ",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não realizar exame em conjunto com exames de urina.  \nNão realizamos passagem de sonda vesical em nenhuma de nossas unidades.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES ESPECÍFICAS",
+        "codigoApi": "restricao_espeficica",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não suspender medicação desde que ingerida com menos de 1/4 de copo de água.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÃO DE MEDICAMENTO",
+        "codigoApi": "restricao_medicamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não suspender médicação desde que ingerida com menos de 1/4 de copo de água.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÃO DE MEDICAMENTO",
+        "codigoApi": "restricao_medicamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não suspender medição.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÃO DE MEDICAMENTO",
+        "codigoApi": "restricao_medicamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "No laboratório será necessário ingerir 06 copos de água. Não esvaziar a bexiga após a ingestão da água. ;",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Paciente menor de 15 anos (11 meses e 29 dias) é obrigatório a presença de um responsável legal para a realização do exame.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES DE IDADE",
+        "codigoApi": "restricao_idade",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Paciente menor de 18 anos (17 anos 11 meses e 29 dias) é obrigatória a presença de um responsável legal para a realização do exame.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES DE IDADE",
+        "codigoApi": "restricao_idade",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Portador de Insuficiência renal crônica não necessita ingerir água. Evitar urinar.\nOBSERVAÇÃO: Exame de ENDOSCOPIA e ULTRASSOM ABDOME TOTAL juntos, NÃO podem ser realizados no mesmo dia.\n\n\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "PREPARO ATENÇÃO:\n\nCrianças:\n\nDE 0 a 01: Alimentos sólidos e com leite podendo liquido até duas horas antes do exame (exceto água de coco, refrigerante ou bebidas fermentadas). Exame agendado no período da tarde: substituir o almoço por chá suco sem leite ou sopa sem gordura. Crianças em aleitamento: Serão orientadas a mamar antes de entrar na sala de exame. \n\nDE 2 a 6 anos: Alimentos sólidos e com leite podendo liquido até duas horas antes do exame (exceto água de coco, refrigerante ou bebidas fermentadas). Exame agendado no período da tarde: substituir o almoço por chá, suco sem leite ou sopa sem gordura. \n\nDE 7 a 11 anos: Alimentos sólidos e com leite podendo liquido até três horas antes do exame (exceto agua de coco, refrigerante ou bebidas fermentadas). Exame agendado no período da tarde: substituir o almoço por chá, suco sem leite ou sopa sem gordura. \n\n12 a 17 anos: Para alimentos sólidos e com leite podendo liquido  até três horas antes do exame \n(exceto agua de coco, refrigerante ou bebidas  fermentadas).Exame agendado no período da tarde: substituir o almoço por  chá, suco sem leite ou sopa sem gordura.\n\nADULTO (a partir de 18 anos): MANHÃ: Tomar 04 copos de água uma hora antes do exame, pode tomar água durante o jejum.\nTARDE: Tomar 04 copos de água uma hora antes do exame, Sugestão de Dieta: Pela manhã durante o jejum, tomar suco sem resido, torrada e chá, após  a dieta sugerida, somente é permitido ingerir água até a hora do exame.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Recém-nascido a 1 ano: \nIngerir líquidos de 200 a 300 ml 2 horas antes do exame. \n\nCrianças em aleitamento materno:\nManter a amamentação livre.\n\nCrianças de 2 a 6 anos:\nIngerir  líquidos de 200 a 400 ml 2 horas antes do exame.\n\nCrianças de 7 a 17 anos:\nInngerir líquidos de 400 a 600 ml 2 horas antes do exame.\n\nAs crianças, exceto bebês, não devem urinar ao chegar a clínica (antes do exame), pois o exame precisa ser feito com a bexiga cheia.\nTrazer líquido para a criança beber enquanto espera ser chamado para o exame.\n\nMaiores de 18 anos e adultos:\nIngerir 04 quatro copos de água 2 horas antes do exame. \n\nNão esvaziar a bexiga após a ingestão da água.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Tomar 3 a 4 copos de água 1 hora antes de realizar o exame e reter a urina.                                          ",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      }
+    ],
+    "subEspecialidade": {
+      "id": 53,
+      "nome": "GERAL"
+    },
+    "especialidade": {
+      "id": 31,
+      "nome": "ULTRASSOM"
+    },
+    "marcasAtivas": [
+      {
+        "id": 19,
+        "mnemonico": "Alta",
+        "nome": "Alta Excelência Diagnóstica",
+        "slogan": "Laboratório de Exames e Imagem",
+        "segmento": "Premium",
+        "url": "www.altadiagnosticos.com.br/",
+        "whatsapp": "11 99974-5554",
+        "urlAgendamento": "agendamentoonline.altadiagnosticos.com.br/",
+        "urlLaudo": "altadiagnosticos.com.br/resultados-de-exames/",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 3,
+        "mnemonico": "Bronstein",
+        "nome": "Bronstein Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Standard",
+        "url": "www.bronstein.com.br/",
+        "whatsapp": "21 2227-8080",
+        "urlAgendamento": "agendamentoonline.bronstein.com.br/",
+        "urlLaudo": "bronstein.com.br/resultados-de-exames",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 17,
+        "mnemonico": "CDPI",
+        "nome": "CDPI",
+        "slogan": "Diagnóstico por Imagem",
+        "segmento": "Standard",
+        "url": "",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 101,
+        "mnemonico": "Cedic Cedilab",
+        "nome": "Cedic Cedilab",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.cediccedilab.com.br/",
+        "urlAgendamento": "agendamentoonline.cediccedilab.com.br/",
+        "urlLaudo": "cediccedilab.com.br/resultados-de-exames",
+        "ufs": ["MT"]
+      },
+      {
+        "id": 34,
+        "mnemonico": "Cerpe",
+        "nome": "Cerpe Diagnósticos",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Executive",
+        "url": "www.cerpe.com.br/",
+        "whatsapp": "81 9143-1466",
+        "urlAgendamento": "agendamentoonline.cerpe.com.br/",
+        "urlLaudo": "cerpe.com.br/resultados-de-exames",
+        "ufs": ["PE"]
+      },
+      {
+        "id": 1,
+        "mnemonico": "Delboni",
+        "nome": "Delboni Auriemo",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.delboniauriemo.com.br/",
+        "whatsapp": "11 3049-6999",
+        "urlAgendamento": "agendamentoonline.delboniauriemo.com.br/",
+        "urlLaudo": "delboniauriemo.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 5,
+        "mnemonico": "Delboni Prime",
+        "nome": "Delboni Prime",
+        "segmento": "Standard",
+        "url": "www.clubda.com.br/",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 15,
+        "mnemonico": "Exame",
+        "nome": "Exame Imagem e Laboratório",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.laboratorioexame.com.br/",
+        "whatsapp": "61 99134-3105",
+        "urlAgendamento": "agendamentoonline.laboratorioexame.com.br/",
+        "ufs": ["DF", "GO"]
+      },
+      {
+        "id": 12,
+        "mnemonico": "Image ",
+        "nome": "Imagem Memorial Laboratório e Imagem",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.imagememorial.com.br/",
+        "whatsapp": "71 8104-7390",
+        "urlAgendamento": "agendamentoonline.imagememorial.com.br/",
+        "urlLaudo": "imagememorial.com.br/",
+        "ufs": ["BA"]
+      },
+      {
+        "id": 105,
+        "mnemonico": "Itulab",
+        "nome": "Diagnosticos da America S.A - Itulab",
+        "slogan": "Laboratório de Exames e Imagem",
+        "segmento": "Standard",
+        "url": "www.itulab.com.br",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 39,
+        "mnemonico": "Laboratório Oswaldo Cruz",
+        "nome": "Laboratório Oswaldo Cruz - São José dos Campos",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Executive",
+        "url": "www.oswaldocruz.com/site/",
+        "urlLaudo": "oswaldocruz.com/site/resultados-online",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 2,
+        "mnemonico": "Lavoisier",
+        "nome": "Medicina Diagnóstica Lavoisier",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Standard",
+        "url": "www.lavoisier.com.br/",
+        "whatsapp": "11 3047-4488",
+        "urlAgendamento": "agendamentoonline.lavoisier.com.br/",
+        "urlLaudo": "lavoisier.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 4,
+        "mnemonico": "Lâmina",
+        "nome": "Lâmina Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.lamina.com.br/",
+        "whatsapp": "21 99189-6917",
+        "urlAgendamento": "agendamentoonline.lamina.com.br/",
+        "urlLaudo": "lamina.com.br/resultados-de-exames",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 13,
+        "mnemonico": "Lâmina Diagnósticos",
+        "nome": "Lâmina Medicina Diagnóstica - Santa Catarina",
+        "slogan": "Referência em Diagnóstico por Imagem",
+        "segmento": "Executive",
+        "url": "www.laminadiagnosticos.com.br/",
+        "whatsapp": "48 98824-8555",
+        "urlAgendamento": "agendamentoonline.laminadiagnosticos.com.br/",
+        "urlLaudo": "laminadiagnosticos.com.br/resultados-de-exames",
+        "ufs": ["SC"]
+      },
+      {
+        "id": 42,
+        "mnemonico": "Salomão Zoppi",
+        "nome": "Salomão Zoppi",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Standard",
+        "url": "salomaozoppi.com.br/",
+        "whatsapp": "11 98929-0019",
+        "urlAgendamento": "agendamentoonline.salomaozoppi.com.br/",
+        "urlLaudo": "salomaozoppi.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 24,
+        "mnemonico": "Sergio Franco",
+        "nome": "Sérgio Franco Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "sergiofranco.com.br/",
+        "whatsapp": "21 2672-7070",
+        "urlAgendamento": "agendamentoonline.sergiofranco.com.br/",
+        "urlLaudo": "sergiofranco.com.br/resultados-de-exames",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 22,
+        "mnemonico": "Unimagem",
+        "nome": "Unimagem",
+        "slogan": "Diagnóstico por Imagem",
+        "segmento": "Executive",
+        "url": "www.unimagemdiagnosticos.com.br/",
+        "ufs": ["CE"]
+      }
+    ],
+    "marcasInativas": [
+      {
+        "id": 10,
+        "mnemonico": "Alvaro",
+        "nome": "Laboratório Álvaro",
+        "slogan": "Análises Clínicas e Diagnósticos",
+        "segmento": "Executive",
+        "url": "www.alvaro.com.br/",
+        "urlAgendamento": "agendamentoonline.alvaro.com.br/",
+        "urlLaudo": "alvaro.com.br/resultados-de-exames/",
+        "ufs": ["PR"]
+      },
+      {
+        "id": 14,
+        "mnemonico": "Atalaia",
+        "nome": "Atalaia Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Executive",
+        "url": "www.atalaia.com.br/",
+        "whatsapp": "62 99105-4890",
+        "urlAgendamento": "agendamentoonline.atalaia.com.br/",
+        "urlLaudo": "atalaia.com.br/resultados-de-exames",
+        "ufs": ["GO"]
+      },
+      {
+        "id": 31,
+        "mnemonico": "Corporativo",
+        "nome": "Corporativo",
+        "segmento": "Executive",
+        "url": "",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 27,
+        "mnemonico": "Cytolab",
+        "nome": "Cytolab Laboratório",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Standard",
+        "url": "www.cytolab.com.br/",
+        "urlAgendamento": "agendamentoonline.cytolab.com.br/",
+        "urlLaudo": "cytolab.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 102,
+        "mnemonico": "Deliberato",
+        "nome": "Diagnosticos da America S.A - Deliberato",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Standard",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 8,
+        "mnemonico": "Frischmann",
+        "nome": "Frischmann Aisengart Medicina Diagnóstica",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Executive",
+        "url": "www.labfa.com.br/",
+        "whatsapp": "41 8900-9730",
+        "urlAgendamento": "agendamentoonline.labfa.com.br/",
+        "urlLaudo": "labfa.com.br/resultados-de-exames/",
+        "ufs": ["PR"]
+      },
+      {
+        "id": 104,
+        "mnemonico": "Gene One",
+        "nome": "Diagnosticos da America S.A - Geneone",
+        "slogan": "Genômica e Testes Genéticos",
+        "segmento": "Standard",
+        "ufs": ["RS"]
+      },
+      {
+        "id": 37,
+        "mnemonico": "Gilson Cidrim",
+        "nome": "Laboratório Gilson Cidrim",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Standard",
+        "url": "www.gilsoncidrim.com.br/index.php",
+        "urlAgendamento": "agendamentoonline.gilsoncidrim.com.br/",
+        "urlLaudo": "gilsoncidrim.com.br/resultados-de-exames",
+        "ufs": ["PE"]
+      },
+      {
+        "id": 11,
+        "mnemonico": "LabPasteur",
+        "nome": "LabPasteur Medicina Diagnóstica",
+        "slogan": "Medicina Diagnóstica",
+        "segmento": "Standard",
+        "url": "www.labpasteur.med.br/",
+        "ufs": ["CE"]
+      },
+      {
+        "id": 40,
+        "mnemonico": "Leme",
+        "nome": "Laboratório Leme",
+        "segmento": "Executive",
+        "url": "www.lableme.com.br/",
+        "ufs": ["BA"]
+      },
+      {
+        "id": 103,
+        "mnemonico": "Padrão",
+        "nome": "Diagnosticos da America S.A - Padrao",
+        "slogan": "Medicina Diagnóstica",
+        "segmento": "Standard",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 32,
+        "mnemonico": "Previlab",
+        "nome": "Previlab Laboratório",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Standard",
+        "url": "www.previlab.com.br/",
+        "urlAgendamento": "agendamentoonline.previlab.com.br/",
+        "urlLaudo": "previlab.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 59,
+        "mnemonico": "Valeclin",
+        "nome": "Diagnosticos da America S.A - Valeclin",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Standard",
+        "url": "www.valeclin.com.br",
+        "urlAgendamento": "agendamentoonline.valeclin.com.br/",
+        "urlLaudo": "www.valeclin.com.br/web/resultado-de-exames/",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 41,
+        "mnemonico": "Vital Brasil",
+        "nome": "Vital Brasil",
+        "segmento": "Standard",
+        "url": "",
+        "ufs": ["SP"]
+      }
+    ],
+    "errors": [],
+    "medinc": {
+      "id": "40901122-001"
+    },
+    "loinc": {}
+  }
+]

@@ -1,0 +1,325 @@
+[
+  {
+    "id": 1,
+    "mnemonico": "Delboni",
+    "nome": "Delboni Auriemo",
+    "slogan": "Laboratório de Exames e de Imagem",
+    "segmento": "Executive",
+    "url": "www.delboniauriemo.com.br/",
+    "whatsapp": "11 3049-6999",
+    "urlAgendamento": "agendamentoonline.delboniauriemo.com.br/",
+    "urlLaudo": "delboniauriemo.com.br/resultados-de-exames",
+    "ufs": ["SP"]
+  },
+  {
+    "id": 2,
+    "mnemonico": "Lavoisier",
+    "nome": "Medicina Diagnóstica Lavoisier",
+    "slogan": "Laboratório de Exames e de Imagem",
+    "segmento": "Standard",
+    "url": "www.lavoisier.com.br/",
+    "whatsapp": "11 3047-4488",
+    "urlAgendamento": "agendamentoonline.lavoisier.com.br/",
+    "urlLaudo": "lavoisier.com.br/resultados-de-exames",
+    "ufs": ["SP"]
+  },
+  {
+    "id": 3,
+    "mnemonico": "Bronstein",
+    "nome": "Bronstein Medicina Diagnóstica",
+    "slogan": "Laboratório de Exames e de Imagem",
+    "segmento": "Standard",
+    "url": "www.bronstein.com.br/",
+    "whatsapp": "21 2227-8080",
+    "urlAgendamento": "agendamentoonline.bronstein.com.br/",
+    "urlLaudo": "bronstein.com.br/resultados-de-exames",
+    "ufs": ["RJ"]
+  },
+  {
+    "id": 4,
+    "mnemonico": "Lâmina",
+    "nome": "Lâmina Medicina Diagnóstica",
+    "slogan": "Laboratório de Exames e de Imagem",
+    "segmento": "Executive",
+    "url": "www.lamina.com.br/",
+    "whatsapp": "21 99189-6917",
+    "urlAgendamento": "agendamentoonline.lamina.com.br/",
+    "urlLaudo": "lamina.com.br/resultados-de-exames",
+    "ufs": ["RJ"]
+  },
+  {
+    "id": 5,
+    "mnemonico": "Delboni Prime",
+    "nome": "Delboni Prime",
+    "segmento": "Standard",
+    "url": "www.clubda.com.br/",
+    "ufs": ["SP"]
+  },
+  {
+    "id": 8,
+    "mnemonico": "Frischmann",
+    "nome": "Frischmann Aisengart Medicina Diagnóstica",
+    "slogan": "Laboratório de Análises Clínicas",
+    "segmento": "Executive",
+    "url": "www.labfa.com.br/",
+    "whatsapp": "41 8900-9730",
+    "urlAgendamento": "agendamentoonline.labfa.com.br/",
+    "urlLaudo": "labfa.com.br/resultados-de-exames/",
+    "ufs": ["PR"]
+  },
+  {
+    "id": 10,
+    "mnemonico": "Alvaro",
+    "nome": "Laboratório Álvaro",
+    "slogan": "Análises Clínicas e Diagnósticos",
+    "segmento": "Executive",
+    "url": "www.alvaro.com.br/",
+    "urlAgendamento": "agendamentoonline.alvaro.com.br/",
+    "urlLaudo": "alvaro.com.br/resultados-de-exames/",
+    "ufs": ["PR"]
+  },
+  {
+    "id": 11,
+    "mnemonico": "LabPasteur",
+    "nome": "LabPasteur Medicina Diagnóstica",
+    "slogan": "Medicina Diagnóstica",
+    "segmento": "Standard",
+    "url": "www.labpasteur.med.br/",
+    "ufs": ["CE"]
+  },
+  {
+    "id": 12,
+    "mnemonico": "Image ",
+    "nome": "Imagem Memorial Laboratório e Imagem",
+    "slogan": "Laboratório de Exames e de Imagem",
+    "segmento": "Executive",
+    "url": "www.imagememorial.com.br/",
+    "whatsapp": "71 8104-7390",
+    "urlAgendamento": "agendamentoonline.imagememorial.com.br/",
+    "urlLaudo": "imagememorial.com.br/",
+    "ufs": ["BA"]
+  },
+  {
+    "id": 13,
+    "mnemonico": "Lâmina Diagnósticos",
+    "nome": "Lâmina Medicina Diagnóstica - Santa Catarina",
+    "slogan": "Referência em Diagnóstico por Imagem",
+    "segmento": "Executive",
+    "url": "www.laminadiagnosticos.com.br/",
+    "whatsapp": "48 98824-8555",
+    "urlAgendamento": "agendamentoonline.laminadiagnosticos.com.br/",
+    "urlLaudo": "laminadiagnosticos.com.br/resultados-de-exames",
+    "ufs": ["SC"]
+  },
+  {
+    "id": 14,
+    "mnemonico": "Atalaia",
+    "nome": "Atalaia Medicina Diagnóstica",
+    "slogan": "Laboratório de Exames",
+    "segmento": "Executive",
+    "url": "www.atalaia.com.br/",
+    "whatsapp": "62 99105-4890",
+    "urlAgendamento": "agendamentoonline.atalaia.com.br/",
+    "urlLaudo": "atalaia.com.br/resultados-de-exames",
+    "ufs": ["GO"]
+  },
+  {
+    "id": 15,
+    "mnemonico": "Exame",
+    "nome": "Exame Imagem e Laboratório",
+    "slogan": "Laboratório de Exames e de Imagem",
+    "segmento": "Executive",
+    "url": "www.laboratorioexame.com.br/",
+    "whatsapp": "61 99134-3105",
+    "urlAgendamento": "agendamentoonline.laboratorioexame.com.br/",
+    "ufs": ["DF", "GO"]
+  },
+  {
+    "id": 17,
+    "mnemonico": "CDPI",
+    "nome": "CDPI",
+    "slogan": "Diagnóstico por Imagem",
+    "segmento": "Standard",
+    "url": "",
+    "ufs": ["RJ"]
+  },
+  {
+    "id": 19,
+    "mnemonico": "Alta",
+    "nome": "Alta Excelência Diagnóstica",
+    "slogan": "Laboratório de Exames e Imagem",
+    "segmento": "Premium",
+    "url": "www.altadiagnosticos.com.br/",
+    "whatsapp": "11 99974-5554",
+    "urlAgendamento": "agendamentoonline.altadiagnosticos.com.br/",
+    "urlLaudo": "altadiagnosticos.com.br/resultados-de-exames/",
+    "ufs": ["SP"]
+  },
+  {
+    "id": 22,
+    "mnemonico": "Unimagem",
+    "nome": "Unimagem",
+    "slogan": "Diagnóstico por Imagem",
+    "segmento": "Executive",
+    "url": "www.unimagemdiagnosticos.com.br/",
+    "ufs": ["CE"]
+  },
+  {
+    "id": 24,
+    "mnemonico": "Sergio Franco",
+    "nome": "Sérgio Franco Medicina Diagnóstica",
+    "slogan": "Laboratório de Exames e de Imagem",
+    "segmento": "Executive",
+    "url": "sergiofranco.com.br/",
+    "whatsapp": "21 2672-7070",
+    "urlAgendamento": "agendamentoonline.sergiofranco.com.br/",
+    "urlLaudo": "sergiofranco.com.br/resultados-de-exames",
+    "ufs": ["RJ"]
+  },
+  {
+    "id": 27,
+    "mnemonico": "Cytolab",
+    "nome": "Cytolab Laboratório",
+    "slogan": "Laboratório de Exames",
+    "segmento": "Standard",
+    "url": "www.cytolab.com.br/",
+    "urlAgendamento": "agendamentoonline.cytolab.com.br/",
+    "urlLaudo": "cytolab.com.br/resultados-de-exames",
+    "ufs": ["SP"]
+  },
+  {
+    "id": 31,
+    "mnemonico": "Corporativo",
+    "nome": "Corporativo",
+    "segmento": "Executive",
+    "url": "",
+    "ufs": ["SP"]
+  },
+  {
+    "id": 32,
+    "mnemonico": "Previlab",
+    "nome": "Previlab Laboratório",
+    "slogan": "Laboratório de Exames",
+    "segmento": "Standard",
+    "url": "www.previlab.com.br/",
+    "urlAgendamento": "agendamentoonline.previlab.com.br/",
+    "urlLaudo": "previlab.com.br/resultados-de-exames",
+    "ufs": ["SP"]
+  },
+  {
+    "id": 34,
+    "mnemonico": "Cerpe",
+    "nome": "Cerpe Diagnósticos",
+    "slogan": "Laboratório de Exames",
+    "segmento": "Executive",
+    "url": "www.cerpe.com.br/",
+    "whatsapp": "81 9143-1466",
+    "urlAgendamento": "agendamentoonline.cerpe.com.br/",
+    "urlLaudo": "cerpe.com.br/resultados-de-exames",
+    "ufs": ["PE"]
+  },
+  {
+    "id": 37,
+    "mnemonico": "Gilson Cidrim",
+    "nome": "Laboratório Gilson Cidrim",
+    "slogan": "Laboratório de Exames",
+    "segmento": "Standard",
+    "url": "www.gilsoncidrim.com.br/index.php",
+    "urlAgendamento": "agendamentoonline.gilsoncidrim.com.br/",
+    "urlLaudo": "gilsoncidrim.com.br/resultados-de-exames",
+    "ufs": ["PE"]
+  },
+  {
+    "id": 39,
+    "mnemonico": "Laboratório Oswaldo Cruz",
+    "nome": "Laboratório Oswaldo Cruz - São José dos Campos",
+    "slogan": "Laboratório de Análises Clínicas",
+    "segmento": "Executive",
+    "url": "www.oswaldocruz.com/site/",
+    "urlLaudo": "oswaldocruz.com/site/resultados-online",
+    "ufs": ["SP"]
+  },
+  {
+    "id": 40,
+    "mnemonico": "Leme",
+    "nome": "Laboratório Leme",
+    "segmento": "Executive",
+    "url": "www.lableme.com.br/",
+    "ufs": ["BA"]
+  },
+  {
+    "id": 41,
+    "mnemonico": "Vital Brasil",
+    "nome": "Vital Brasil",
+    "segmento": "Standard",
+    "url": "",
+    "ufs": ["SP"]
+  },
+  {
+    "id": 42,
+    "mnemonico": "Salomão Zoppi",
+    "nome": "Salomão Zoppi",
+    "slogan": "Laboratório de Exames e de Imagem",
+    "segmento": "Standard",
+    "url": "salomaozoppi.com.br/",
+    "whatsapp": "11 98929-0019",
+    "urlAgendamento": "agendamentoonline.salomaozoppi.com.br/",
+    "urlLaudo": "salomaozoppi.com.br/resultados-de-exames",
+    "ufs": ["SP"]
+  },
+  {
+    "id": 59,
+    "mnemonico": "Valeclin",
+    "nome": "Diagnosticos da America S.A - Valeclin",
+    "slogan": "Laboratório de Análises Clínicas",
+    "segmento": "Standard",
+    "url": "www.valeclin.com.br",
+    "urlAgendamento": "agendamentoonline.valeclin.com.br/",
+    "urlLaudo": "www.valeclin.com.br/web/resultado-de-exames/",
+    "ufs": ["SP"]
+  },
+  {
+    "id": 101,
+    "mnemonico": "Cedic Cedilab",
+    "nome": "Cedic Cedilab",
+    "slogan": "Laboratório de Exames e de Imagem",
+    "segmento": "Executive",
+    "url": "www.cediccedilab.com.br/",
+    "urlAgendamento": "agendamentoonline.cediccedilab.com.br/",
+    "urlLaudo": "cediccedilab.com.br/resultados-de-exames",
+    "ufs": ["MT"]
+  },
+  {
+    "id": 102,
+    "mnemonico": "Deliberato",
+    "nome": "Diagnosticos da America S.A - Deliberato",
+    "slogan": "Laboratório de Análises Clínicas",
+    "segmento": "Standard",
+    "ufs": ["SP"]
+  },
+  {
+    "id": 103,
+    "mnemonico": "Padrão",
+    "nome": "Diagnosticos da America S.A - Padrao",
+    "slogan": "Medicina Diagnóstica",
+    "segmento": "Standard",
+    "ufs": ["SP"]
+  },
+  {
+    "id": 104,
+    "mnemonico": "Gene One",
+    "nome": "Diagnosticos da America S.A - Geneone",
+    "slogan": "Genômica e Testes Genéticos",
+    "segmento": "Standard",
+    "ufs": ["RS"]
+  },
+  {
+    "id": 105,
+    "mnemonico": "Itulab",
+    "nome": "Diagnosticos da America S.A - Itulab",
+    "slogan": "Laboratório de Exames e Imagem",
+    "segmento": "Standard",
+    "url": "www.itulab.com.br",
+    "ufs": ["SP"]
+  }
+]

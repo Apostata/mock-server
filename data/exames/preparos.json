@@ -1,0 +1,56 @@
+[
+  {
+    "descricao": "Agendamento On-line habilitado somente para hospitais e unidades de atendimento, caso deseje realizar o atendimento domiciliar entrar em contato com a nossa Central Telefônica .",
+    "nomePerfil": "Não Aplicável",
+    "nomeFaixaEtaria": "Não Aplicável",
+    "id": null,
+    "nome": "LOCAL DA COLETA DO EXAME",
+    "codigoApi": "local_coleta_exame",
+    "tipoValor": "Texto Livre"
+  },
+  {
+    "descricao": "É obrigatório apresentar o pedido médico somente para realizar o exame via convênio, consulte os critérios de liberação com seu plano de saúde. Exames particulares não necessitam de pedido médico.",
+    "nomePerfil": "Não Aplicável",
+    "nomeFaixaEtaria": "Não Aplicável",
+    "id": null,
+    "nome": "PEDIDO MÉDICO",
+    "codigoApi": "pedido_medico",
+    "tipoValor": "Texto Livre"
+  },
+  {
+    "descricao": "Este exame não necessita de jejum.",
+    "nomePerfil": "Não Aplicável",
+    "nomeFaixaEtaria": "Não Aplicável",
+    "id": null,
+    "nome": "INFORMAÇÕES DE JEJUM",
+    "codigoApi": "informacao_jejum",
+    "tipoValor": "Texto Livre"
+  },
+  {
+    "descricao": "Este exame necessita de agendamento prévio",
+    "nomePerfil": "Não Aplicável",
+    "nomeFaixaEtaria": "Não Aplicável",
+    "id": null,
+    "nome": "INFORMAÇÕES DE AGENDAMENTO",
+    "codigoApi": "informacao_agendamento",
+    "tipoValor": "Texto Livre"
+  },
+  {
+    "descricao": "Material de nasofaringe.",
+    "nomePerfil": "Não Aplicável",
+    "nomeFaixaEtaria": "Não Aplicável",
+    "id": null,
+    "nome": "ORIENTAÇÕES SOBRE O MATERIAL COLHIDO",
+    "codigoApi": "orientacao_material_colhido",
+    "tipoValor": "Texto Livre"
+  },
+  {
+    "descricao": "O exame pode detectar a carga viral em média até o 10º dia de sintomas. É direcionado a quem apresenta sintomas gripais e/ou teve contato, dentro desse período, com pessoas que testaram positivo para Coronavírus, e para profissionais da saúde ou serviços essenciais, conforme relação do governo federal.",
+    "nomePerfil": "Não Aplicável",
+    "nomeFaixaEtaria": "Não Aplicável",
+    "id": null,
+    "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+    "codigoApi": "informacao_atendimento",
+    "tipoValor": "Texto Livre"
+  }
+]

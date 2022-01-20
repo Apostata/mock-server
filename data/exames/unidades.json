@@ -1,0 +1,779 @@
+[
+  {
+    "idProduto": 11364,
+    "unidades": [
+      {
+        "id": 2386,
+        "nome": "AE - Brasilia",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "endereco": {
+          "id": 2386
+        }
+      },
+      {
+        "id": 2342,
+        "nome": "Ae – Incompany Rj",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "",
+        "endereco": {
+          "id": 2342,
+          "cidade": "Rio de Janeiro",
+          "uf": "RJ",
+          "logradouro": "Rua Voluntários da Pátria",
+          "numeroComercial": "423",
+          "bairro": "Botafogo",
+          "cep": "22270-000"
+        }
+      },
+      {
+        "id": 1147,
+        "nome": "Alto De Pinheiros",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "17:00",
+        "endereco": {
+          "id": 1147,
+          "cidade": "São Paulo",
+          "uf": "SP",
+          "logradouro": "Praça São Marcos",
+          "numeroComercial": "20",
+          "bairro": "Alto de Pinheiros",
+          "pontoReferencia": "Em frente a praça São Marcos",
+          "cep": "05455-050",
+          "regiao": "Zona Oeste"
+        }
+      },
+      {
+        "id": 1247,
+        "nome": "Anália Franco",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "endereco": {
+          "id": 1247,
+          "cidade": "São Paulo",
+          "uf": "SP",
+          "logradouro": "Rua Apucarana",
+          "numeroComercial": "1638/1648",
+          "bairro": "Anália Franco",
+          "pontoReferencia": "Próximo Della Via Pneus",
+          "cep": "03311-001",
+          "regiao": "Zona Leste"
+        }
+      },
+      {
+        "id": 1964,
+        "nome": "Atendimento Móvel",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "endereco": {
+          "id": 1964,
+          "cidade": "São Paulo",
+          "uf": "SP",
+          "logradouro": "R. Maranhão",
+          "numeroComercial": "983",
+          "bairro": "Higienópolis",
+          "pontoReferencia": "Alocado dentro da unidade Alta Higienópolis",
+          "cep": "01240-001",
+          "regiao": "Centro"
+        }
+      },
+      {
+        "id": 436,
+        "nome": "Barra Shopping",
+        "preco": 0,
+        "prazoHora": 6,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "",
+        "endereco": {
+          "id": 436,
+          "cidade": "RIO DE JANEIRO",
+          "uf": "RJ",
+          "logradouro": "AV. DAS AMÉRICAS",
+          "numeroComercial": "4666",
+          "complemento": "loja 302 B",
+          "bairro": "BARRA DA TIJUCA",
+          "pontoReferencia": "Dentro do Shopping Barra",
+          "cep": "22640-102",
+          "regiao": "Zona Oeste"
+        }
+      },
+      {
+        "id": 437,
+        "nome": "Botafogo",
+        "preco": 0,
+        "prazoHora": 6,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "",
+        "endereco": {
+          "id": 437,
+          "cidade": "RIO DE JANEIRO",
+          "uf": "RJ",
+          "logradouro": "RUA VOLUNTÁRIOS DA PÁTRIA",
+          "numeroComercial": "423",
+          "bairro": "BOTAFOGO",
+          "pontoReferencia": "Próximo da loja Cobal ",
+          "cep": "22700-000",
+          "regiao": "Zona Sul"
+        }
+      },
+      {
+        "id": 1155,
+        "nome": "Campo Belo",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "endereco": {
+          "id": 1155,
+          "cidade": "SÃO PAULO",
+          "uf": "SP",
+          "logradouro": "AV. VEREADOR JOSÉ DINIZ",
+          "numeroComercial": "3560",
+          "bairro": "CAMPO BELO",
+          "pontoReferencia": "Próximo a agência Caixa Econômica Federal  ",
+          "cep": "04604-007",
+          "regiao": "Zona Sul"
+        }
+      },
+      {
+        "id": 1729,
+        "nome": "Drive Thru – Anália Franco",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "endereco": {
+          "id": 1729,
+          "cidade": "SÃO PAULO",
+          "uf": "SP",
+          "logradouro": "RUA APUCARANA",
+          "numeroComercial": "1638/1648",
+          "bairro": "ANÁLIA FRANCO",
+          "pontoReferencia": "PRÓXIMO DELLA VIA PNEUS",
+          "cep": "03311-001",
+          "regiao": "Zona Leste"
+        }
+      },
+      {
+        "id": 1725,
+        "nome": "Drive Thru - Vila Olímpia",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "endereco": {
+          "id": 1725,
+          "cidade": "SÃO PAULO",
+          "uf": "SP",
+          "logradouro": "AV. DOUTOR CARDOSO DE MELO",
+          "numeroComercial": "1184",
+          "complemento": "LOJA 28",
+          "bairro": "VILA OLÍMPIA",
+          "pontoReferencia": "TRAVESSA DA AV BANDEIRAS PISTA LOCAL",
+          "cep": "04548-004",
+          "regiao": "Zona Sul"
+        }
+      },
+      {
+        "id": 601,
+        "nome": "Higienópolis",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "endereco": {
+          "id": 601,
+          "cidade": "SÃO PAULO",
+          "uf": "SP",
+          "logradouro": "RUA MARANHÃO",
+          "numeroComercial": "983",
+          "bairro": "HIGIENÓPOLIS",
+          "pontoReferencia": "Próximo ao mercado Pão de Açucar ",
+          "cep": "01240-001",
+          "regiao": "Centro"
+        }
+      },
+      {
+        "id": 433,
+        "nome": "Jardins",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "endereco": {
+          "id": 433,
+          "cidade": "SÃO PAULO",
+          "uf": "SP",
+          "logradouro": "AV. BRASIL",
+          "numeroComercial": "1802",
+          "bairro": "JARDINS",
+          "pontoReferencia": "Próximo loja da  Ferrari SP",
+          "cep": "01430-000",
+          "regiao": "Zona Sul"
+        }
+      },
+      {
+        "id": 600,
+        "nome": "Leblon",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "",
+        "endereco": {
+          "id": 600,
+          "cidade": "RIO DE JANEIRO",
+          "uf": "RJ",
+          "logradouro": "AV. ATAULFO DE PAIVA",
+          "numeroComercial": "669",
+          "complemento": "3º Andar",
+          "bairro": "LEBLON",
+          "pontoReferencia": "Próximo ao metro Antero de Quintal ",
+          "cep": "22440-032",
+          "regiao": "Zona Sul"
+        }
+      },
+      {
+        "id": 1146,
+        "nome": "Market Place",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "17:00",
+        "endereco": {
+          "id": 1146,
+          "cidade": "São Paulo",
+          "uf": "SP",
+          "logradouro": "Av. Doutor Chucri Zaidan",
+          "numeroComercial": "920",
+          "complemento": "Tower I - 3º Andar",
+          "bairro": "Vila Cordeiro",
+          "pontoReferencia": "Dentro do Shopping Market Place ",
+          "cep": "04583-904",
+          "regiao": "Zona Sul"
+        }
+      },
+      {
+        "id": 1066,
+        "nome": "Panamby",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "endereco": {
+          "id": 1066,
+          "cidade": "São Paulo",
+          "uf": "SP",
+          "logradouro": "Rua Deputado João Sussumu Hihata",
+          "numeroComercial": "690",
+          "bairro": "Vila Andrade",
+          "pontoReferencia": "Próximo ao Kampus Educação Bilingui ",
+          "cep": "05715-010",
+          "regiao": "Zona Sul"
+        }
+      },
+      {
+        "id": 434,
+        "nome": "Parque Ibirapuera",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "endereco": {
+          "id": 434,
+          "cidade": "SÃO PAULO",
+          "uf": "SP",
+          "logradouro": "AV. REPÚBLICA DO LÍBANO",
+          "numeroComercial": "725",
+          "bairro": "VILA NOVA CONCEIÇÃO",
+          "pontoReferencia": "Ao lado do portão 8 do parque",
+          "cep": "04502-001",
+          "regiao": "Zona Sul"
+        }
+      },
+      {
+        "id": 1313,
+        "nome": "Paulista",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "endereco": {
+          "id": 1313,
+          "cidade": "SÃO PAULO",
+          "uf": "SP",
+          "logradouro": "RUA SÃO CARLOS DO PINHAL",
+          "numeroComercial": "174",
+          "complemento": "4º /5º/6º ANDAR",
+          "bairro": "BELA VISTA",
+          "pontoReferencia": "Em frente a Maternidade Pro Matre ",
+          "cep": "01333-000",
+          "regiao": "Centro"
+        }
+      },
+      {
+        "id": 1633,
+        "nome": "Unidade Dedicada - Botafogo",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "",
+        "endereco": {
+          "id": 1633,
+          "cidade": "RIO DE JANEIRO",
+          "uf": "RJ",
+          "logradouro": "RUA VOLUNTÁRIOS DA PÁTRIA",
+          "numeroComercial": "423",
+          "complemento": "",
+          "bairro": "BOTAFOGO",
+          "pontoReferencia": "Próximo da loja Cobal do Humaita",
+          "cep": "22700-000",
+          "regiao": "Zona Sul"
+        }
+      },
+      {
+        "id": 1057,
+        "nome": "Unidade - Moema",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "17:00",
+        "endereco": {
+          "id": 1057,
+          "cidade": "SÃO PAULO",
+          "uf": "SP",
+          "logradouro": "ALAMEDA DOS NHAMBIQUARAS",
+          "numeroComercial": "337",
+          "bairro": "MOEMA",
+          "pontoReferencia": "Próximo a loja Kopenhagen ",
+          "cep": "04090-010",
+          "regiao": "Zona Sul"
+        }
+      },
+      {
+        "id": 435,
+        "nome": "Vila Olímpia",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "endereco": {
+          "id": 435,
+          "cidade": "SÃO PAULO",
+          "uf": "SP",
+          "logradouro": "AV. DOUTOR CARDOSO DE MELO",
+          "numeroComercial": "1200",
+          "complemento": "LOJA TÉRREA",
+          "bairro": "VILA OLÍMPIA",
+          "pontoReferencia": "Travessa da Av Bandeiras pista local",
+          "cep": "04548-004",
+          "regiao": "Zona Sul"
+        }
+      },
+      {
+        "id": 1227,
+        "nome": "Vogue Square",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "",
+        "endereco": {
+          "id": 1227,
+          "cidade": "Rio de Janeiro",
+          "uf": "RJ",
+          "logradouro": "Av. das Américas",
+          "numeroComercial": "8585",
+          "complemento": "Lojas: 113 e 114",
+          "bairro": "Barra da Tijuca",
+          "pontoReferencia": "Dentro do Shopping Vougue",
+          "cep": "22793-081",
+          "regiao": "Zona Oeste"
+        }
+      }
+    ],
+    "errors": [
+      {
+        "code": "erro-preco",
+        "message": "Valor indisponível",
+        "exception": "404 : [{\"timestamp\":\"2022-01-20T17:42:04.064+0000\",\"status\":404,\"error\":\"Not Found\",\"message\":\"No message available\",\"path\":\"/api/v1/agendamento/unidades\"}]"
+      }
+    ]
+  },
+  {
+    "idProduto": 14275,
+    "unidades": [
+      {
+        "id": 1147,
+        "nome": "Alto De Pinheiros",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "21:00",
+        "endereco": {
+          "id": 1147,
+          "cidade": "São Paulo",
+          "uf": "SP",
+          "logradouro": "Praça São Marcos",
+          "numeroComercial": "20",
+          "bairro": "Alto de Pinheiros",
+          "pontoReferencia": "Em frente a praça São Marcos",
+          "cep": "05455-050",
+          "regiao": "Zona Oeste"
+        }
+      },
+      {
+        "id": 1247,
+        "nome": "Anália Franco",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "21:00",
+        "endereco": {
+          "id": 1247,
+          "cidade": "São Paulo",
+          "uf": "SP",
+          "logradouro": "Rua Apucarana",
+          "numeroComercial": "1638/1648",
+          "bairro": "Anália Franco",
+          "pontoReferencia": "Próximo Della Via Pneus",
+          "cep": "03311-001",
+          "regiao": "Zona Leste"
+        }
+      },
+      {
+        "id": 436,
+        "nome": "Barra Shopping",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "21:00",
+        "endereco": {
+          "id": 436,
+          "cidade": "RIO DE JANEIRO",
+          "uf": "RJ",
+          "logradouro": "AV. DAS AMÉRICAS",
+          "numeroComercial": "4666",
+          "complemento": "loja 302 B",
+          "bairro": "BARRA DA TIJUCA",
+          "pontoReferencia": "Dentro do Shopping Barra",
+          "cep": "22640-102",
+          "regiao": "Zona Oeste"
+        }
+      },
+      {
+        "id": 437,
+        "nome": "Botafogo",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "21:00",
+        "endereco": {
+          "id": 437,
+          "cidade": "RIO DE JANEIRO",
+          "uf": "RJ",
+          "logradouro": "RUA VOLUNTÁRIOS DA PÁTRIA",
+          "numeroComercial": "423",
+          "bairro": "BOTAFOGO",
+          "pontoReferencia": "Próximo da loja Cobal ",
+          "cep": "22700-000",
+          "regiao": "Zona Sul"
+        }
+      },
+      {
+        "id": 1155,
+        "nome": "Campo Belo",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "21:00",
+        "endereco": {
+          "id": 1155,
+          "cidade": "SÃO PAULO",
+          "uf": "SP",
+          "logradouro": "AV. VEREADOR JOSÉ DINIZ",
+          "numeroComercial": "3560",
+          "bairro": "CAMPO BELO",
+          "pontoReferencia": "Próximo a agência Caixa Econômica Federal  ",
+          "cep": "04604-007",
+          "regiao": "Zona Sul"
+        }
+      },
+      {
+        "id": 1729,
+        "nome": "Drive Thru – Anália Franco",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "21:00",
+        "endereco": {
+          "id": 1729,
+          "cidade": "SÃO PAULO",
+          "uf": "SP",
+          "logradouro": "RUA APUCARANA",
+          "numeroComercial": "1638/1648",
+          "bairro": "ANÁLIA FRANCO",
+          "pontoReferencia": "PRÓXIMO DELLA VIA PNEUS",
+          "cep": "03311-001",
+          "regiao": "Zona Leste"
+        }
+      },
+      {
+        "id": 1728,
+        "nome": "Drive Thru – Pinheiros",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "21:00",
+        "endereco": {
+          "id": 1728,
+          "cidade": "São Paulo",
+          "uf": "SP",
+          "logradouro": "Praça São Marcos",
+          "numeroComercial": "20",
+          "bairro": "Alto de Pinheiros",
+          "pontoReferencia": "Em frente a praça São Marcos",
+          "cep": "05455-050",
+          "regiao": "Zona Oeste"
+        }
+      },
+      {
+        "id": 1725,
+        "nome": "Drive Thru - Vila Olímpia",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "21:00",
+        "endereco": {
+          "id": 1725,
+          "cidade": "SÃO PAULO",
+          "uf": "SP",
+          "logradouro": "AV. DOUTOR CARDOSO DE MELO",
+          "numeroComercial": "1184",
+          "complemento": "LOJA 28",
+          "bairro": "VILA OLÍMPIA",
+          "pontoReferencia": "TRAVESSA DA AV BANDEIRAS PISTA LOCAL",
+          "cep": "04548-004",
+          "regiao": "Zona Sul"
+        }
+      },
+      {
+        "id": 601,
+        "nome": "Higienópolis",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "21:00",
+        "endereco": {
+          "id": 601,
+          "cidade": "SÃO PAULO",
+          "uf": "SP",
+          "logradouro": "RUA MARANHÃO",
+          "numeroComercial": "983",
+          "bairro": "HIGIENÓPOLIS",
+          "pontoReferencia": "Próximo ao mercado Pão de Açucar ",
+          "cep": "01240-001",
+          "regiao": "Centro"
+        }
+      },
+      {
+        "id": 433,
+        "nome": "Jardins",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "21:00",
+        "endereco": {
+          "id": 433,
+          "cidade": "SÃO PAULO",
+          "uf": "SP",
+          "logradouro": "AV. BRASIL",
+          "numeroComercial": "1802",
+          "bairro": "JARDINS",
+          "pontoReferencia": "Próximo loja da  Ferrari SP",
+          "cep": "01430-000",
+          "regiao": "Zona Sul"
+        }
+      },
+      {
+        "id": 600,
+        "nome": "Leblon",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "21:00",
+        "endereco": {
+          "id": 600,
+          "cidade": "RIO DE JANEIRO",
+          "uf": "RJ",
+          "logradouro": "AV. ATAULFO DE PAIVA",
+          "numeroComercial": "669",
+          "complemento": "3º Andar",
+          "bairro": "LEBLON",
+          "pontoReferencia": "Próximo ao metro Antero de Quintal ",
+          "cep": "22440-032",
+          "regiao": "Zona Sul"
+        }
+      },
+      {
+        "id": 1146,
+        "nome": "Market Place",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "21:00",
+        "endereco": {
+          "id": 1146,
+          "cidade": "São Paulo",
+          "uf": "SP",
+          "logradouro": "Av. Doutor Chucri Zaidan",
+          "numeroComercial": "920",
+          "complemento": "Tower I - 3º Andar",
+          "bairro": "Vila Cordeiro",
+          "pontoReferencia": "Dentro do Shopping Market Place ",
+          "cep": "04583-904",
+          "regiao": "Zona Sul"
+        }
+      },
+      {
+        "id": 1066,
+        "nome": "Panamby",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "21:00",
+        "endereco": {
+          "id": 1066,
+          "cidade": "São Paulo",
+          "uf": "SP",
+          "logradouro": "Rua Deputado João Sussumu Hihata",
+          "numeroComercial": "690",
+          "bairro": "Vila Andrade",
+          "pontoReferencia": "Próximo ao Kampus Educação Bilingui ",
+          "cep": "05715-010",
+          "regiao": "Zona Sul"
+        }
+      },
+      {
+        "id": 1313,
+        "nome": "Paulista",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "21:00",
+        "endereco": {
+          "id": 1313,
+          "cidade": "SÃO PAULO",
+          "uf": "SP",
+          "logradouro": "RUA SÃO CARLOS DO PINHAL",
+          "numeroComercial": "174",
+          "complemento": "4º /5º/6º ANDAR",
+          "bairro": "BELA VISTA",
+          "pontoReferencia": "Em frente a Maternidade Pro Matre ",
+          "cep": "01333-000",
+          "regiao": "Centro"
+        }
+      },
+      {
+        "id": 1057,
+        "nome": "Unidade - Moema",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "21:00",
+        "endereco": {
+          "id": 1057,
+          "cidade": "SÃO PAULO",
+          "uf": "SP",
+          "logradouro": "ALAMEDA DOS NHAMBIQUARAS",
+          "numeroComercial": "337",
+          "bairro": "MOEMA",
+          "pontoReferencia": "Próximo a loja Kopenhagen ",
+          "cep": "04090-010",
+          "regiao": "Zona Sul"
+        }
+      },
+      {
+        "id": 435,
+        "nome": "Vila Olímpia",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "21:00",
+        "endereco": {
+          "id": 435,
+          "cidade": "SÃO PAULO",
+          "uf": "SP",
+          "logradouro": "AV. DOUTOR CARDOSO DE MELO",
+          "numeroComercial": "1200",
+          "complemento": "LOJA TÉRREA",
+          "bairro": "VILA OLÍMPIA",
+          "pontoReferencia": "Travessa da Av Bandeiras pista local",
+          "cep": "04548-004",
+          "regiao": "Zona Sul"
+        }
+      },
+      {
+        "id": 1227,
+        "nome": "Vogue Square",
+        "preco": 0,
+        "prazoHora": 48,
+        "prazoHoraUrgente": 48,
+        "permitePrazoUrgente": false,
+        "horaCorte": "21:00",
+        "endereco": {
+          "id": 1227,
+          "cidade": "Rio de Janeiro",
+          "uf": "RJ",
+          "logradouro": "Av. das Américas",
+          "numeroComercial": "8585",
+          "complemento": "Lojas: 113 e 114",
+          "bairro": "Barra da Tijuca",
+          "pontoReferencia": "Dentro do Shopping Vougue",
+          "cep": "22793-081",
+          "regiao": "Zona Oeste"
+        }
+      }
+    ],
+    "errors": [
+      {
+        "code": "erro-preco",
+        "message": "Valor indisponível",
+        "exception": "404 : [{\"timestamp\":\"2022-01-20T17:44:30.064+0000\",\"status\":404,\"error\":\"Not Found\",\"message\":\"No message available\",\"path\":\"/api/v1/agendamento/unidades\"}]"
+      }
+    ]
+  }
+]
