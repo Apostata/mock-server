@@ -419,7 +419,25 @@
       "id": "40314618-001T",
       "descricao": "Coronavírus (Covid-19), Diversos, detecção por RT-PCR"
     },
-    "loinc": {}
+    "loinc": {},
+
+    "status": "A",
+    "flagMenuUnico": "true",
+    "apontaProducao": "true",
+    "faturaOrigem": "true",
+    "idTipoProduto": "1",
+    "idClassificacaoProduto": "3",
+    "idCentroProducao": "123",
+    "sistemasOrigem": [
+      {
+        "mnemonicos": ["teste mnemonico"],
+        "status": "A",
+        "idSistemaOrigem": "1",
+        "idMarca": "5"
+      }
+    ],
+    "idProcessoCanalAtendimento": "11",
+    "usuarioInclusao": "82372535467"
   },
   {
     "id": 11364,
@@ -1560,6 +1578,2797 @@
     "medinc": {
       "id": "40901122-001"
     },
-    "loinc": {}
+    "loinc": {},
+    "status": "A",
+    "flagMenuUnico": "true",
+    "apontaProducao": "true",
+    "faturaOrigem": "true",
+    "idTipoProduto": "1",
+    "idClassificacaoProduto": "3",
+    "idCentroProducao": "123",
+    "sistemasOrigem": [
+      {
+        "mnemonicos": ["teste mnemonico"],
+        "status": "A",
+        "idSistemaOrigem": "1",
+        "idMarca": "5"
+      }
+    ],
+    "idProcessoCanalAtendimento": "11",
+    "usuarioInclusao": "82372535467"
+  },
+  {
+    "id": 14112,
+    "nome": "COLPOSCOPIA COM CITOLOGIA EM MEIO LIQUIDO",
+    "categoria": {
+      "id": 3,
+      "nome": "Diagnóstico por Imagem"
+    },
+    "sinonimias": [
+      "COLPOSCOPIA + PAPANICOLAU",
+      "COLPOSCOPIA COM PAPANICOLAU",
+      "COLPOSCOPIA E PAPANICOLAU"
+    ],
+    "mnemonicos": null,
+    "material": null,
+    "codTuss": "40601323",
+    "descricaoTuss": "Procedimento diagnóstico citopatológico em meio líquido",
+    "grupoTuss": ["ANATOMIA PATOLÓGICA E CITOPATOLOGIA"],
+    "codMultimed": null,
+    "idDasa": "21123",
+    "codSap": "70009706",
+    "preparos": [
+      {
+        "descricao": "0",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "JEJUM MÁXIMO",
+        "codigoApi": "jejum_maximo",
+        "tipoValor": "Horario"
+      },
+      {
+        "descricao": "0",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "JEJUM MÍNIMO",
+        "codigoApi": "jejum_minimo",
+        "tipoValor": "Horario"
+      },
+      {
+        "descricao": "120",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "QTD DE HORAS DO INÍCIO PREPARO (ALERTA APLICATIVO)",
+        "codigoApi": "quantidde_horas_inicio_preparo",
+        "tipoValor": "Horario"
+      },
+      {
+        "descricao": "72",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "QTD DE HORAS DO INÍCIO PREPARO (ALERTA APLICATIVO)",
+        "codigoApi": "quantidde_horas_inicio_preparo",
+        "tipoValor": "Horario"
+      },
+      {
+        "descricao": "A cliente não pode estar menstruada para a realização deste exame. ",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES IMPEDITIVAS",
+        "codigoApi": "restricao_impeditiva",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "A cliente não pode estar menstruada para a realização deste exame. Este exame pode ser realizado em virgens.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES IMPEDITIVAS",
+        "codigoApi": "restricao_impeditiva",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Chegar com 30 minutos de antecedência do horário agendado. É obrigatório trazer pedido médico e documento de identificação. Trazer exames anteriores da região a ser examinada.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "É necessário agendamento para este exame. Para ter um atendimento rápido e com prioridade na unidade, agende seus exames online e confira.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE AGENDAMENTO",
+        "codigoApi": "informacao_agendamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Este exame pode ser realizado em virgens. Não é permitida a presença de crianças durante a realização do exame. O exame poderá ser realizado 5 dias após término da menstruação. Clientes em uso de Anel Vaginal Nuvaring (novo anticoncepcional) podem realizar o exame normalmente, não é necessário retirá-lo. A Colpocitologia Oncótica (CO) e Colposcopia (COLP) sem biópsia podem ser realizados em qualquer período da gestação. Colposcopia com biópsia realizamos entre o 3º e 6º mês da gestação. Clientes que não possuem o colo do útero podem realizar tanto a Colpocitologia Oncótica (CO) como a Colposcopia (COLP). Para atendimento particular caso seja necessário incluir biópsia, polipectomia, entre outros, o valor do exame sofrerá alteração. ",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Exame realizado a partir de 12 anos de idade.  Cliente menor de 18 anos (17 anos 11 meses e 29 dias) é obrigatório a presença de um responsável legal para a realização do exame.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES DE IDADE",
+        "codigoApi": "restricao_idade",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Exame realizado a partir de 12 anos de idade. Cliente menor de 18 anos (17 anos 11 meses e 29 dias) é obrigatório a presença de um responsável legal para a realização do exame.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES DE IDADE",
+        "codigoApi": "restricao_idade",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Exame realizado a partir de 12 anos de idade. Cliente menor de 18 anos (17 anos, 11 meses e 29 dias) é obrigatório a presença de um responsável legal para a realização do exame.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES DE IDADE",
+        "codigoApi": "restricao_idade",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não é permitida a presença de crianças durante a realização do exame.  O exame poderá ser realizado 5 dias após término da menstruação.   Clientes em uso de Anel Vaginal Nuvaring (novo anticoncepcional) podem realizar o exame normalmente, não é necessário retirá-lo.  A Colpocitologia Oncótica (CO) e Colposcopia (COLP) sem biópsia podem ser realizados em qualquer período da gestação.   Colposcopia com biópsia realizamos entre o terceiro e sexto mês da gestação.  Clientes que não possuem o colo do útero podem realizar tanto a Colpocitologia Oncótica (CO) como a Colposcopia (COLP).   Este exame pode ser realizado em virgens. ",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não é permitida a presença de crianças durante a realização do exame. O exame poderá ser realizado 5 dias após término da menstruação. Clientes em uso de Anel Vaginal Nuvaring (novo anticoncepcional) podem realizar o exame normalmente, não é necessário retirá-lo. A Colpocitologia Oncótica (CO) e Colposcopia (COLP) sem biópsia podem ser realizados em qualquer período da gestação. Colposcopia com biópsia realizamos entre o 3º e 6º mês da gestação. Clientes que não possuem o colo do útero podem realizar tanto a Colpocitologia Oncótica (CO) como a Colposcopia (COLP). Para atendimento particular caso seja necessário incluir biópsia, polipectomia, entre outros, o valor do exame sofrerá alteração.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não realizar ducha vaginal (somente higiene externa). Não manter relações sexuais nas 72 horas anteriores a realização do exame. Não usar medicamentos no local a ser examinado nas 72 horas anteriores a realização do exame. Aparar os pelos pubianos com 1 cm de distância da pele. Não raspá-los. No dia do exame: Realizar higiene local.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não usar medicamentos no local a ser examinado nas 72 horas anteriores a realização do exame.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÃO DE MEDICAMENTO",
+        "codigoApi": "restricao_medicamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não usar medicamentos no local a ser examinado nos 3 dias anteriores a realização do exame. ",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÃO DE MEDICAMENTO",
+        "codigoApi": "restricao_medicamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Para esse exame não é necessário jejum.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE JEJUM",
+        "codigoApi": "informacao_jejum",
+        "tipoValor": "Texto Livre"
+      }
+    ],
+    "subEspecialidade": {
+      "id": 25,
+      "nome": "COLPOSCOPIA"
+    },
+    "especialidade": {
+      "id": 30,
+      "nome": "TRATOGNITOINF"
+    },
+    "marcasAtivas": [],
+    "marcasInativas": [
+      {
+        "id": 19,
+        "mnemonico": "Alta",
+        "nome": "Alta Excelência Diagnóstica",
+        "slogan": "Laboratório de Exames e Imagem",
+        "segmento": "Premium",
+        "url": "www.altadiagnosticos.com.br/",
+        "whatsapp": "11 99974-5554",
+        "urlAgendamento": "agendamentoonline.altadiagnosticos.com.br/",
+        "urlLaudo": "altadiagnosticos.com.br/resultados-de-exames/",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 10,
+        "mnemonico": "Alvaro",
+        "nome": "Laboratório Álvaro",
+        "slogan": "Análises Clínicas e Diagnósticos",
+        "segmento": "Executive",
+        "url": "www.alvaro.com.br/",
+        "urlAgendamento": "agendamentoonline.alvaro.com.br/",
+        "urlLaudo": "alvaro.com.br/resultados-de-exames/",
+        "ufs": ["PR"]
+      },
+      {
+        "id": 14,
+        "mnemonico": "Atalaia",
+        "nome": "Atalaia Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Executive",
+        "url": "www.atalaia.com.br/",
+        "whatsapp": "62 99105-4890",
+        "urlAgendamento": "agendamentoonline.atalaia.com.br/",
+        "urlLaudo": "atalaia.com.br/resultados-de-exames",
+        "ufs": ["GO"]
+      },
+      {
+        "id": 3,
+        "mnemonico": "Bronstein",
+        "nome": "Bronstein Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Standard",
+        "url": "www.bronstein.com.br/",
+        "whatsapp": "21 2227-8080",
+        "urlAgendamento": "agendamentoonline.bronstein.com.br/",
+        "urlLaudo": "bronstein.com.br/resultados-de-exames",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 17,
+        "mnemonico": "CDPI",
+        "nome": "CDPI",
+        "slogan": "Diagnóstico por Imagem",
+        "segmento": "Standard",
+        "url": "",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 101,
+        "mnemonico": "Cedic Cedilab",
+        "nome": "Cedic Cedilab",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.cediccedilab.com.br/",
+        "urlAgendamento": "agendamentoonline.cediccedilab.com.br/",
+        "urlLaudo": "cediccedilab.com.br/resultados-de-exames",
+        "ufs": ["MT"]
+      },
+      {
+        "id": 34,
+        "mnemonico": "Cerpe",
+        "nome": "Cerpe Diagnósticos",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Executive",
+        "url": "www.cerpe.com.br/",
+        "whatsapp": "81 9143-1466",
+        "urlAgendamento": "agendamentoonline.cerpe.com.br/",
+        "urlLaudo": "cerpe.com.br/resultados-de-exames",
+        "ufs": ["PE"]
+      },
+      {
+        "id": 31,
+        "mnemonico": "Corporativo",
+        "nome": "Corporativo",
+        "segmento": "Executive",
+        "url": "",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 27,
+        "mnemonico": "Cytolab",
+        "nome": "Cytolab Laboratório",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Standard",
+        "url": "www.cytolab.com.br/",
+        "urlAgendamento": "agendamentoonline.cytolab.com.br/",
+        "urlLaudo": "cytolab.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 1,
+        "mnemonico": "Delboni",
+        "nome": "Delboni Auriemo",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.delboniauriemo.com.br/",
+        "whatsapp": "11 3049-6999",
+        "urlAgendamento": "agendamentoonline.delboniauriemo.com.br/",
+        "urlLaudo": "delboniauriemo.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 5,
+        "mnemonico": "Delboni Prime",
+        "nome": "Delboni Prime",
+        "segmento": "Standard",
+        "url": "www.clubda.com.br/",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 102,
+        "mnemonico": "Deliberato",
+        "nome": "Diagnosticos da America S.A - Deliberato",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Standard",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 15,
+        "mnemonico": "Exame",
+        "nome": "Exame Imagem e Laboratório",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.laboratorioexame.com.br/",
+        "whatsapp": "61 99134-3105",
+        "urlAgendamento": "agendamentoonline.laboratorioexame.com.br/",
+        "ufs": ["DF", "GO"]
+      },
+      {
+        "id": 8,
+        "mnemonico": "Frischmann",
+        "nome": "Frischmann Aisengart Medicina Diagnóstica",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Executive",
+        "url": "www.labfa.com.br/",
+        "whatsapp": "41 8900-9730",
+        "urlAgendamento": "agendamentoonline.labfa.com.br/",
+        "urlLaudo": "labfa.com.br/resultados-de-exames/",
+        "ufs": ["PR"]
+      },
+      {
+        "id": 104,
+        "mnemonico": "Gene One",
+        "nome": "Diagnosticos da America S.A - Geneone",
+        "slogan": "Genômica e Testes Genéticos",
+        "segmento": "Standard",
+        "ufs": ["RS"]
+      },
+      {
+        "id": 37,
+        "mnemonico": "Gilson Cidrim",
+        "nome": "Laboratório Gilson Cidrim",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Standard",
+        "url": "www.gilsoncidrim.com.br/index.php",
+        "urlAgendamento": "agendamentoonline.gilsoncidrim.com.br/",
+        "urlLaudo": "gilsoncidrim.com.br/resultados-de-exames",
+        "ufs": ["PE"]
+      },
+      {
+        "id": 12,
+        "mnemonico": "Image ",
+        "nome": "Imagem Memorial Laboratório e Imagem",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.imagememorial.com.br/",
+        "whatsapp": "71 8104-7390",
+        "urlAgendamento": "agendamentoonline.imagememorial.com.br/",
+        "urlLaudo": "imagememorial.com.br/",
+        "ufs": ["BA"]
+      },
+      {
+        "id": 105,
+        "mnemonico": "Itulab",
+        "nome": "Diagnosticos da America S.A - Itulab",
+        "slogan": "Laboratório de Exames e Imagem",
+        "segmento": "Standard",
+        "url": "www.itulab.com.br",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 11,
+        "mnemonico": "LabPasteur",
+        "nome": "LabPasteur Medicina Diagnóstica",
+        "slogan": "Medicina Diagnóstica",
+        "segmento": "Standard",
+        "url": "www.labpasteur.med.br/",
+        "ufs": ["CE"]
+      },
+      {
+        "id": 39,
+        "mnemonico": "Laboratório Oswaldo Cruz",
+        "nome": "Laboratório Oswaldo Cruz - São José dos Campos",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Executive",
+        "url": "www.oswaldocruz.com/site/",
+        "urlLaudo": "oswaldocruz.com/site/resultados-online",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 2,
+        "mnemonico": "Lavoisier",
+        "nome": "Medicina Diagnóstica Lavoisier",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Standard",
+        "url": "www.lavoisier.com.br/",
+        "whatsapp": "11 3047-4488",
+        "urlAgendamento": "agendamentoonline.lavoisier.com.br/",
+        "urlLaudo": "lavoisier.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 40,
+        "mnemonico": "Leme",
+        "nome": "Laboratório Leme",
+        "segmento": "Executive",
+        "url": "www.lableme.com.br/",
+        "ufs": ["BA"]
+      },
+      {
+        "id": 4,
+        "mnemonico": "Lâmina",
+        "nome": "Lâmina Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.lamina.com.br/",
+        "whatsapp": "21 99189-6917",
+        "urlAgendamento": "agendamentoonline.lamina.com.br/",
+        "urlLaudo": "lamina.com.br/resultados-de-exames",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 13,
+        "mnemonico": "Lâmina Diagnósticos",
+        "nome": "Lâmina Medicina Diagnóstica - Santa Catarina",
+        "slogan": "Referência em Diagnóstico por Imagem",
+        "segmento": "Executive",
+        "url": "www.laminadiagnosticos.com.br/",
+        "whatsapp": "48 98824-8555",
+        "urlAgendamento": "agendamentoonline.laminadiagnosticos.com.br/",
+        "urlLaudo": "laminadiagnosticos.com.br/resultados-de-exames",
+        "ufs": ["SC"]
+      },
+      {
+        "id": 103,
+        "mnemonico": "Padrão",
+        "nome": "Diagnosticos da America S.A - Padrao",
+        "slogan": "Medicina Diagnóstica",
+        "segmento": "Standard",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 32,
+        "mnemonico": "Previlab",
+        "nome": "Previlab Laboratório",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Standard",
+        "url": "www.previlab.com.br/",
+        "urlAgendamento": "agendamentoonline.previlab.com.br/",
+        "urlLaudo": "previlab.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 42,
+        "mnemonico": "Salomão Zoppi",
+        "nome": "Salomão Zoppi",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Standard",
+        "url": "salomaozoppi.com.br/",
+        "whatsapp": "11 98929-0019",
+        "urlAgendamento": "agendamentoonline.salomaozoppi.com.br/",
+        "urlLaudo": "salomaozoppi.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 24,
+        "mnemonico": "Sergio Franco",
+        "nome": "Sérgio Franco Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "sergiofranco.com.br/",
+        "whatsapp": "21 2672-7070",
+        "urlAgendamento": "agendamentoonline.sergiofranco.com.br/",
+        "urlLaudo": "sergiofranco.com.br/resultados-de-exames",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 22,
+        "mnemonico": "Unimagem",
+        "nome": "Unimagem",
+        "slogan": "Diagnóstico por Imagem",
+        "segmento": "Executive",
+        "url": "www.unimagemdiagnosticos.com.br/",
+        "ufs": ["CE"]
+      },
+      {
+        "id": 59,
+        "mnemonico": "Valeclin",
+        "nome": "Diagnosticos da America S.A - Valeclin",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Standard",
+        "url": "www.valeclin.com.br",
+        "urlAgendamento": "agendamentoonline.valeclin.com.br/",
+        "urlLaudo": "www.valeclin.com.br/web/resultado-de-exames/",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 41,
+        "mnemonico": "Vital Brasil",
+        "nome": "Vital Brasil",
+        "segmento": "Standard",
+        "url": "",
+        "ufs": ["SP"]
+      }
+    ],
+    "errors": [],
+    "medinc": {
+      "id": "P21123"
+    },
+    "loinc": {},
+    "status": "A",
+    "flagMenuUnico": "true",
+    "apontaProducao": "true",
+    "faturaOrigem": "true",
+    "idTipoProduto": "1",
+    "idClassificacaoProduto": "3",
+    "idCentroProducao": "123",
+    "sistemasOrigem": [
+      {
+        "mnemonicos": ["teste mnemonico"],
+        "status": "A",
+        "idSistemaOrigem": "1",
+        "idMarca": "5"
+      }
+    ],
+    "idProcessoCanalAtendimento": "11",
+    "usuarioInclusao": "82372535467"
+  },
+  {
+    "id": 12474,
+    "nome": "DERIVADO - DOPPLER VASOS CERVICAIS ART",
+    "categoria": {
+      "id": 3,
+      "nome": "Diagnóstico por Imagem"
+    },
+    "sinonimias": ["DERIVADO DOPPLER VASOS CERVICAIS ART"],
+    "mnemonicos": null,
+    "material": null,
+    "codTuss": "40901360",
+    "descricaoTuss": "Doppler colorido de vasos cervicais arteriais bilateral (carótidas e vertebrais)",
+    "grupoTuss": ["MÉTODOS DIAGNÓSTICOS POR IMAGEM"],
+    "codMultimed": null,
+    "idDasa": "20902",
+    "codSap": "70006899",
+    "preparos": null,
+    "subEspecialidade": {
+      "id": 35,
+      "nome": "DOPPLER"
+    },
+    "especialidade": {
+      "id": 31,
+      "nome": "ULTRASSOM"
+    },
+    "marcasAtivas": [
+      {
+        "id": 19,
+        "mnemonico": "Alta",
+        "nome": "Alta Excelência Diagnóstica",
+        "slogan": "Laboratório de Exames e Imagem",
+        "segmento": "Premium",
+        "url": "www.altadiagnosticos.com.br/",
+        "whatsapp": "11 99974-5554",
+        "urlAgendamento": "agendamentoonline.altadiagnosticos.com.br/",
+        "urlLaudo": "altadiagnosticos.com.br/resultados-de-exames/",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 3,
+        "mnemonico": "Bronstein",
+        "nome": "Bronstein Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Standard",
+        "url": "www.bronstein.com.br/",
+        "whatsapp": "21 2227-8080",
+        "urlAgendamento": "agendamentoonline.bronstein.com.br/",
+        "urlLaudo": "bronstein.com.br/resultados-de-exames",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 17,
+        "mnemonico": "CDPI",
+        "nome": "CDPI",
+        "slogan": "Diagnóstico por Imagem",
+        "segmento": "Standard",
+        "url": "",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 34,
+        "mnemonico": "Cerpe",
+        "nome": "Cerpe Diagnósticos",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Executive",
+        "url": "www.cerpe.com.br/",
+        "whatsapp": "81 9143-1466",
+        "urlAgendamento": "agendamentoonline.cerpe.com.br/",
+        "urlLaudo": "cerpe.com.br/resultados-de-exames",
+        "ufs": ["PE"]
+      },
+      {
+        "id": 1,
+        "mnemonico": "Delboni",
+        "nome": "Delboni Auriemo",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.delboniauriemo.com.br/",
+        "whatsapp": "11 3049-6999",
+        "urlAgendamento": "agendamentoonline.delboniauriemo.com.br/",
+        "urlLaudo": "delboniauriemo.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 5,
+        "mnemonico": "Delboni Prime",
+        "nome": "Delboni Prime",
+        "segmento": "Standard",
+        "url": "www.clubda.com.br/",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 15,
+        "mnemonico": "Exame",
+        "nome": "Exame Imagem e Laboratório",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.laboratorioexame.com.br/",
+        "whatsapp": "61 99134-3105",
+        "urlAgendamento": "agendamentoonline.laboratorioexame.com.br/",
+        "ufs": ["DF", "GO"]
+      },
+      {
+        "id": 12,
+        "mnemonico": "Image ",
+        "nome": "Imagem Memorial Laboratório e Imagem",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.imagememorial.com.br/",
+        "whatsapp": "71 8104-7390",
+        "urlAgendamento": "agendamentoonline.imagememorial.com.br/",
+        "urlLaudo": "imagememorial.com.br/",
+        "ufs": ["BA"]
+      },
+      {
+        "id": 105,
+        "mnemonico": "Itulab",
+        "nome": "Diagnosticos da America S.A - Itulab",
+        "slogan": "Laboratório de Exames e Imagem",
+        "segmento": "Standard",
+        "url": "www.itulab.com.br",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 39,
+        "mnemonico": "Laboratório Oswaldo Cruz",
+        "nome": "Laboratório Oswaldo Cruz - São José dos Campos",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Executive",
+        "url": "www.oswaldocruz.com/site/",
+        "urlLaudo": "oswaldocruz.com/site/resultados-online",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 2,
+        "mnemonico": "Lavoisier",
+        "nome": "Medicina Diagnóstica Lavoisier",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Standard",
+        "url": "www.lavoisier.com.br/",
+        "whatsapp": "11 3047-4488",
+        "urlAgendamento": "agendamentoonline.lavoisier.com.br/",
+        "urlLaudo": "lavoisier.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 42,
+        "mnemonico": "Salomão Zoppi",
+        "nome": "Salomão Zoppi",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Standard",
+        "url": "salomaozoppi.com.br/",
+        "whatsapp": "11 98929-0019",
+        "urlAgendamento": "agendamentoonline.salomaozoppi.com.br/",
+        "urlLaudo": "salomaozoppi.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      }
+    ],
+    "marcasInativas": [
+      {
+        "id": 10,
+        "mnemonico": "Alvaro",
+        "nome": "Laboratório Álvaro",
+        "slogan": "Análises Clínicas e Diagnósticos",
+        "segmento": "Executive",
+        "url": "www.alvaro.com.br/",
+        "urlAgendamento": "agendamentoonline.alvaro.com.br/",
+        "urlLaudo": "alvaro.com.br/resultados-de-exames/",
+        "ufs": ["PR"]
+      },
+      {
+        "id": 14,
+        "mnemonico": "Atalaia",
+        "nome": "Atalaia Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Executive",
+        "url": "www.atalaia.com.br/",
+        "whatsapp": "62 99105-4890",
+        "urlAgendamento": "agendamentoonline.atalaia.com.br/",
+        "urlLaudo": "atalaia.com.br/resultados-de-exames",
+        "ufs": ["GO"]
+      },
+      {
+        "id": 101,
+        "mnemonico": "Cedic Cedilab",
+        "nome": "Cedic Cedilab",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.cediccedilab.com.br/",
+        "urlAgendamento": "agendamentoonline.cediccedilab.com.br/",
+        "urlLaudo": "cediccedilab.com.br/resultados-de-exames",
+        "ufs": ["MT"]
+      },
+      {
+        "id": 31,
+        "mnemonico": "Corporativo",
+        "nome": "Corporativo",
+        "segmento": "Executive",
+        "url": "",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 27,
+        "mnemonico": "Cytolab",
+        "nome": "Cytolab Laboratório",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Standard",
+        "url": "www.cytolab.com.br/",
+        "urlAgendamento": "agendamentoonline.cytolab.com.br/",
+        "urlLaudo": "cytolab.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 102,
+        "mnemonico": "Deliberato",
+        "nome": "Diagnosticos da America S.A - Deliberato",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Standard",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 8,
+        "mnemonico": "Frischmann",
+        "nome": "Frischmann Aisengart Medicina Diagnóstica",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Executive",
+        "url": "www.labfa.com.br/",
+        "whatsapp": "41 8900-9730",
+        "urlAgendamento": "agendamentoonline.labfa.com.br/",
+        "urlLaudo": "labfa.com.br/resultados-de-exames/",
+        "ufs": ["PR"]
+      },
+      {
+        "id": 104,
+        "mnemonico": "Gene One",
+        "nome": "Diagnosticos da America S.A - Geneone",
+        "slogan": "Genômica e Testes Genéticos",
+        "segmento": "Standard",
+        "ufs": ["RS"]
+      },
+      {
+        "id": 37,
+        "mnemonico": "Gilson Cidrim",
+        "nome": "Laboratório Gilson Cidrim",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Standard",
+        "url": "www.gilsoncidrim.com.br/index.php",
+        "urlAgendamento": "agendamentoonline.gilsoncidrim.com.br/",
+        "urlLaudo": "gilsoncidrim.com.br/resultados-de-exames",
+        "ufs": ["PE"]
+      },
+      {
+        "id": 11,
+        "mnemonico": "LabPasteur",
+        "nome": "LabPasteur Medicina Diagnóstica",
+        "slogan": "Medicina Diagnóstica",
+        "segmento": "Standard",
+        "url": "www.labpasteur.med.br/",
+        "ufs": ["CE"]
+      },
+      {
+        "id": 40,
+        "mnemonico": "Leme",
+        "nome": "Laboratório Leme",
+        "segmento": "Executive",
+        "url": "www.lableme.com.br/",
+        "ufs": ["BA"]
+      },
+      {
+        "id": 4,
+        "mnemonico": "Lâmina",
+        "nome": "Lâmina Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.lamina.com.br/",
+        "whatsapp": "21 99189-6917",
+        "urlAgendamento": "agendamentoonline.lamina.com.br/",
+        "urlLaudo": "lamina.com.br/resultados-de-exames",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 13,
+        "mnemonico": "Lâmina Diagnósticos",
+        "nome": "Lâmina Medicina Diagnóstica - Santa Catarina",
+        "slogan": "Referência em Diagnóstico por Imagem",
+        "segmento": "Executive",
+        "url": "www.laminadiagnosticos.com.br/",
+        "whatsapp": "48 98824-8555",
+        "urlAgendamento": "agendamentoonline.laminadiagnosticos.com.br/",
+        "urlLaudo": "laminadiagnosticos.com.br/resultados-de-exames",
+        "ufs": ["SC"]
+      },
+      {
+        "id": 103,
+        "mnemonico": "Padrão",
+        "nome": "Diagnosticos da America S.A - Padrao",
+        "slogan": "Medicina Diagnóstica",
+        "segmento": "Standard",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 32,
+        "mnemonico": "Previlab",
+        "nome": "Previlab Laboratório",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Standard",
+        "url": "www.previlab.com.br/",
+        "urlAgendamento": "agendamentoonline.previlab.com.br/",
+        "urlLaudo": "previlab.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 24,
+        "mnemonico": "Sergio Franco",
+        "nome": "Sérgio Franco Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "sergiofranco.com.br/",
+        "whatsapp": "21 2672-7070",
+        "urlAgendamento": "agendamentoonline.sergiofranco.com.br/",
+        "urlLaudo": "sergiofranco.com.br/resultados-de-exames",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 22,
+        "mnemonico": "Unimagem",
+        "nome": "Unimagem",
+        "slogan": "Diagnóstico por Imagem",
+        "segmento": "Executive",
+        "url": "www.unimagemdiagnosticos.com.br/",
+        "ufs": ["CE"]
+      },
+      {
+        "id": 59,
+        "mnemonico": "Valeclin",
+        "nome": "Diagnosticos da America S.A - Valeclin",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Standard",
+        "url": "www.valeclin.com.br",
+        "urlAgendamento": "agendamentoonline.valeclin.com.br/",
+        "urlLaudo": "www.valeclin.com.br/web/resultado-de-exames/",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 41,
+        "mnemonico": "Vital Brasil",
+        "nome": "Vital Brasil",
+        "segmento": "Standard",
+        "url": "",
+        "ufs": ["SP"]
+      }
+    ],
+    "errors": [],
+    "medinc": {
+      "id": "40901360-001D"
+    },
+    "loinc": {},
+    "status": "A",
+    "flagMenuUnico": "true",
+    "apontaProducao": "true",
+    "faturaOrigem": "true",
+    "idTipoProduto": "1",
+    "idClassificacaoProduto": "3",
+    "idCentroProducao": "123",
+    "sistemasOrigem": [
+      {
+        "mnemonicos": ["teste mnemonico"],
+        "status": "A",
+        "idSistemaOrigem": "1",
+        "idMarca": "5"
+      }
+    ],
+    "idProcessoCanalAtendimento": "11",
+    "usuarioInclusao": "82372535467"
+  },
+  {
+    "id": 14490,
+    "nome": "CORONAVÍRUS (COVID-19),DIVERSOS,DETECÇÃO POR RT-PCR, APENAS PARA COLETA DOMICILIAR",
+    "categoria": {
+      "id": 1,
+      "nome": "Análise Clínica"
+    },
+    "sinonimias": [
+      "DCOV-CORONA",
+      "Dcov-PCR, DOMICILIAR",
+      "Pesquisa de Covid-19 (Sars-cov-2) PCR, domiciliar"
+    ],
+    "mnemonicos": null,
+    "material": {
+      "id": 421,
+      "nome": "Aspirado"
+    },
+    "codTuss": "40314618",
+    "descricaoTuss": "Coronavírus Covid-19, pesquisa por método molecular",
+    "grupoTuss": ["PROCEDIMENTOS LABORATORIAIS"],
+    "codMultimed": null,
+    "idDasa": "53663",
+    "codSap": "70009970",
+    "preparos": [
+      {
+        "descricao": "Caro paciente, para realização do teste sorológico, solicitamos que acesse o termo de esclarecimento neste link: (https://forms.office.com/Pages/ResponsePage.aspx?id=TEoc9EsxnUmaejlYGUTHBOeWRk3e-c5Js8x2bfitONBUNFhHRFNXR01WUUNIN1FYWENZRllWTlkzNS4u). Além disso, caso queira contribuir para o conhecimento cientifico que temos sobre a doença COVID-19 no país, solicitamos o preenchimento dessa pesquisa neste outro link: (https://forms.gle/GdszfT3ArR9zc9we6). 1. É importante que leia o termo com atenção e esclareça as dúvidas antes da sua coleta. 2.Reiteramos que todo exame laboratorial é de caráter complementar e deve ser avaliado em conjunto com a história clínica e epidemiológica de cada paciente. Em caso de dúvidas, procure seu médico, que é o profissional capacitado para a correta interpretação dos seus resultados individuais. 3.Em virtude da pandemia em que vivemos, não será preciso a apresentação do presente termo. O seu comparecimento a unidade, após o recebimento deste e-mail, com as devidas instruções de coleta, configurara o seu esclarecimento. Conte conosco. Para mais informações acesse o nosso site: https://dasa.com.br/coronavirus. Os pacientes que não apresentam sintomas, não é necessário agendamento e os testes podem ser realizados diretamente em nossas unidades regulares. Para os pacientes com sintomas, o exame é feito apenas em unidades dedicadas com agendamento prévio.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "OBSERVAÇÕES",
+        "codigoApi": "observacao",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "É obrigatório apresentar o pedido médico",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PEDIDO MÉDICO",
+        "codigoApi": "pedido_medico",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Este exame não necessita de jejum.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE JEJUM",
+        "codigoApi": "informacao_jejum",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Este exame necessita de agendamento prévio",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE AGENDAMENTO",
+        "codigoApi": "informacao_agendamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Exame coletado apenas em domicílio",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "LOCAL DA COLETA DO EXAME",
+        "codigoApi": "local_coleta_exame",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Material de nasofaringe e de orofaringe",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES SOBRE O MATERIAL COLHIDO",
+        "codigoApi": "orientacao_material_colhido",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "O exame pode detectar a carga viral em média até o 7º dia de sintomas. É direcionado a quem apresenta sintomas gripais e/ou teve contato, nos últimos 20 dias, com pessoas que testaram positivo para coronavírus, e para profissionais da saúde ou serviços essenciais, conforme relação do governo federal.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      }
+    ],
+    "subEspecialidade": {
+      "id": 9,
+      "nome": "BIOMOL"
+    },
+    "especialidade": {
+      "id": 13,
+      "nome": "GENÉTICA"
+    },
+    "marcasAtivas": [
+      {
+        "id": 19,
+        "mnemonico": "Alta",
+        "nome": "Alta Excelência Diagnóstica",
+        "slogan": "Laboratório de Exames e Imagem",
+        "segmento": "Premium",
+        "url": "www.altadiagnosticos.com.br/",
+        "whatsapp": "11 99974-5554",
+        "urlAgendamento": "agendamentoonline.altadiagnosticos.com.br/",
+        "urlLaudo": "altadiagnosticos.com.br/resultados-de-exames/",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 10,
+        "mnemonico": "Alvaro",
+        "nome": "Laboratório Álvaro",
+        "slogan": "Análises Clínicas e Diagnósticos",
+        "segmento": "Executive",
+        "url": "www.alvaro.com.br/",
+        "urlAgendamento": "agendamentoonline.alvaro.com.br/",
+        "urlLaudo": "alvaro.com.br/resultados-de-exames/",
+        "ufs": ["PR"]
+      },
+      {
+        "id": 14,
+        "mnemonico": "Atalaia",
+        "nome": "Atalaia Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Executive",
+        "url": "www.atalaia.com.br/",
+        "whatsapp": "62 99105-4890",
+        "urlAgendamento": "agendamentoonline.atalaia.com.br/",
+        "urlLaudo": "atalaia.com.br/resultados-de-exames",
+        "ufs": ["GO"]
+      },
+      {
+        "id": 3,
+        "mnemonico": "Bronstein",
+        "nome": "Bronstein Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Standard",
+        "url": "www.bronstein.com.br/",
+        "whatsapp": "21 2227-8080",
+        "urlAgendamento": "agendamentoonline.bronstein.com.br/",
+        "urlLaudo": "bronstein.com.br/resultados-de-exames",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 101,
+        "mnemonico": "Cedic Cedilab",
+        "nome": "Cedic Cedilab",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.cediccedilab.com.br/",
+        "urlAgendamento": "agendamentoonline.cediccedilab.com.br/",
+        "urlLaudo": "cediccedilab.com.br/resultados-de-exames",
+        "ufs": ["MT"]
+      },
+      {
+        "id": 34,
+        "mnemonico": "Cerpe",
+        "nome": "Cerpe Diagnósticos",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Executive",
+        "url": "www.cerpe.com.br/",
+        "whatsapp": "81 9143-1466",
+        "urlAgendamento": "agendamentoonline.cerpe.com.br/",
+        "urlLaudo": "cerpe.com.br/resultados-de-exames",
+        "ufs": ["PE"]
+      },
+      {
+        "id": 27,
+        "mnemonico": "Cytolab",
+        "nome": "Cytolab Laboratório",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Standard",
+        "url": "www.cytolab.com.br/",
+        "urlAgendamento": "agendamentoonline.cytolab.com.br/",
+        "urlLaudo": "cytolab.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 1,
+        "mnemonico": "Delboni",
+        "nome": "Delboni Auriemo",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.delboniauriemo.com.br/",
+        "whatsapp": "11 3049-6999",
+        "urlAgendamento": "agendamentoonline.delboniauriemo.com.br/",
+        "urlLaudo": "delboniauriemo.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 5,
+        "mnemonico": "Delboni Prime",
+        "nome": "Delboni Prime",
+        "segmento": "Standard",
+        "url": "www.clubda.com.br/",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 102,
+        "mnemonico": "Deliberato",
+        "nome": "Diagnosticos da America S.A - Deliberato",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Standard",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 15,
+        "mnemonico": "Exame",
+        "nome": "Exame Imagem e Laboratório",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.laboratorioexame.com.br/",
+        "whatsapp": "61 99134-3105",
+        "urlAgendamento": "agendamentoonline.laboratorioexame.com.br/",
+        "ufs": ["DF", "GO"]
+      },
+      {
+        "id": 8,
+        "mnemonico": "Frischmann",
+        "nome": "Frischmann Aisengart Medicina Diagnóstica",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Executive",
+        "url": "www.labfa.com.br/",
+        "whatsapp": "41 8900-9730",
+        "urlAgendamento": "agendamentoonline.labfa.com.br/",
+        "urlLaudo": "labfa.com.br/resultados-de-exames/",
+        "ufs": ["PR"]
+      },
+      {
+        "id": 104,
+        "mnemonico": "Gene One",
+        "nome": "Diagnosticos da America S.A - Geneone",
+        "slogan": "Genômica e Testes Genéticos",
+        "segmento": "Standard",
+        "ufs": ["RS"]
+      },
+      {
+        "id": 37,
+        "mnemonico": "Gilson Cidrim",
+        "nome": "Laboratório Gilson Cidrim",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Standard",
+        "url": "www.gilsoncidrim.com.br/index.php",
+        "urlAgendamento": "agendamentoonline.gilsoncidrim.com.br/",
+        "urlLaudo": "gilsoncidrim.com.br/resultados-de-exames",
+        "ufs": ["PE"]
+      },
+      {
+        "id": 12,
+        "mnemonico": "Image ",
+        "nome": "Imagem Memorial Laboratório e Imagem",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.imagememorial.com.br/",
+        "whatsapp": "71 8104-7390",
+        "urlAgendamento": "agendamentoonline.imagememorial.com.br/",
+        "urlLaudo": "imagememorial.com.br/",
+        "ufs": ["BA"]
+      },
+      {
+        "id": 105,
+        "mnemonico": "Itulab",
+        "nome": "Diagnosticos da America S.A - Itulab",
+        "slogan": "Laboratório de Exames e Imagem",
+        "segmento": "Standard",
+        "url": "www.itulab.com.br",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 39,
+        "mnemonico": "Laboratório Oswaldo Cruz",
+        "nome": "Laboratório Oswaldo Cruz - São José dos Campos",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Executive",
+        "url": "www.oswaldocruz.com/site/",
+        "urlLaudo": "oswaldocruz.com/site/resultados-online",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 2,
+        "mnemonico": "Lavoisier",
+        "nome": "Medicina Diagnóstica Lavoisier",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Standard",
+        "url": "www.lavoisier.com.br/",
+        "whatsapp": "11 3047-4488",
+        "urlAgendamento": "agendamentoonline.lavoisier.com.br/",
+        "urlLaudo": "lavoisier.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 40,
+        "mnemonico": "Leme",
+        "nome": "Laboratório Leme",
+        "segmento": "Executive",
+        "url": "www.lableme.com.br/",
+        "ufs": ["BA"]
+      },
+      {
+        "id": 4,
+        "mnemonico": "Lâmina",
+        "nome": "Lâmina Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.lamina.com.br/",
+        "whatsapp": "21 99189-6917",
+        "urlAgendamento": "agendamentoonline.lamina.com.br/",
+        "urlLaudo": "lamina.com.br/resultados-de-exames",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 13,
+        "mnemonico": "Lâmina Diagnósticos",
+        "nome": "Lâmina Medicina Diagnóstica - Santa Catarina",
+        "slogan": "Referência em Diagnóstico por Imagem",
+        "segmento": "Executive",
+        "url": "www.laminadiagnosticos.com.br/",
+        "whatsapp": "48 98824-8555",
+        "urlAgendamento": "agendamentoonline.laminadiagnosticos.com.br/",
+        "urlLaudo": "laminadiagnosticos.com.br/resultados-de-exames",
+        "ufs": ["SC"]
+      },
+      {
+        "id": 103,
+        "mnemonico": "Padrão",
+        "nome": "Diagnosticos da America S.A - Padrao",
+        "slogan": "Medicina Diagnóstica",
+        "segmento": "Standard",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 32,
+        "mnemonico": "Previlab",
+        "nome": "Previlab Laboratório",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Standard",
+        "url": "www.previlab.com.br/",
+        "urlAgendamento": "agendamentoonline.previlab.com.br/",
+        "urlLaudo": "previlab.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 42,
+        "mnemonico": "Salomão Zoppi",
+        "nome": "Salomão Zoppi",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Standard",
+        "url": "salomaozoppi.com.br/",
+        "whatsapp": "11 98929-0019",
+        "urlAgendamento": "agendamentoonline.salomaozoppi.com.br/",
+        "urlLaudo": "salomaozoppi.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 24,
+        "mnemonico": "Sergio Franco",
+        "nome": "Sérgio Franco Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "sergiofranco.com.br/",
+        "whatsapp": "21 2672-7070",
+        "urlAgendamento": "agendamentoonline.sergiofranco.com.br/",
+        "urlLaudo": "sergiofranco.com.br/resultados-de-exames",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 59,
+        "mnemonico": "Valeclin",
+        "nome": "Diagnosticos da America S.A - Valeclin",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Standard",
+        "url": "www.valeclin.com.br",
+        "urlAgendamento": "agendamentoonline.valeclin.com.br/",
+        "urlLaudo": "www.valeclin.com.br/web/resultado-de-exames/",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 41,
+        "mnemonico": "Vital Brasil",
+        "nome": "Vital Brasil",
+        "segmento": "Standard",
+        "url": "",
+        "ufs": ["SP"]
+      }
+    ],
+    "marcasInativas": [
+      {
+        "id": 17,
+        "mnemonico": "CDPI",
+        "nome": "CDPI",
+        "slogan": "Diagnóstico por Imagem",
+        "segmento": "Standard",
+        "url": "",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 31,
+        "mnemonico": "Corporativo",
+        "nome": "Corporativo",
+        "segmento": "Executive",
+        "url": "",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 11,
+        "mnemonico": "LabPasteur",
+        "nome": "LabPasteur Medicina Diagnóstica",
+        "slogan": "Medicina Diagnóstica",
+        "segmento": "Standard",
+        "url": "www.labpasteur.med.br/",
+        "ufs": ["CE"]
+      },
+      {
+        "id": 22,
+        "mnemonico": "Unimagem",
+        "nome": "Unimagem",
+        "slogan": "Diagnóstico por Imagem",
+        "segmento": "Executive",
+        "url": "www.unimagemdiagnosticos.com.br/",
+        "ufs": ["CE"]
+      }
+    ],
+    "errors": [],
+    "medinc": {
+      "id": "40314618-003T",
+      "descricao": "Coronavírus (Covid-19), Diversos, detecção por RT-PCR, Domiciliar"
+    },
+    "loinc": {},
+    "status": "A",
+    "flagMenuUnico": "true",
+    "apontaProducao": "true",
+    "faturaOrigem": "true",
+    "idTipoProduto": "1",
+    "idClassificacaoProduto": "3",
+    "idCentroProducao": "123",
+    "sistemasOrigem": [
+      {
+        "mnemonicos": ["teste mnemonico"],
+        "status": "A",
+        "idSistemaOrigem": "1",
+        "idMarca": "5"
+      }
+    ],
+    "idProcessoCanalAtendimento": "11",
+    "usuarioInclusao": "82372535467"
+  },
+  {
+    "id": 11501,
+    "nome": "USG PRÓSTATA (VIA ABDOMINAL)",
+    "categoria": {
+      "id": 3,
+      "nome": "Diagnóstico por Imagem"
+    },
+    "sinonimias": [
+      "ULTRASSOM ABDOME INFERIOR MASCULINO",
+      "ULTRASSOM PELVE (PRÓSTATA)",
+      "ULTRASSOM PELVE MASCULINA",
+      "ULTRASSOM PROSTATA",
+      "ULTRASSOM PROSTATA ABDOMINAL",
+      "ULTRASSOM PROSTATA TRANSABDOMINAL",
+      "ULTRASSOM PRÓSTATA TRANSPARIETAL",
+      "ULTRASSONOGRAFIA ABDOME INFERIOR MASCULINO",
+      "ULTRASSONOGRAFIA DE PROSTATA",
+      "ULTRASSONOGRAFIA PELVE (PRÓSTATA)",
+      "ULTRASSONOGRAFIA PELVE MASCULINA",
+      "ULTRASSONOGRAFIA PELVICA MASCULINA",
+      "ULTRASSONOGRAFIA PROSTATA",
+      "ULTRASSONOGRAFIA PROSTATA ABDOMINAL",
+      "ULTRASSONOGRAFIA PROSTATA TRANSABDOMINAL",
+      "ULTRASSONOGRAFIA PROSTATA VIA ABDOMINAL",
+      "ULTRASSONOGRAFIA PRÓSTATA TRANSPARIETAL",
+      "US PELVICA MASCULINA",
+      "US PROSTATA VIA ABDOMINAL",
+      "USG ABDOME INFERIOR MASCULINO",
+      "USG PELVE MASCULINA",
+      "USG PELVICA MASCULINA",
+      "USG PROSTATA",
+      "USG PROSTATA ABDOMINAL",
+      "USG PROSTATA TRANSABDOMINAL",
+      "USG PROSTATA VIA ABDOMINAL",
+      "USG PRÓSTATA TRANSPARIETAL"
+    ],
+    "mnemonicos": null,
+    "material": null,
+    "codTuss": "",
+    "descricaoTuss": null,
+    "grupoTuss": null,
+    "codMultimed": null,
+    "idDasa": "9786",
+    "codSap": "70005307",
+    "preparos": [
+      {
+        "descricao": "\nChegar com 30 minutos de antecedência do horário agendado.\nÉ obrigatório trazer o pedido médico e um documento de identificação .\nTrazer exames anteriores da região a ser examinada.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\nChegar com 30 minutos de antencedência do horário agendado.\nÉ obrigatório trazer pedido médico e documento de identificação .\nTrazer exames anteriores da região a ser examinada.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\nCliente menor de 15 anos ( 14 anos 11 meses e 29 dias) e obrigatório a presença de um responsável legal para a realização do exame.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES DE IDADE",
+        "codigoApi": "restricao_idade",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\nCliente menor de 18 anos ( 17 anos 11 meses e 29 dias) é obrigatório a presença de um responsável legal para a realização do exame.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES ESPECÍFICAS",
+        "codigoApi": "restricao_espeficica",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\"Chegar com 30 minutos de antecedência do horário agendado.\nÉ obrigatório trazer pedido médico e documento de identificação .\nTrazer exames anteriores da região a ser examinada.\n\"",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE AGENDAMENTO",
+        "codigoApi": "informacao_agendamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\"Chegar com 30 minutos de antecedência do horário agendado.\nÉ obrigatório trazer pedido médico e documento de identificação. \nTrazer exames anteriores da região a ser examinada. \"",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE AGENDAMENTO",
+        "codigoApi": "informacao_agendamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\"Chegar com 30 minutos de antecedência do horário agendado.\r\nÉ obrigatório trazer pedido médico e documento de identificação .\r\nTrazer exames anteriores da região a ser examinada.\r\n\"",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE AGENDAMENTO",
+        "codigoApi": "informacao_agendamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\"Cliente menor de 18 anos (17 anos 11 meses e 29 dias) é obrigatório a presença de um responsável legal para a realização do exame.\n\"",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES DE IDADE",
+        "codigoApi": "restricao_idade",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\"Cliente menor de 18 anos (17 anos 11 meses e 29 dias) é obrigatório a presença de um responsável legal para a realização do exame.\r\n\"",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES DE IDADE",
+        "codigoApi": "restricao_idade",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\"Cliente menor de 18 anos (17 anos 11 meses e 29 dias) é obrigatório a presença de um responsável legal para a realização do exame.\r\n\"",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES ESPECÍFICAS",
+        "codigoApi": "restricao_espeficica",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\"Crianças até 12 anos: \nIngerir 4 copos com água 1 hora antes do exame.\n\nAcima de 12 anos e adultos: \nIngerir 6 copos com água 1 hora antes do exame.\n\nNão esvaziar a bexiga após a ingestão da água.\n\";",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\"Ingerir 4 copos de água, não pode ser água com gás.\n1 horas antes do exame reter a urina. NAO PODE URINAR. O exame tem que ser realizado com a bexiga cheia.\";",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "\"Não realizar exame em conjunto com exames de urina.\n\n\nCliente com sonda e necessário fechar a sonda 1 hora antes do exame.\n\n1. Clientes com incontinência urinária/ Clientes que fazem uso de fralda geriátrica:\n - Tanto a ingestão de água como a repleção vesical (quantidade de urina retida na bexiga),\n deverão respeitar os limites máximos aceitos pelo cliente.\n - Cliente deve comunicar ao médico que irá realizar o exame sobre a sua dificuldade em manter a repleção vesical adequada e também deve estar ciente de que a repleção inadequada pode limitar a análise.\n\n2. Clientes renais crônicos (realizando hemodiálise) / Clientes com insuficiência cardíaca grave (com orientação médica para restrição de ingestão de agua):\n- Respeitar orientação do médico solicitante.\n- Cliente deve comunicar ao médico que irá realizar o exame sobre a sua condição clínica e tambem deve estar ciente de que a repleção inadequada pode limitar a análise.\n\"",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "|Tomar de 5 a 6 copos de água, suco, chá, 1 hora antes do exame e nao urinar.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "0",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "JEJUM MÁXIMO",
+        "codigoApi": "jejum_maximo",
+        "tipoValor": "Horario"
+      },
+      {
+        "descricao": "0",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "JEJUM MÍNIMO",
+        "codigoApi": "jejum_minimo",
+        "tipoValor": "Horario"
+      },
+      {
+        "descricao": "0",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "QTD DE HORAS DO INÍCIO PREPARO (ALERTA APLICATIVO)",
+        "codigoApi": "quantidde_horas_inicio_preparo",
+        "tipoValor": "Horario"
+      },
+      {
+        "descricao": "1",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "QTD DE HORAS DO INÍCIO PREPARO (ALERTA APLICATIVO)",
+        "codigoApi": "quantidde_horas_inicio_preparo",
+        "tipoValor": "Horario"
+      },
+      {
+        "descricao": "Beber de 3 a 4 copos de água  1 hora antes do exame, reter a urina. ",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Chegar 30 minutos antes do horário agendado.\nÉ importante trazer exames anteriores da região a ser examinada.\nNão realizar o exame em conjunto com exames de urina.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Chegar 30 minutos antes do horário agendado.\nTrazer exames anteriores da região    a ser examinada.\nTrazer pedido médico, documento pessoal com foto, cartão do convênio.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÃO DE MEDICAMENTO",
+        "codigoApi": "restricao_medicamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Chegar com 30 minutos de antecedência do horário agendado.\nÉ obrigatório trazer pedido médico e documento de identificação .\nTrazer exames anteriores da região a ser examinada.\n\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Chegar com 30 minutos de antecedência do horário agendado.\nÉ obrigatório trazer pedido médico e documento de identificação .\nTrazer exames anteriores da região a ser examinada.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Chegar com 30 minutos de antecedência do horário agendado.\nÉ obrigatório trazer pedido médico e documento de identificação.\nTrazer exames anteriores da região a ser examinada.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Chegar com 30 minutos de antecedência do horário agendado.\nÉ obrigatório trazer pedido médico e documento de identificação.\nTrazer exames anteriores da região a ser examinada. \n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Chegar com 30 minutos de antecedência do horário agendado.\nTrazer exames anteriores da região a ser examinada.\nÉ obrigatório trazer pedido médico e documento de identificação.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Chegar com 30 minutos de antecedência do horário agendado.\r\nÉ obrigatório trazer pedido médico e documento de identificação .\r\nTrazer exames anteriores da região a ser examinada.\r\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Chegar com 30 minutos de antecedência do horário agendado. \nÉ obrigatório trazer pedido médico e documento de identificação. \nTrazer exames anteriores da região a ser examinada",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Chegar com 30 minutos de antecedência do horário agendado. É obrigatório trazer pedido médico e documento de identificação. Trazer exames anteriores da região a ser examinada (muito importante). ",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Chegar com 30 minutos de antecedência do horário agendado. É obrigatório trazer pedido médico e documento de identificação. Trazer exames anteriores da região a ser examinada.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Cliente com sonda e necessário fechar a sonda 1 hora antes do exame. \n1. Clientes com incontinência urinária/Clientes que fazem uso de fralda geriátrica: - Tanto a ingestão de água como a repleção vesical (quantidade de urina retida na bexiga), deverão respeitar os limites máximos aceitos pelo cliente. - Cliente deve comunicar ao médico que irá realizar o exame sobre a sua dificuldade em manter a repleção vesical adequada e também deve estar ciente de que a repleção inadequada pode limitar a análise. \n2. Clientes renais crônicos (realizando hemodiálise) / Clientes com insuficiência cardíaca grave (com orientação médica para restrição de ingestão de agua): - Respeitar orientação do médico solicitante. - Cliente deve comunicar ao médico que irá realizar o exame sobre a sua condição clínica e também deve estar ciente de que a repleção inadequada pode limitar a análise.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Cliente menor de 18 anos (17 anos 11 meses e 29 dias) é obrigatório a \npresença de um responsável legal para a realização do exame\n \n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES DE IDADE",
+        "codigoApi": "restricao_idade",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Cliente menor de 18 anos (17 anos 11 meses e 29 dias) é obrigatório a presença de um responsável legal para a realização do exame.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES DE IDADE",
+        "codigoApi": "restricao_idade",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Cliente menor de 18 anos (17 anos 11 meses e 29 dias) é obrigatório a presença de um responsável legal para a realização do exame.\r\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES DE IDADE",
+        "codigoApi": "restricao_idade",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Cliente menor de 18 anos (17 anos 11 meses e 29 dias) é obrigatório a presença de um responsável legal para a realização do exame.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES DE IDADE",
+        "codigoApi": "restricao_idade",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Cliente menor de 18 anos (17 anos, 11 meses e 29 dias) é obrigatório a presença de um responsável legal para a realização do exame. ",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES DE IDADE",
+        "codigoApi": "restricao_idade",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Crianças até 12 anos:\nIngerir 4 copos com água  1 hora antes do exame.\n\nAcima de 12 anos e adultos:\nIngerir 6 copos com água 1 hora antes do exame.\n\nNão esvaziar a bexiga após a ingestão da água.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Crianças até 12 anos: \nIngerir 04 copos com água 01 hora antes do exame.\nCrianças acima de 12 anos e adultos: \nIngerir 06 copos com água 01 hora antes do exame.\n\nNão esvaziar após a ingestão da água.\n\nClientes com sonda vesical, realizar o preparo acima e fechar a sonda 02 horas antes do exame.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Crianças até 12 anos: \nIngerir 4 copos com água 1 hora antes do exame.\n\nAcima de 12 anos e adultos: \nIngerir 6 copos com água 1 hora antes do exame.\n\nNão esvaziar a bexiga após a ingestão da água.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Crianças até 12 anos: Tomar 4 copos com água 1 hora antes do exame.\nAcima de 12 anos e adultos: Tomar 6 copos com água 1 hora antes do exame.\nNão esvaziar a bexiga e cliente com sonda é necessário fechar a sonda 1 hora antes do exame.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "De 6 meses a 11 meses: Oferecer água (respeitando os limites da criança). \nCrianças de 1 a 3 anos e 11 meses: Ingerir de 100 a 200 ml de água 1 hora do exame. \nCrianças de 4 a 7 anos e 11 meses: Ingerir de 200 a 400 ml de água 1 hora antes do exame. \nCrianças de 8 a 11 anos e 11 meses: ingerir de 300 a 500 ml de água 1 hora antes do exame. \nMaiores de 12 anos e adultos: Ingerir 6 copos de água 1 hora antes do exame. \nNão esvaziar a bexiga após a ingestão da água.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "É necessário agendamento para este exame. Para ter um atendimento rápido e com prioridade na unidade agende seus exames online e confira",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Entre 2 e 5 anos",
+        "id": null,
+        "nome": "INFORMAÇÕES DE AGENDAMENTO",
+        "codigoApi": "informacao_agendamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "É necessário agendamento para este exame. Para ter um atendimento rápido e com prioridade na unidade agende seus exames online e confira",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE AGENDAMENTO",
+        "codigoApi": "informacao_agendamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "É necessário agendamento para este exame. Para ter um atendimento rápido e com prioridade na unidade, agende seus exames online e confira.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE AGENDAMENTO",
+        "codigoApi": "informacao_agendamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "É necessário agendamento para este exame. Para ter um atendimento rápido e com prioridade na unidade, agende seus exames online e confira.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES PARA ATENDIMENTO",
+        "codigoApi": "informacao_atendimento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "É necessário agendamento prévio.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE AGENDAMENTO",
+        "codigoApi": "informacao_agendamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Ingerir 4 copos de água 1 hora antes do exame (não urinar), pois o exame precisa ser feito com a bexiga cheia.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não é necessária a presença de acompanhante",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "NECESSIDADE DE ACOMPANHANTE",
+        "codigoApi": "necessidade_acompanhante",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não realizamos passagem de sonda vesical em nenhuma de nossas unidades.\n1 - Clientes com incontinência urinária ou que fazem uso de fralda geriátrica: Tanto a ingestão de água como a repleção vesical (quantidade de urina retida na bexiga), deverão respeitar os limites máximos aceitos pelo cliente. O cliente deve comunicar ao médico que irá realizar o exame sobre a sua dificuldade em manter a repleção vesical adequada e também deve estar ciente de que a repleção inadequada pode limitar a análise.\n2 - Clientes renais crônicos (realizando hemodiálise) ou com insuficiência cardiaca grave (com orientação médica para restrição de ingestão de água). Respeitar orientação do médico solicitante. Cliente deve comunicar ao médico que irá realizar o exame sobre a sua condição clinica e também deve estar ciente de que a repleção inadequada pode limitar a análise.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES ESPECÍFICAS",
+        "codigoApi": "restricao_espeficica",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não realizar exame em conjunto com exames de urina.\n\nCliente com sonda é necessário fechar a sonda 1 hora antes do exame.\n\n1. Clientes com incontinência urinária/ Clientes que fazem uso de fralda geriátrica:\n - Tanto a ingestão de água como a repleção vesical (quantidade de urina retida na bexiga),\n deverão respeitar os limites máximos aceitos pelo cliente.\n - Cliente deve comunicar ao médico que irá realizar o exame sobre a sua dificuldade em manter a repleção vesical adequada e também deve estar ciente de que a repleção inadequada pode limitar a análise.\n\n2. Clientes renais crônicos (realizando hemodiálise) / Clientes com insuficiência cardíaca grave (com orientação médica para restrição de ingestão de agua):\n- Respeitar orientação do médico solicitante.\n- Cliente deve comunicar ao médico que irá realizar o exame sobre a sua condição clínica e tambem deve estar ciente de que a repleção inadequada pode limitar a análise.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não realizar exame em conjunto com exames de urina.\n\nCliente com sonda e necessário fechar a sonda 1 hora antes do exame.\n \n1. Clientes com incontinência urinária/ Clientes que fazem uso de fralda geriátrica:\n - Tanto a ingestão de água como a repleção vesical (quantidade de urina retida na bexiga), deverão respeitar os limites máximos aceitos pelo cliente.\n - Cliente deve comunicar ao médico que irá realizar o exame sobre a sua dificuldade em manter a repleção vesical adequada e também deve estar ciente de que a repleção inadequada pode limitar a análise.\n\n2. Clientes renais crônicos (realizando hemodiálise) / Clientes com insuficiência cardíaca grave (com orientação médica para restrição de ingestão de agua):    \n- Respeitar orientação do médico solicitante.\n- Cliente deve comunicar ao médico que irá realizar o exame sobre a sua condição clínica e tambem deve estar ciente de que a repleção inadequada pode limitar a análise.  \n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não realizar exame em conjunto com exames de urina.\r\n\r\nCliente com sonda e necessário fechar a sonda 1 hora antes do exame.\r\n\r\n1. Clientes com incontinência urinária, Clientes que fazem uso de fralda geriátrica:\r\n - Tanto a ingestão de água como a repleção vesical (quantidade de urina retida na bexiga),\r\n deverão respeitar os limites máximos aceitos pelo cliente.\r\n - Cliente deve comunicar ao médico que irá realizar o exame sobre a sua dificuldade em manter a repleção vesical adequada e também deve estar ciente de que a repleção inadequada pode limitar a análise.\r\n\r\n2. Clientes renais crônicos (realizando hemodiálise), Clientes com insuficiência cardíaca grave (com orientação médica para restrição de ingestão de agua):\r\n- Respeitar orientação do médico solicitante.\r\n- Cliente deve comunicar ao médico que irá realizar o exame sobre a sua condição clínica e tambem deve estar ciente de que a repleção inadequada pode limitar a análise.\r\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não realizar exame em conjunto com exames de urina. ",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES ESPECÍFICAS",
+        "codigoApi": "restricao_espeficica",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "No dia do exame:  Adultos: Ingerir 8 copos com água 2 horas antes do exame (exceto para clientes com insuficiência renal crônica, oligúricos ou anúricos).  Não esvaziar a bexiga até a realização do exame. ",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "No laboratório será necessário ingerir 06 copos de água. Não esvaziar a bexiga após a ingestão da água. ;",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "OBSERVAÇÃO: As crianças, exceto bebes, não devem urinar ao chegar a clínica (antes do  exame).\nA bexiga precisa estar cheia durante o exame.) Trazer liquido para a criança beber enquanto espera ser chamado para o exame. \n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ORIENTAÇÕES GERAIS",
+        "codigoApi": "orientacao_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Paciente menor de 15 anos (11 meses e 29 dias) é obrigatório a presença de um responsável legal para a realização do exame.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES DE IDADE",
+        "codigoApi": "restricao_idade",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Paciente menor de 18 anos (17 anos 11 meses e 29 dias) é obrigatória a presença de um responsável legal para a realização do exame.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "RESTRIÇÕES DE IDADE",
+        "codigoApi": "restricao_idade",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Para esse exame não é necessário jejum.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE JEJUM",
+        "codigoApi": "informacao_jejum",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Para esse exame não é necessário jejum.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "JEJUM MÁXIMO",
+        "codigoApi": "jejum_maximo",
+        "tipoValor": "Horario"
+      },
+      {
+        "descricao": "PREPARO ADULTO: \nTomar 04 quatro copos de água duas horas antes do exame, para realizamos desse exame é necessário está de bexiga cheia.\n\nCRIANÇAS: \n0 a 1 ano: Beber líquidos de 200 a 300 ml 2 horas antes do exame. Crianças em aleitamento materno, manter a amamentação livre. \n\n2 a 6 anos: Beber líquidos de 200 a 400 ml 2 horas antes do exame. \n\n7 a 17 anos: Beber líquidos de 400 a 600 ml 2 horas antes do exame. \n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Recém-nascido a 1 ano: \nIngerir líquidos de 200 a 300 ml 2 horas antes do exame. \n\nCrianças em aleitamento materno:\nManter a amamentação livre.\n\nCrianças de 2 a 6 anos:\nIngerir  líquidos de 200 a 400 ml 2 horas antes do exame.\n\nCrianças de 7 a 17 anos:\nInngerir líquidos de 400 a 600 ml 2 horas antes do exame.\n\nAs crianças, exceto bebês, não devem urinar ao chegar a clínica (antes do exame), pois o exame precisa ser feito com a bexiga cheia.\nTrazer líquido para a criança beber enquanto espera ser chamado para o exame.\n\nMaiores de 18 anos e adultos:\nIngerir 04 quatro copos de água 2 horas antes do exame. \n\nNão esvaziar a bexiga após a ingestão da água.\n",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Recém-nascido a 11 meses:\r\nOferecer leite materno, chá ou água (respeitando os limites da criança).\r\n\r\nCrianças de 1 a 3 anos e 11 meses:\r\nIngerir de 100 a 200 ml de água 1 hora antes do exame.\r\n\r\nCrianças de 4 a 7 anos e 11 meses: \r\nIngerir de 200 a 400 ml de água 1 hora antes do exame.\r\n\r\nCrianças de 8 a 11 anos e 11 meses:\r\nIngerir de 300 a 500 ml de água 1 hora antes do exame.\r\n\r\nMaiores de 12 anos e adultos:\r\nIngerir 06 copos com água 1 hora antes do exame.\r\n\r\n\r\nNão esvaziar a bexiga após a ingestão da água.\r\n \r\n;",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "PREPARO GERAL",
+        "codigoApi": "preparo_geral",
+        "tipoValor": "Texto Livre"
+      }
+    ],
+    "subEspecialidade": {
+      "id": 53,
+      "nome": "GERAL"
+    },
+    "especialidade": {
+      "id": 31,
+      "nome": "ULTRASSOM"
+    },
+    "marcasAtivas": [
+      {
+        "id": 19,
+        "mnemonico": "Alta",
+        "nome": "Alta Excelência Diagnóstica",
+        "slogan": "Laboratório de Exames e Imagem",
+        "segmento": "Premium",
+        "url": "www.altadiagnosticos.com.br/",
+        "whatsapp": "11 99974-5554",
+        "urlAgendamento": "agendamentoonline.altadiagnosticos.com.br/",
+        "urlLaudo": "altadiagnosticos.com.br/resultados-de-exames/",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 3,
+        "mnemonico": "Bronstein",
+        "nome": "Bronstein Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Standard",
+        "url": "www.bronstein.com.br/",
+        "whatsapp": "21 2227-8080",
+        "urlAgendamento": "agendamentoonline.bronstein.com.br/",
+        "urlLaudo": "bronstein.com.br/resultados-de-exames",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 17,
+        "mnemonico": "CDPI",
+        "nome": "CDPI",
+        "slogan": "Diagnóstico por Imagem",
+        "segmento": "Standard",
+        "url": "",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 101,
+        "mnemonico": "Cedic Cedilab",
+        "nome": "Cedic Cedilab",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.cediccedilab.com.br/",
+        "urlAgendamento": "agendamentoonline.cediccedilab.com.br/",
+        "urlLaudo": "cediccedilab.com.br/resultados-de-exames",
+        "ufs": ["MT"]
+      },
+      {
+        "id": 34,
+        "mnemonico": "Cerpe",
+        "nome": "Cerpe Diagnósticos",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Executive",
+        "url": "www.cerpe.com.br/",
+        "whatsapp": "81 9143-1466",
+        "urlAgendamento": "agendamentoonline.cerpe.com.br/",
+        "urlLaudo": "cerpe.com.br/resultados-de-exames",
+        "ufs": ["PE"]
+      },
+      {
+        "id": 1,
+        "mnemonico": "Delboni",
+        "nome": "Delboni Auriemo",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.delboniauriemo.com.br/",
+        "whatsapp": "11 3049-6999",
+        "urlAgendamento": "agendamentoonline.delboniauriemo.com.br/",
+        "urlLaudo": "delboniauriemo.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 5,
+        "mnemonico": "Delboni Prime",
+        "nome": "Delboni Prime",
+        "segmento": "Standard",
+        "url": "www.clubda.com.br/",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 15,
+        "mnemonico": "Exame",
+        "nome": "Exame Imagem e Laboratório",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.laboratorioexame.com.br/",
+        "whatsapp": "61 99134-3105",
+        "urlAgendamento": "agendamentoonline.laboratorioexame.com.br/",
+        "ufs": ["DF", "GO"]
+      },
+      {
+        "id": 12,
+        "mnemonico": "Image ",
+        "nome": "Imagem Memorial Laboratório e Imagem",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.imagememorial.com.br/",
+        "whatsapp": "71 8104-7390",
+        "urlAgendamento": "agendamentoonline.imagememorial.com.br/",
+        "urlLaudo": "imagememorial.com.br/",
+        "ufs": ["BA"]
+      },
+      {
+        "id": 105,
+        "mnemonico": "Itulab",
+        "nome": "Diagnosticos da America S.A - Itulab",
+        "slogan": "Laboratório de Exames e Imagem",
+        "segmento": "Standard",
+        "url": "www.itulab.com.br",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 39,
+        "mnemonico": "Laboratório Oswaldo Cruz",
+        "nome": "Laboratório Oswaldo Cruz - São José dos Campos",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Executive",
+        "url": "www.oswaldocruz.com/site/",
+        "urlLaudo": "oswaldocruz.com/site/resultados-online",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 2,
+        "mnemonico": "Lavoisier",
+        "nome": "Medicina Diagnóstica Lavoisier",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Standard",
+        "url": "www.lavoisier.com.br/",
+        "whatsapp": "11 3047-4488",
+        "urlAgendamento": "agendamentoonline.lavoisier.com.br/",
+        "urlLaudo": "lavoisier.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 4,
+        "mnemonico": "Lâmina",
+        "nome": "Lâmina Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.lamina.com.br/",
+        "whatsapp": "21 99189-6917",
+        "urlAgendamento": "agendamentoonline.lamina.com.br/",
+        "urlLaudo": "lamina.com.br/resultados-de-exames",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 13,
+        "mnemonico": "Lâmina Diagnósticos",
+        "nome": "Lâmina Medicina Diagnóstica - Santa Catarina",
+        "slogan": "Referência em Diagnóstico por Imagem",
+        "segmento": "Executive",
+        "url": "www.laminadiagnosticos.com.br/",
+        "whatsapp": "48 98824-8555",
+        "urlAgendamento": "agendamentoonline.laminadiagnosticos.com.br/",
+        "urlLaudo": "laminadiagnosticos.com.br/resultados-de-exames",
+        "ufs": ["SC"]
+      },
+      {
+        "id": 42,
+        "mnemonico": "Salomão Zoppi",
+        "nome": "Salomão Zoppi",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Standard",
+        "url": "salomaozoppi.com.br/",
+        "whatsapp": "11 98929-0019",
+        "urlAgendamento": "agendamentoonline.salomaozoppi.com.br/",
+        "urlLaudo": "salomaozoppi.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 24,
+        "mnemonico": "Sergio Franco",
+        "nome": "Sérgio Franco Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "sergiofranco.com.br/",
+        "whatsapp": "21 2672-7070",
+        "urlAgendamento": "agendamentoonline.sergiofranco.com.br/",
+        "urlLaudo": "sergiofranco.com.br/resultados-de-exames",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 22,
+        "mnemonico": "Unimagem",
+        "nome": "Unimagem",
+        "slogan": "Diagnóstico por Imagem",
+        "segmento": "Executive",
+        "url": "www.unimagemdiagnosticos.com.br/",
+        "ufs": ["CE"]
+      }
+    ],
+    "marcasInativas": [
+      {
+        "id": 10,
+        "mnemonico": "Alvaro",
+        "nome": "Laboratório Álvaro",
+        "slogan": "Análises Clínicas e Diagnósticos",
+        "segmento": "Executive",
+        "url": "www.alvaro.com.br/",
+        "urlAgendamento": "agendamentoonline.alvaro.com.br/",
+        "urlLaudo": "alvaro.com.br/resultados-de-exames/",
+        "ufs": ["PR"]
+      },
+      {
+        "id": 14,
+        "mnemonico": "Atalaia",
+        "nome": "Atalaia Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Executive",
+        "url": "www.atalaia.com.br/",
+        "whatsapp": "62 99105-4890",
+        "urlAgendamento": "agendamentoonline.atalaia.com.br/",
+        "urlLaudo": "atalaia.com.br/resultados-de-exames",
+        "ufs": ["GO"]
+      },
+      {
+        "id": 31,
+        "mnemonico": "Corporativo",
+        "nome": "Corporativo",
+        "segmento": "Executive",
+        "url": "",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 27,
+        "mnemonico": "Cytolab",
+        "nome": "Cytolab Laboratório",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Standard",
+        "url": "www.cytolab.com.br/",
+        "urlAgendamento": "agendamentoonline.cytolab.com.br/",
+        "urlLaudo": "cytolab.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 102,
+        "mnemonico": "Deliberato",
+        "nome": "Diagnosticos da America S.A - Deliberato",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Standard",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 8,
+        "mnemonico": "Frischmann",
+        "nome": "Frischmann Aisengart Medicina Diagnóstica",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Executive",
+        "url": "www.labfa.com.br/",
+        "whatsapp": "41 8900-9730",
+        "urlAgendamento": "agendamentoonline.labfa.com.br/",
+        "urlLaudo": "labfa.com.br/resultados-de-exames/",
+        "ufs": ["PR"]
+      },
+      {
+        "id": 104,
+        "mnemonico": "Gene One",
+        "nome": "Diagnosticos da America S.A - Geneone",
+        "slogan": "Genômica e Testes Genéticos",
+        "segmento": "Standard",
+        "ufs": ["RS"]
+      },
+      {
+        "id": 37,
+        "mnemonico": "Gilson Cidrim",
+        "nome": "Laboratório Gilson Cidrim",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Standard",
+        "url": "www.gilsoncidrim.com.br/index.php",
+        "urlAgendamento": "agendamentoonline.gilsoncidrim.com.br/",
+        "urlLaudo": "gilsoncidrim.com.br/resultados-de-exames",
+        "ufs": ["PE"]
+      },
+      {
+        "id": 11,
+        "mnemonico": "LabPasteur",
+        "nome": "LabPasteur Medicina Diagnóstica",
+        "slogan": "Medicina Diagnóstica",
+        "segmento": "Standard",
+        "url": "www.labpasteur.med.br/",
+        "ufs": ["CE"]
+      },
+      {
+        "id": 40,
+        "mnemonico": "Leme",
+        "nome": "Laboratório Leme",
+        "segmento": "Executive",
+        "url": "www.lableme.com.br/",
+        "ufs": ["BA"]
+      },
+      {
+        "id": 103,
+        "mnemonico": "Padrão",
+        "nome": "Diagnosticos da America S.A - Padrao",
+        "slogan": "Medicina Diagnóstica",
+        "segmento": "Standard",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 32,
+        "mnemonico": "Previlab",
+        "nome": "Previlab Laboratório",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Standard",
+        "url": "www.previlab.com.br/",
+        "urlAgendamento": "agendamentoonline.previlab.com.br/",
+        "urlLaudo": "previlab.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 59,
+        "mnemonico": "Valeclin",
+        "nome": "Diagnosticos da America S.A - Valeclin",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Standard",
+        "url": "www.valeclin.com.br",
+        "urlAgendamento": "agendamentoonline.valeclin.com.br/",
+        "urlLaudo": "www.valeclin.com.br/web/resultado-de-exames/",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 41,
+        "mnemonico": "Vital Brasil",
+        "nome": "Vital Brasil",
+        "segmento": "Standard",
+        "url": "",
+        "ufs": ["SP"]
+      }
+    ],
+    "errors": [],
+    "medinc": {
+      "id": "40901750-001"
+    },
+    "loinc": {},
+    "status": "A",
+    "flagMenuUnico": "true",
+    "apontaProducao": "true",
+    "faturaOrigem": "true",
+    "idTipoProduto": "1",
+    "idClassificacaoProduto": "3",
+    "idCentroProducao": "123",
+    "sistemasOrigem": [
+      {
+        "mnemonicos": ["teste mnemonico"],
+        "status": "A",
+        "idSistemaOrigem": "1",
+        "idMarca": "5"
+      }
+    ],
+    "idProcessoCanalAtendimento": "11",
+    "usuarioInclusao": "82372535467"
+  },
+  {
+    "id": 1307,
+    "nome": "HEMOGRAMA",
+    "categoria": {
+      "id": 1,
+      "nome": "Análise Clínica"
+    },
+    "sinonimias": [
+      "CBC",
+      "COMPLETE BLOOD COUNT",
+      "DOSAGEM HEMOGRAMA - POINT OF CARE",
+      "ERITROGRAMA + LEUCOGRAMA",
+      "ERITROGRAMA + LEUCOGRAMA + PLAQUETAS",
+      "H-HEMOGRAMA COMPLETO",
+      "HEMATIMETRIA - HE4",
+      "HEMATOLOGICO - HE4",
+      "HEMATOLOGICO COMPLETO",
+      "HEMATOLOGICO SANGUE (EDTA)",
+      "HEMATOLOGICO, HEMOGRAMA",
+      "HEMOGRAMA - TESTE LABORATORIAL REMOTO",
+      "HEMOGRAMA COM DIFERENCIAL - HE4",
+      "HEMOGRAMA COM DIFERENCIAL SANGUE (EDTA)",
+      "HEMOGRAMA COM PLAQUETAS - HE4",
+      "HEMOGRAMA COM PLAQUETAS SANGUE (EDTA)",
+      "HEMOGRAMA COMPLETO",
+      "HEMOGRAMA COMPLETO - TESTE LABORATORIAL REMOTO",
+      "HEMOGRAMA COMPLETO E HEMATOSCOPIA - PESQ",
+      "HEMOGRAMA EM CITRATO ",
+      "HEMOGRAMA POR POCT",
+      "HEMOGRAMA POR POINT OF CARE",
+      "HEMOGRAMA PÓS - ESFORÇO ",
+      "HG (HEMOGRAMA) SANGUE (EDTA)",
+      "HHC",
+      "HMG - HE4",
+      "HMG SANGUE (EDTA)",
+      "POCT PARA HEMOGRAMA",
+      "SERIE VERMELHA + SERIE BRANCA + PLAQUETAS",
+      "SV + SB + PLAQUETAS"
+    ],
+    "mnemonicos": null,
+    "material": {
+      "id": 472,
+      "nome": "Sangue"
+    },
+    "codTuss": "40304361",
+    "descricaoTuss": "Hemograma com contagem de plaquetas ou frações (eritrograma, leucograma, plaquetas)",
+    "grupoTuss": ["PROCEDIMENTOS LABORATORIAIS"],
+    "codMultimed": null,
+    "idDasa": "1308",
+    "codSap": "70000638",
+    "preparos": [
+      {
+        "descricao": "Caso queira ser atendido mais rápido e com prioridade na unidade, antecipe o seu cadastro agendando o seu exame. ",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE AGENDAMENTO",
+        "codigoApi": "informacao_agendamento",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Este exame não necessita de jejum. Evitar dieta rica em gordura antes da coleta.",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "INFORMAÇÕES DE JEJUM",
+        "codigoApi": "informacao_jejum",
+        "tipoValor": "Texto Livre"
+      },
+      {
+        "descricao": "Não realizar exercício físico intenso antes da coleta",
+        "nomePerfil": "Não Aplicável",
+        "nomeFaixaEtaria": "Não Aplicável",
+        "id": null,
+        "nome": "ATIVIDADE FÍSICA",
+        "codigoApi": "atividade_fisica",
+        "tipoValor": "Texto Livre"
+      }
+    ],
+    "subEspecialidade": {
+      "id": 55,
+      "nome": "HEMOGRAMA"
+    },
+    "especialidade": {
+      "id": 14,
+      "nome": "HEMATO"
+    },
+    "marcasAtivas": [
+      {
+        "id": 19,
+        "mnemonico": "Alta",
+        "nome": "Alta Excelência Diagnóstica",
+        "slogan": "Laboratório de Exames e Imagem",
+        "segmento": "Premium",
+        "url": "www.altadiagnosticos.com.br/",
+        "whatsapp": "11 99974-5554",
+        "urlAgendamento": "agendamentoonline.altadiagnosticos.com.br/",
+        "urlLaudo": "altadiagnosticos.com.br/resultados-de-exames/",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 10,
+        "mnemonico": "Alvaro",
+        "nome": "Laboratório Álvaro",
+        "slogan": "Análises Clínicas e Diagnósticos",
+        "segmento": "Executive",
+        "url": "www.alvaro.com.br/",
+        "urlAgendamento": "agendamentoonline.alvaro.com.br/",
+        "urlLaudo": "alvaro.com.br/resultados-de-exames/",
+        "ufs": ["PR"]
+      },
+      {
+        "id": 14,
+        "mnemonico": "Atalaia",
+        "nome": "Atalaia Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Executive",
+        "url": "www.atalaia.com.br/",
+        "whatsapp": "62 99105-4890",
+        "urlAgendamento": "agendamentoonline.atalaia.com.br/",
+        "urlLaudo": "atalaia.com.br/resultados-de-exames",
+        "ufs": ["GO"]
+      },
+      {
+        "id": 3,
+        "mnemonico": "Bronstein",
+        "nome": "Bronstein Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Standard",
+        "url": "www.bronstein.com.br/",
+        "whatsapp": "21 2227-8080",
+        "urlAgendamento": "agendamentoonline.bronstein.com.br/",
+        "urlLaudo": "bronstein.com.br/resultados-de-exames",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 101,
+        "mnemonico": "Cedic Cedilab",
+        "nome": "Cedic Cedilab",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.cediccedilab.com.br/",
+        "urlAgendamento": "agendamentoonline.cediccedilab.com.br/",
+        "urlLaudo": "cediccedilab.com.br/resultados-de-exames",
+        "ufs": ["MT"]
+      },
+      {
+        "id": 34,
+        "mnemonico": "Cerpe",
+        "nome": "Cerpe Diagnósticos",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Executive",
+        "url": "www.cerpe.com.br/",
+        "whatsapp": "81 9143-1466",
+        "urlAgendamento": "agendamentoonline.cerpe.com.br/",
+        "urlLaudo": "cerpe.com.br/resultados-de-exames",
+        "ufs": ["PE"]
+      },
+      {
+        "id": 27,
+        "mnemonico": "Cytolab",
+        "nome": "Cytolab Laboratório",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Standard",
+        "url": "www.cytolab.com.br/",
+        "urlAgendamento": "agendamentoonline.cytolab.com.br/",
+        "urlLaudo": "cytolab.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 1,
+        "mnemonico": "Delboni",
+        "nome": "Delboni Auriemo",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.delboniauriemo.com.br/",
+        "whatsapp": "11 3049-6999",
+        "urlAgendamento": "agendamentoonline.delboniauriemo.com.br/",
+        "urlLaudo": "delboniauriemo.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 5,
+        "mnemonico": "Delboni Prime",
+        "nome": "Delboni Prime",
+        "segmento": "Standard",
+        "url": "www.clubda.com.br/",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 102,
+        "mnemonico": "Deliberato",
+        "nome": "Diagnosticos da America S.A - Deliberato",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Standard",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 15,
+        "mnemonico": "Exame",
+        "nome": "Exame Imagem e Laboratório",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.laboratorioexame.com.br/",
+        "whatsapp": "61 99134-3105",
+        "urlAgendamento": "agendamentoonline.laboratorioexame.com.br/",
+        "ufs": ["DF", "GO"]
+      },
+      {
+        "id": 8,
+        "mnemonico": "Frischmann",
+        "nome": "Frischmann Aisengart Medicina Diagnóstica",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Executive",
+        "url": "www.labfa.com.br/",
+        "whatsapp": "41 8900-9730",
+        "urlAgendamento": "agendamentoonline.labfa.com.br/",
+        "urlLaudo": "labfa.com.br/resultados-de-exames/",
+        "ufs": ["PR"]
+      },
+      {
+        "id": 104,
+        "mnemonico": "Gene One",
+        "nome": "Diagnosticos da America S.A - Geneone",
+        "slogan": "Genômica e Testes Genéticos",
+        "segmento": "Standard",
+        "ufs": ["RS"]
+      },
+      {
+        "id": 37,
+        "mnemonico": "Gilson Cidrim",
+        "nome": "Laboratório Gilson Cidrim",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Standard",
+        "url": "www.gilsoncidrim.com.br/index.php",
+        "urlAgendamento": "agendamentoonline.gilsoncidrim.com.br/",
+        "urlLaudo": "gilsoncidrim.com.br/resultados-de-exames",
+        "ufs": ["PE"]
+      },
+      {
+        "id": 12,
+        "mnemonico": "Image ",
+        "nome": "Imagem Memorial Laboratório e Imagem",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.imagememorial.com.br/",
+        "whatsapp": "71 8104-7390",
+        "urlAgendamento": "agendamentoonline.imagememorial.com.br/",
+        "urlLaudo": "imagememorial.com.br/",
+        "ufs": ["BA"]
+      },
+      {
+        "id": 105,
+        "mnemonico": "Itulab",
+        "nome": "Diagnosticos da America S.A - Itulab",
+        "slogan": "Laboratório de Exames e Imagem",
+        "segmento": "Standard",
+        "url": "www.itulab.com.br",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 11,
+        "mnemonico": "LabPasteur",
+        "nome": "LabPasteur Medicina Diagnóstica",
+        "slogan": "Medicina Diagnóstica",
+        "segmento": "Standard",
+        "url": "www.labpasteur.med.br/",
+        "ufs": ["CE"]
+      },
+      {
+        "id": 39,
+        "mnemonico": "Laboratório Oswaldo Cruz",
+        "nome": "Laboratório Oswaldo Cruz - São José dos Campos",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Executive",
+        "url": "www.oswaldocruz.com/site/",
+        "urlLaudo": "oswaldocruz.com/site/resultados-online",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 2,
+        "mnemonico": "Lavoisier",
+        "nome": "Medicina Diagnóstica Lavoisier",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Standard",
+        "url": "www.lavoisier.com.br/",
+        "whatsapp": "11 3047-4488",
+        "urlAgendamento": "agendamentoonline.lavoisier.com.br/",
+        "urlLaudo": "lavoisier.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 40,
+        "mnemonico": "Leme",
+        "nome": "Laboratório Leme",
+        "segmento": "Executive",
+        "url": "www.lableme.com.br/",
+        "ufs": ["BA"]
+      },
+      {
+        "id": 4,
+        "mnemonico": "Lâmina",
+        "nome": "Lâmina Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "www.lamina.com.br/",
+        "whatsapp": "21 99189-6917",
+        "urlAgendamento": "agendamentoonline.lamina.com.br/",
+        "urlLaudo": "lamina.com.br/resultados-de-exames",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 13,
+        "mnemonico": "Lâmina Diagnósticos",
+        "nome": "Lâmina Medicina Diagnóstica - Santa Catarina",
+        "slogan": "Referência em Diagnóstico por Imagem",
+        "segmento": "Executive",
+        "url": "www.laminadiagnosticos.com.br/",
+        "whatsapp": "48 98824-8555",
+        "urlAgendamento": "agendamentoonline.laminadiagnosticos.com.br/",
+        "urlLaudo": "laminadiagnosticos.com.br/resultados-de-exames",
+        "ufs": ["SC"]
+      },
+      {
+        "id": 103,
+        "mnemonico": "Padrão",
+        "nome": "Diagnosticos da America S.A - Padrao",
+        "slogan": "Medicina Diagnóstica",
+        "segmento": "Standard",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 32,
+        "mnemonico": "Previlab",
+        "nome": "Previlab Laboratório",
+        "slogan": "Laboratório de Exames",
+        "segmento": "Standard",
+        "url": "www.previlab.com.br/",
+        "urlAgendamento": "agendamentoonline.previlab.com.br/",
+        "urlLaudo": "previlab.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 42,
+        "mnemonico": "Salomão Zoppi",
+        "nome": "Salomão Zoppi",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Standard",
+        "url": "salomaozoppi.com.br/",
+        "whatsapp": "11 98929-0019",
+        "urlAgendamento": "agendamentoonline.salomaozoppi.com.br/",
+        "urlLaudo": "salomaozoppi.com.br/resultados-de-exames",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 24,
+        "mnemonico": "Sergio Franco",
+        "nome": "Sérgio Franco Medicina Diagnóstica",
+        "slogan": "Laboratório de Exames e de Imagem",
+        "segmento": "Executive",
+        "url": "sergiofranco.com.br/",
+        "whatsapp": "21 2672-7070",
+        "urlAgendamento": "agendamentoonline.sergiofranco.com.br/",
+        "urlLaudo": "sergiofranco.com.br/resultados-de-exames",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 59,
+        "mnemonico": "Valeclin",
+        "nome": "Diagnosticos da America S.A - Valeclin",
+        "slogan": "Laboratório de Análises Clínicas",
+        "segmento": "Standard",
+        "url": "www.valeclin.com.br",
+        "urlAgendamento": "agendamentoonline.valeclin.com.br/",
+        "urlLaudo": "www.valeclin.com.br/web/resultado-de-exames/",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 41,
+        "mnemonico": "Vital Brasil",
+        "nome": "Vital Brasil",
+        "segmento": "Standard",
+        "url": "",
+        "ufs": ["SP"]
+      }
+    ],
+    "marcasInativas": [
+      {
+        "id": 17,
+        "mnemonico": "CDPI",
+        "nome": "CDPI",
+        "slogan": "Diagnóstico por Imagem",
+        "segmento": "Standard",
+        "url": "",
+        "ufs": ["RJ"]
+      },
+      {
+        "id": 31,
+        "mnemonico": "Corporativo",
+        "nome": "Corporativo",
+        "segmento": "Executive",
+        "url": "",
+        "ufs": ["SP"]
+      },
+      {
+        "id": 22,
+        "mnemonico": "Unimagem",
+        "nome": "Unimagem",
+        "slogan": "Diagnóstico por Imagem",
+        "segmento": "Executive",
+        "url": "www.unimagemdiagnosticos.com.br/",
+        "ufs": ["CE"]
+      }
+    ],
+    "errors": [],
+    "medinc": {
+      "id": "40304361-001",
+      "descricao": "Hemograma, Automatizado, Sangue"
+    },
+    "loinc": {
+      "id": "57021-8"
+    },
+    "status": "A",
+    "flagMenuUnico": "true",
+    "apontaProducao": "true",
+    "faturaOrigem": "true",
+    "idTipoProduto": "1",
+    "idClassificacaoProduto": "3",
+    "idCentroProducao": "123",
+    "sistemasOrigem": [
+      {
+        "mnemonicos": ["teste mnemonico"],
+        "status": "A",
+        "idSistemaOrigem": "1",
+        "idMarca": "5"
+      }
+    ],
+    "idProcessoCanalAtendimento": "11",
+    "usuarioInclusao": "82372535467"
   }
 ]
