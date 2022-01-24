@@ -82,26 +82,46 @@ server.use((req, res, next) => {
     }
   }
 
-  // if (req.method === "POST") {
-  //   if (req.url === "/v1/cadastro") {
-  //     const database = router.db;
-  //     const { body } = req;
-  //     const total = db.detalhe_exames.length;
-  //     // const clone = JSON.parse(JSON.stringify(db.detalhe_exames[1]));
-  //     const data = {
-  //       ...db.detalhe_exames[1],
-  //       ...body,
-  //       id: Number(db.detalhe_exames[total - 1].id) + 1,
-  //     };
-  //     database.get("detalhe_exames").push(data).write();
-  //     // const getIdRegex = /[0-9]+[^\/\&]/g;
-  //     // const path = req.url.replace(getIdRegex, ":id");
-  //     // const id = req.url.match(getIdRegex);
-  //     // // console.log(path);
-  //     // // console.log(id);
-  //     // Continue to JSON Server router
-  //   }
-  // }
+  if (req.method === "POST") {
+    if (req.url === "/v1/cadastro") {
+      const database = router.db;
+      const { body } = req;
+      const total = db.detalhe_exames.length;
+      // const clone = JSON.parse(JSON.stringify(db.detalhe_exames[1]));
+      const data = {
+        ...db.detalhe_exames[1],
+        ...body,
+        id: Number(db.detalhe_exames[total - 1].id) + 1,
+      };
+      database.get("detalhe_exames").push(data);
+      database.write();
+      next();
+    }
+  }
+
+  if (req.method === "PUT") {
+    const regexPutCad = /[^/]*\d$/;
+    const result = req.url.match(regexPutCad);
+    if (result?.length > 0) {
+      const id = result[0];
+      console.log(id);
+      const database = router.db;
+      const { body } = req;
+      const oldData = database
+        .get("detalhe_exames")
+        .find({ id: Number(id) })
+        .value();
+
+      const newValue = { ...oldData, ...body };
+      database
+        .get("detalhe_exames")
+        .find({ id: Number(id) })
+        .assign(newValue);
+      database.write();
+
+      res.json(newValue);
+    }
+  }
 });
 
 // Add this before server.use(router)
