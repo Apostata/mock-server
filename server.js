@@ -71,7 +71,7 @@ server.use(middlewares);
 // You can use the one used by JSON Server
 server.use(jsonServer.bodyParser);
 server.use(singular);
-server.use((req, res, next) => {
+server.use(async (req, res, next) => {
   if (req.method === "GET") {
     if (req.query?.descricao) {
       res.json(searchExames(req.query));
@@ -87,14 +87,18 @@ server.use((req, res, next) => {
       const database = router.db;
       const { body } = req;
       const total = db.detalhe_exames.length;
-      // const clone = JSON.parse(JSON.stringify(db.detalhe_exames[1]));
+      // res.json(db.detalhe_exames[1]);
+      const clone = JSON.parse(JSON.stringify(db.detalhe_exames[1]));
+
       const data = {
-        ...db.detalhe_exames[1],
+        ...clone,
         ...body,
         id: Number(db.detalhe_exames[total - 1].id) + 1,
       };
+
       database.get("detalhe_exames").push(data);
       database.write();
+      req.body = data;
       next();
     }
   }
@@ -103,23 +107,22 @@ server.use((req, res, next) => {
     const regexPutCad = /[^/]*\d$/;
     const result = req.url.match(regexPutCad);
     if (result?.length > 0) {
-      const id = result[0];
-      console.log(id);
+      const id = Number(result[0]);
       const database = router.db;
       const { body } = req;
-      const oldData = database
-        .get("detalhe_exames")
-        .find({ id: Number(id) })
-        .value();
+      // const oldData = db.detalhe_exames.find((row) => row.id === id);
+      const oldData = database.get("detalhe_exames").find({ id: id }).value();
 
       const newValue = { ...oldData, ...body };
-      database
+      const data = database
         .get("detalhe_exames")
-        .find({ id: Number(id) })
-        .assign(newValue);
+        .find({ id: id })
+        // .value()
+        .assign(newValue)
+        .value();
       database.write();
-
-      res.json(newValue);
+      res.status(201).jsonp(data);
+      // next();
     }
   }
 });
