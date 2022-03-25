@@ -1,5 +1,5 @@
 const jsonServer = require("json-server");
-const db = require("./data/angel_care/db-angelCare");
+const db = require("./data/someServer/db-someServer");
 const server = jsonServer.create();
 const router = jsonServer.router(db);
 const singular = require("./singular");

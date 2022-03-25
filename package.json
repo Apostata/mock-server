@@ -4,9 +4,8 @@
   "description": "mock server para o portal de cadastro",
   "main": "index.js",
   "scripts": {
-    "start:dasa": "./node_modules/.bin/nodemon server-dasa.js",
-    "start:adorarte": "./node_modules/.bin/nodemon server-adorarte.js",
-    "start:angelcare": "./node_modules/.bin/nodemon server-angelCare.js",
+
+    "start": "./node_modules/.bin/nodemon someServer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
