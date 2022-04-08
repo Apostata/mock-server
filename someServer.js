@@ -1,10 +1,23 @@
 const jsonServer = require("json-server");
+var path = require('path');
+var express = require('express')
 const db = require("./data/someServer/db-someServer");
 const server = jsonServer.create();
 const router = jsonServer.router(db);
 const singular = require("./singular");
 const middlewares = jsonServer.defaults();
 const port = 3003;
+
+
+server.use('/static', express.static(path.join(__dirname, 'public')))
+
+// Avoid CORS issue
+server.use(function (req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
+
 
 
 server.use(middlewares);
@@ -25,7 +38,7 @@ server.use(async (req, res, next) => {
       console.log(authUser)
       setTimeout(() => {
         if(authUser){
-        const {password:pass, cpf, type, concilNumber, ...newUser} = authUser;
+        const {password:pass,  ...newUser} = authUser;
         // console.log(newUser)
         res.status(200).jsonp(newUser);
       } else{
@@ -108,7 +121,88 @@ server.use(async (req, res, next) => {
         } else{
           res.status(401).jsonp(null);
         }
-      });
+      }, 1000);
+    }
+
+    
+
+    if (req.url.includes("/monitored")) {
+      if (req.url.includes("?monitor=")) {
+        console.log('get by monitor')
+        const getIdRegex = /[0-9]+$/;
+        console.log(req.url.match(getIdRegex));
+        const id = req.url.match(getIdRegex)[0];
+        const database = router.db;
+        let monitoreds = database.get("monitored").value()
+       const result = monitoreds.filter((user)=>{
+         return user.monitor.id === id;
+        })
+        setTimeout(() => {
+          if(result){
+            res.status(200).jsonp(result);
+          } else{
+            res.status(401).jsonp(null);
+          }
+        }, 1000);
+      }
+      else{
+        if (req.url.includes("/stats")) {
+          console.log('get by monitored id stats')
+          const getIdRegex = /(?<=\/)(\d+)(?=\/)/g;
+          console.log(req.url.match(getIdRegex));
+          const id = req.url.match(getIdRegex)[0];
+          const database = router.db;
+          const authCode = database.get("monitoredStats").find({userId: id }).value() ?? null
+          setTimeout(() => {
+            if(authCode){
+              res.status(200).jsonp(authCode);
+            } else{
+              res.status(401).jsonp(null);
+            }
+          }, 1000);
+         
+        } else{
+          console.log('get by monitored id')
+          const getIdRegex = /[0-9]+$/;
+          console.log(req.url.match(getIdRegex));
+          const id = req.url.match(getIdRegex)[0];
+          const database = router.db;
+          const authCode = database.get("monitored").find({id: id }).value() ?? null
+          setTimeout(() => {
+            if(authCode){
+              res.status(200).jsonp(authCode);
+            } else{
+              res.status(401).jsonp(null);
+            }
+          }, 1000);
+        }
+      }
+    }
+  }
+
+  if(req.method === 'PUT'){
+    if (req.url.includes("/users")) {
+      const getIdRegex = /[0-9]+$/;
+      console.log(req.url.match(getIdRegex));
+      const id = req.url.match(getIdRegex)[0];
+      const database = router.db;
+      const { body } = req;
+      console.log(req.body);
+      console.log(database.toJSON)
+      const authUser = database.get("users").find({id: id }).value() ?? null
+      setTimeout(() => {
+        console.log(authUser)
+        if(authUser){
+        const newUser = {...authUser, ...body}
+        // console.log(newUser)
+        res.status(200).jsonp(newUser);
+      } else{
+        if(authUser){
+          res.status(400).jsonp({message:'userError'});
+        }
+      }
+    }, 1000);
+      
     }
   }
  
@@ -121,7 +215,12 @@ server.use(
     "/getcode": "/getcode",
     "/verifycode/:code": "/verifycode/:code",
     "/users": "/users",
-    "/concils": "/concils"
+    "/concils": "/concils",
+    "/monitored/:id/stats": "/monitored/:id/stats",
+    "/monitored/:id": "/monitored/:id",
+    "/monitored/": "/monitored/",
+
+   
   })
 );
 
