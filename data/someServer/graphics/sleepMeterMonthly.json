@@ -1,0 +1,307 @@
+[
+    {
+        "userId":"1",
+        "date":1649852100000,
+        "data":[
+            {
+                "date": 1649646000000,
+                "light": {"start": 30, "end":100},
+                "deep": {"start": 130, "end":300},
+                "bedTime":{"start":0, "end":480}
+               
+            },
+            {
+                "date": 1649646000000,
+                "light": {"start": 578, "end":610},
+                "deep": {"start": 640, "end":789},
+                "bedTime":{"start":578, "end":820}
+            },
+            {
+                "date": 1649732400000,
+                "light": {"start": 120, "end":240},
+                "deep": {"start": 360, "end":500},
+                "bedTime":{"start":90, "end":520}
+               
+            },
+            {
+                "date": 1649818800000,
+                "light": {"start": 140, "end":240},
+                "deep": {"start": 360, "end":500},
+                "bedTime":{"start":120, "end":520}
+               
+            },
+            {
+                "date": 1649905200000,
+                "light": {"start": 500, "end":680},
+                "deep": {"start": 790, "end":1000},
+                "bedTime":{"start":480, "end":1100}
+               
+            },
+            {
+                "date": 1649991600000,
+                "light": {"start": 940, "end":1005},
+                "deep": {"start": 1005, "end":1300},
+                "bedTime":{"start":900, "end":1350}
+                
+            },
+            {
+                "date": 1650078000000,
+                "light": {"start": 60, "end":100},
+                "deep": {"start": 160, "end":300},
+                "bedTime":{"start":20, "end":500}
+                
+            },
+            {
+                "date": 1650164400000,
+                "light": {"start": 90, "end":234},
+                "deep": {"start": 234, "end":567},
+                "bedTime":{"start":80, "end":598}
+                
+            }
+        ]
+    },
+    {
+        "userId":"2",
+        "date":1649852100000,
+        "data":[
+            {
+                "date": 1649646000000,
+                "light": {"start": 30, "end":100},
+                "deep": {"start": 130, "end":300},
+                "bedTime":{"start":0, "end":480}
+               
+            },
+            {
+                "date": 1649646000000,
+                "light": {"start": 578, "end":610},
+                "deep": {"start": 640, "end":789},
+                "bedTime":{"start":578, "end":820}
+            },
+            {
+                "date": 1649732400000,
+                "light": {"start": 120, "end":240},
+                "deep": {"start": 360, "end":500},
+                "bedTime":{"start":90, "end":520}
+               
+            },
+            {
+                "date": 1649818800000,
+                "light": {"start": 140, "end":240},
+                "deep": {"start": 360, "end":500},
+                "bedTime":{"start":120, "end":520}
+               
+            },
+            {
+                "date": 1649905200000,
+                "light": {"start": 500, "end":680},
+                "deep": {"start": 790, "end":1000},
+                "bedTime":{"start":480, "end":1100}
+               
+            },
+            {
+                "date": 1649991600000,
+                "light": {"start": 940, "end":1005},
+                "deep": {"start": 1005, "end":1300},
+                "bedTime":{"start":900, "end":1350}
+                
+            },
+            {
+                "date": 1650078000000,
+                "light": {"start": 60, "end":100},
+                "deep": {"start": 160, "end":300},
+                "bedTime":{"start":20, "end":500}
+                
+            },
+            {
+                "date": 1650164400000,
+                "light": {"start": 90, "end":234},
+                "deep": {"start": 234, "end":567},
+                "bedTime":{"start":80, "end":598}
+                
+            }
+        ]
+    },
+    {
+        "userId":"3",
+        "date":1649852100000,
+        "data":[
+            {
+                "date": 1649646000000,
+                "light": {"start": 30, "end":100},
+                "deep": {"start": 130, "end":300},
+                "bedTime":{"start":0, "end":480}
+               
+            },
+            {
+                "date": 1649646000000,
+                "light": {"start": 578, "end":610},
+                "deep": {"start": 640, "end":789},
+                "bedTime":{"start":578, "end":820}
+            },
+            {
+                "date": 1649732400000,
+                "light": {"start": 120, "end":240},
+                "deep": {"start": 360, "end":500},
+                "bedTime":{"start":90, "end":520}
+               
+            },
+            {
+                "date": 1649818800000,
+                "light": {"start": 140, "end":240},
+                "deep": {"start": 360, "end":500},
+                "bedTime":{"start":120, "end":520}
+               
+            },
+            {
+                "date": 1649905200000,
+                "light": {"start": 500, "end":680},
+                "deep": {"start": 790, "end":1000},
+                "bedTime":{"start":480, "end":1100}
+               
+            },
+            {
+                "date": 1649991600000,
+                "light": {"start": 940, "end":1005},
+                "deep": {"start": 1005, "end":1300},
+                "bedTime":{"start":900, "end":1350}
+                
+            },
+            {
+                "date": 1650078000000,
+                "light": {"start": 60, "end":100},
+                "deep": {"start": 160, "end":300},
+                "bedTime":{"start":20, "end":500}
+                
+            },
+            {
+                "date": 1650164400000,
+                "light": {"start": 90, "end":234},
+                "deep": {"start": 234, "end":567},
+                "bedTime":{"start":80, "end":598}
+                
+            }
+        ]
+    },
+    {
+        "userId":"4",
+        "date":1649852100000,
+        "data":[
+            {
+                "date": 1649646000000,
+                "light": {"start": 30, "end":100},
+                "deep": {"start": 130, "end":300},
+                "bedTime":{"start":0, "end":480}
+               
+            },
+            {
+                "date": 1649646000000,
+                "light": {"start": 578, "end":610},
+                "deep": {"start": 640, "end":789},
+                "bedTime":{"start":578, "end":820}
+            },
+            {
+                "date": 1649732400000,
+                "light": {"start": 120, "end":240},
+                "deep": {"start": 360, "end":500},
+                "bedTime":{"start":90, "end":520}
+               
+            },
+            {
+                "date": 1649818800000,
+                "light": {"start": 140, "end":240},
+                "deep": {"start": 360, "end":500},
+                "bedTime":{"start":120, "end":520}
+               
+            },
+            {
+                "date": 1649905200000,
+                "light": {"start": 500, "end":680},
+                "deep": {"start": 790, "end":1000},
+                "bedTime":{"start":480, "end":1100}
+               
+            },
+            {
+                "date": 1649991600000,
+                "light": {"start": 940, "end":1005},
+                "deep": {"start": 1005, "end":1300},
+                "bedTime":{"start":900, "end":1350}
+                
+            },
+            {
+                "date": 1650078000000,
+                "light": {"start": 60, "end":100},
+                "deep": {"start": 160, "end":300},
+                "bedTime":{"start":20, "end":500}
+                
+            },
+            {
+                "date": 1650164400000,
+                "light": {"start": 90, "end":234},
+                "deep": {"start": 234, "end":567},
+                "bedTime":{"start":80, "end":598}
+                
+            }
+        ]
+    },
+    {
+        "userId":"5",
+        "date":1649852100000,
+        "data":[
+            {
+                "date": 1649646000000,
+                "light": {"start": 30, "end":100},
+                "deep": {"start": 130, "end":300},
+                "bedTime":{"start":0, "end":480}
+               
+            },
+            {
+                "date": 1649646000000,
+                "light": {"start": 578, "end":610},
+                "deep": {"start": 640, "end":789},
+                "bedTime":{"start":578, "end":820}
+            },
+            {
+                "date": 1649732400000,
+                "light": {"start": 120, "end":240},
+                "deep": {"start": 360, "end":500},
+                "bedTime":{"start":90, "end":520}
+               
+            },
+            {
+                "date": 1649818800000,
+                "light": {"start": 140, "end":240},
+                "deep": {"start": 360, "end":500},
+                "bedTime":{"start":120, "end":520}
+               
+            },
+            {
+                "date": 1649905200000,
+                "light": {"start": 500, "end":680},
+                "deep": {"start": 790, "end":1000},
+                "bedTime":{"start":480, "end":1100}
+               
+            },
+            {
+                "date": 1649991600000,
+                "light": {"start": 940, "end":1005},
+                "deep": {"start": 1005, "end":1300},
+                "bedTime":{"start":900, "end":1350}
+                
+            },
+            {
+                "date": 1650078000000,
+                "light": {"start": 60, "end":100},
+                "deep": {"start": 160, "end":300},
+                "bedTime":{"start":20, "end":500}
+                
+            },
+            {
+                "date": 1650164400000,
+                "light": {"start": 90, "end":234},
+                "deep": {"start": 234, "end":567},
+                "bedTime":{"start":80, "end":598}
+                
+            }
+        ]
+    }
+]

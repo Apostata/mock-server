@@ -1,0 +1,44 @@
+[
+    {
+        "id":"1",
+        "userId":"1",
+        "name":"Assinatura 1",
+        "start": 1649818800000,
+        "end":1649991600000,
+        "active": true,
+        "payment":{
+            "bin":"visa",
+            "lastDigits":3453
+        },
+        "plan": {
+            "id":"1",
+            "name":"Trial",
+            "value": 100.0,
+            "features":[
+                "7 dias de utilização",
+                "2 min de monitoramento"
+            ]
+        }
+    },
+    {
+        "id":"2",
+        "userId":"1",
+        "name":"Assinatura 2",
+        "start": 1649818800000,
+        "end":1649991600000,
+        "active": true,
+        "payment":{
+            "bin":"master",
+            "lastDigits":3453
+        },
+        "plan": {
+            "id":"2",
+            "name":"Plano 2",
+            "value": 213.0,
+            "features":[
+                "7 dias de utilização",
+                "2 min de monitoramento"
+            ]
+        }
+    }
+]

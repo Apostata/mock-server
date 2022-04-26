@@ -1,0 +1,33 @@
+[
+    {
+        "id":"1",
+        "name":"Trial",
+        "value": 0.0,
+        "featrures":[
+            "7 dias de utilização",
+            "2 min de monitoramento"
+        ]
+    },
+    {
+        "id":"2",
+        "name":"Plano 2",
+        "value": 100.0,
+        "featrures":[
+            "2 min de monitoramento",
+            "Outra informação",
+            "Outra informação vem aqui",
+            "2 TB"
+        ]
+    },
+    {
+        "id":"3",
+        "name":"Plano 3",
+        "value": 50.0,
+        "featrures":[
+            "2 min de monitoramento",
+            "Outra informação",
+            "Outra informação vem aqui",
+            "2 TB"
+        ]
+    }
+]

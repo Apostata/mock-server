@@ -50,16 +50,17 @@ server.use(async (req, res, next) => {
 
     if (req.url === "/users") {
       const database = router.db;
-      const { body:{ email, cpf, concilNumber} } = req;
+      const { body:{cpf, concilNumber} } = req;
       console.log(req.body);
       console.log(database.toJSON)
-      const authUser = database.get("users").find({email: email, cpf:cpf }).value() ?? null
+      const authUser = database.get("users").find({ cpf:cpf }).value() ?? null
       const hasConcilNum = database.get("concils").find({number: concilNumber}).value() ?? null
       setTimeout(() => {
         console.log(hasConcilNum)
         console.log(authUser)
         if(!authUser && hasConcilNum){
-        const newUser = {id: `${db.users.length + 1}`, ...req.body}
+          const id = cpf==33265205819? '1': `${db.users.length + 1}`;
+        const newUser = {id: id, ...req.body}
         // console.log(newUser)
         res.status(200).jsonp(newUser);
       } else{
@@ -127,6 +128,7 @@ server.use(async (req, res, next) => {
     
 
     if (req.url.includes("/monitored")) {
+     
       if (req.url.includes("?monitor=")) {
         console.log('get by monitor')
         const getIdRegex = /[0-9]+$/;
@@ -162,12 +164,392 @@ server.use(async (req, res, next) => {
           }, 1000);
          
         } else{
-          console.log('get by monitored id')
-          const getIdRegex = /[0-9]+$/;
-          console.log(req.url.match(getIdRegex));
-          const id = req.url.match(getIdRegex)[0];
-          const database = router.db;
-          const authCode = database.get("monitored").find({id: id }).value() ?? null
+          let end = false;
+
+          if (req.url.includes("/heartfrequency")) {
+            end = true;
+            if (req.url.includes("/daily")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+              console.log(id);
+              const database = router.db;
+              const authCode = database.get("heartFrequencyDaily").filter((day, idx)=> day.userId === id && idx <=5).value() ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+            if (req.url.includes("/weekly")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+
+              const database = router.db;
+              const authCode = database.get("heartFrequencyWeekly").filter((day)=> day.userId === id && day.weekStart >= 1649559600000 && day.weekEnd <= 1650164399000).value()[0] ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+            if (req.url.includes("/monthly")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+
+              const database = router.db;
+              const authCode = database.get("heartFrequencyMonthly").filter((day)=> day.userId === id && day.date >= 1648782000000 && day.date <= 1651373999000).value()[0] ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+          } 
+          if (req.url.includes("/bloodPresure")) {
+            end = true;
+            if (req.url.includes("/daily")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+              console.log(id);
+              const database = router.db;
+              const authCode = database.get("bloodPresureDaily").filter((day, idx)=> day.userId === id && idx <=5).value() ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+            if (req.url.includes("/weekly")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+
+              const database = router.db;
+              console.log(database.get("bloodPresureWeekly").value())
+              const authCode = database.get("bloodPresureWeekly").filter((day)=> day.userId === id && day.weekStart >= 1649559600000 && day.weekEnd <= 1650164399000).value()[0] ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+            if (req.url.includes("/monthly")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+
+              const database = router.db;
+              const authCode = database.get("bloodPresureMonthly").filter((day)=> day.userId === id && day.date >= 1648782000000 && day.date <= 1651373999000).value()[0] ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+          }
+          if (req.url.includes("/oxigenation")) {
+            end = true;
+            if (req.url.includes("/daily")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+              console.log(id);
+              const database = router.db;
+              const authCode = database.get("oxigenationDaily").filter((day, idx)=> day.userId === id && idx <=5).value() ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+            if (req.url.includes("/weekly")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+
+              const database = router.db;
+              const authCode = database.get("oxigenationWeekly").filter((day)=> day.userId === id && day.weekStart >= 1649559600000 && day.weekEnd <= 1650164399000).value()[0] ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+            if (req.url.includes("/monthly")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+
+              const database = router.db;
+              const authCode = database.get("oxigenationMonthly").filter((day)=> day.userId === id && day.date >= 1648782000000 && day.date <= 1651373999000).value()[0] ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+          }
+          if (req.url.includes("/stepmeter")) {
+            end = true;
+            if (req.url.includes("/daily")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+              console.log(id);
+              const database = router.db;
+              const authCode = database.get("stepMeterDaily").filter((day, idx)=> day.userId === id && idx <=5).value() ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+            if (req.url.includes("/weekly")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+
+              const database = router.db;
+              const authCode = database.get("stepMeterWeekly").filter((day)=> day.userId === id && day.weekStart >= 1649559600000 && day.weekEnd <= 1650164399000).value()[0] ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+            if (req.url.includes("/monthly")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+
+              const database = router.db;
+              const authCode = database.get("stepMeterMonthly").filter((day)=> day.userId === id && day.date >= 1648782000000 && day.date <= 1651373999000).value()[0] ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+          }
+          if (req.url.includes("/temperture")) {
+            end = true;
+            if (req.url.includes("/daily")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+              console.log(id);
+              const database = router.db;
+              const authCode = database.get("tempertureDaily").filter((day, idx)=> day.userId === id && idx <=5).value() ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+            if (req.url.includes("/weekly")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+
+              const database = router.db;
+              const authCode = database.get("tempertureWeekly").filter((day)=> day.userId === id && day.weekStart >= 1649559600000 && day.weekEnd <= 1650164399000).value()[0] ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+            if (req.url.includes("/monthly")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+
+              const database = router.db;
+              const authCode = database.get("tempertureMonthly").filter((day)=> day.userId === id && day.date >= 1648782000000 && day.date <= 1651373999000).value()[0] ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+          }
+          if (req.url.includes("/respiratoryfrequency")) {
+            end = true;
+            if (req.url.includes("/daily")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+              console.log(id);
+              const database = router.db;
+              const authCode = database.get("respiratoryFrequencyDaily").filter((day, idx)=> day.userId === id && idx <=5).value() ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+            if (req.url.includes("/weekly")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+
+              const database = router.db;
+              const authCode = database.get("respiratoryFrequencyWeekly").filter((day)=> day.userId === id && day.weekStart >= 1649559600000 && day.weekEnd <= 1650164399000).value()[0] ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+            if (req.url.includes("/monthly")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+
+              const database = router.db;
+              const authCode = database.get("respiratoryFrequencyMonthly").filter((day)=> day.userId === id && day.date >= 1648782000000 && day.date <= 1651373999000).value()[0] ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+          }
+          if (req.url.includes("/calories")) {
+            end = true;
+            if (req.url.includes("/daily")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+              console.log(id);
+              const database = router.db;
+              const authCode = database.get("caloriesDaily").filter((day, idx)=> day.userId === id && idx <=5).value() ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+            if (req.url.includes("/weekly")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+
+              const database = router.db;
+              const authCode = database.get("caloriesWeekly").filter((day)=> day.userId === id && day.weekStart >= 1649559600000 && day.weekEnd <= 1650164399000).value()[0] ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+            if (req.url.includes("/monthly")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+
+              const database = router.db;
+              const authCode = database.get("caloriesMonthly").filter((day)=> day.userId === id && day.date >= 1648782000000 && day.date <= 1651373999000).value()[0] ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+          }
+          if (req.url.includes("/sleepmeter")) {
+            end = true;
+            if (req.url.includes("/daily")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+              console.log(id);
+              const database = router.db;
+              const authCode = database.get("sleepMeterDaily").filter((day, idx)=> day.userId === id && idx <=5).value() ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+            if (req.url.includes("/weekly")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+
+              const database = router.db;
+              const authCode = database.get("sleepMeterWeekly").filter((day, idx)=> day.userId === id && day.weekStart >= 1649559600000 && day.weekEnd <= 1650164399000 && idx <=5).value() ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+            if (req.url.includes("/monthly")) {
+              const getIdRegex = /[0-9]+/g;
+              const id = req.url.match(getIdRegex)[0];
+
+              const database = router.db;
+              const authCode = database.get("sleepMeterMonthly").filter((day)=> day.userId === id && day.date >= 1648782000000 && day.date <= 1651373999000).value()[0] ?? null
+              setTimeout(() => {
+                if(authCode){
+                  res.status(200).jsonp(authCode);
+                } else{
+                  res.status(401).jsonp(null);
+                }
+              }, 1000);
+            }
+          }
+          if(!end){
+            console.log('get by monitored id')
+            const getIdRegex = /[0-9]+$/;
+            console.log(req.url.match(getIdRegex));
+            const id = req.url.match(getIdRegex)[0];
+            const database = router.db;
+            const authCode = database.get("monitored").find({id: id }).value() ?? null
+            setTimeout(() => {
+              if(authCode){
+                res.status(200).jsonp(authCode);
+              } else{
+                res.status(401).jsonp(null);
+              }
+            }, 1000);
+          }
+         
+        }
+      }
+    }
+
+    if(req.url.includes("/plans")){
+      const database = router.db;
+          const authCode = database.get("plans").value() ?? null
           setTimeout(() => {
             if(authCode){
               res.status(200).jsonp(authCode);
@@ -175,9 +557,26 @@ server.use(async (req, res, next) => {
               res.status(401).jsonp(null);
             }
           }, 1000);
-        }
-      }
     }
+
+    if(req.url.includes("/users")){
+        if (req.url.includes("/subscription")) {
+          const getIdRegex = /[0-9]+/g;
+          const id = req.url.match(getIdRegex)[0];
+          console.log(id);
+          const database = router.db;
+          const authCode = database.get("subscriptions").filter((day)=> day.userId === id).value() ?? null
+          setTimeout(() => {
+            if(authCode){
+              res.status(200).jsonp(authCode);
+            } else{
+              res.status(401).jsonp(null);
+            }
+          }, 1000);
+
+        }
+    }
+   
   }
 
   if(req.method === 'PUT'){
@@ -191,7 +590,32 @@ server.use(async (req, res, next) => {
       console.log(database.toJSON)
       const authUser = database.get("users").find({id: id }).value() ?? null
       setTimeout(() => {
-        console.log(authUser)
+        if(authUser){
+        const newUser = {...authUser, ...body}
+        // console.log(newUser)
+        res.status(200).jsonp(newUser);
+      } else{
+        if(authUser){
+          res.status(400).jsonp({message:'userError'});
+        }
+      }
+    }, 1000);
+      
+    }
+
+  }
+
+  if(req.method === 'PATCH'){
+    if (req.url.includes("/users")) {
+      const getIdRegex = /[0-9]+$/;
+      console.log(req.url.match(getIdRegex));
+      const id = req.url.match(getIdRegex)[0];
+      const database = router.db;
+      const { body } = req;
+      console.log(req.body);
+      console.log(database.toJSON)
+      const authUser = database.get("users").find({id: id }).value() ?? null
+      setTimeout(() => {
         if(authUser){
         const newUser = {...authUser, ...body}
         // console.log(newUser)
@@ -216,11 +640,15 @@ server.use(
     "/verifycode/:code": "/verifycode/:code",
     "/users": "/users",
     "/concils": "/concils",
+    "/monitored/:id/heartfrequency/daily": "/monitored/:id/heartfrequency/daily",
+    "/monitored/:id/heartfrequency/weekly": "/monitored/:id/heartfrequency/weekly",
+    "/monitored/:id/heartfrequency/monthly": "/monitored/:id/heartfrequency/monthly",
     "/monitored/:id/stats": "/monitored/:id/stats",
     "/monitored/:id": "/monitored/:id",
     "/monitored/": "/monitored/",
-
-   
+    // "/heartFrequency/daily": "/heartFrequency/daily",
+    // "/heartFrequency/weekly": "/heartFrequency/weekly",
+    // "/heartFrequency/monthly": "/heartFrequency/monthly",
   })
 );
 
