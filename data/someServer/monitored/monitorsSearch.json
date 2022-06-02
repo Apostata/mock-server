@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "name": "Rene Souza",
+        "concilType": "CRM",
+        "concilNumber": 1111111111,
+        "clinicName": "Clinica 1",
+        "clinicPhone": 9977626266,
+        "clinicAddress": "rua da 1, 1",
+        "clinicCep": 12321332
+    },
+    {
+        "id": "2",
+        "name": "Médico 1",
+        "concilType": "CRM",
+        "concilNumber": 2222222222,
+        "clinicName": "Clinica 2",
+        "clinicPhone": 99872586153,
+        "clinicAddress": "rua da 2, 1",
+        "clinicCep": 64575350
+    },
+    {
+        "id": "3",
+        "name": "Médico 2",
+        "concilType": "CFM",
+        "concilNumber": 3333333333,
+        "clinicName": "Clinica 3",
+        "clinicPhone": 9977626266,
+        "clinicAddress": "rua da 3, 1",
+        "clinicCep": 564565443
+    },
+    {
+        "id": "4",
+        "name": "Médico 3",
+        "concilType": "CFM",
+        "concilNumber": 4444444444,
+        "clinicName": "Clinica 4",
+        "clinicPhone": 998725861539,
+        "clinicAddress": "rua da 4, 1",
+        "clinicCep": 9087675443
+    }
+]

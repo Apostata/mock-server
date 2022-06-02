@@ -2,52 +2,125 @@
     {
         "id":"2",
         "name": "João da Silva",
+        "cpf": 12312312312,
+        "email": "joaosilva@gmail.com",
         "time": 360,
-        "monitor":{
-            "id": "1",
-            "name": "Rene Souza"
+        "monitors":[
+            {
+                "id": "1",
+                "name": "Rene Souza",
+                "concilType": "CRM",
+                "concilNumber": 1234567890
+            }
+        ],
+        "monitoreds":[
+            {
+                "id":"3",
+                "name": "Maria de Lourdes"
+            }
+        ],
+        "subscription":{
+            "id":"1",
+            "name":"Assinatura 1",
+            "plan":{
+                "id":"1",
+                "name":"Trial"
+            }
         },
-        "image":"http://192.168.1.103:3003/images/avatar-sample.jpeg"
+        "image":"http://192.168.0.13:3003/images/avatar-sample.jpeg"
     },
     {
         "id":"3",
         "name": "Maria de Lourdes",
+        "cpf": 23423423434,
+        "email": "marialourdes@gmail.com",
         "time": 120,
-        "monitor":{
-            "id": "1",
-            "name": "Rene Souza"
+        "monitors":[
+                {
+                "id": "1",
+                "name": "Rene Souza",
+                "concilType": "CRM",
+                "concilNumber": 1234567890
+            }
+        ],
+        "monitoreds":[
+            {
+                "id":"2",
+                "name": "João da Silva"
+            }
+        ],
+        "subscription":{
+            "id":"2",
+            "name":"Assinatura 2",
+            "plan":{
+                "id":"2",
+                "name":"Plano 2"
+            }
         },
-        "image":"http://192.168.1.103:3003/images/avatar-sample.jpeg"
+        "image":"http://192.168.0.13:3003/images/avatar-sample.jpeg"
     },
     {
         "id":"4",
         "name": "David Cardoso",
+        "cpf": 34534534534,
+        "email": "davidcardoso@gmail.com",
         "time": 180,
-        "monitor":{
-            "id": "1",
-            "name": "Rene Souza"
-        },
-        "image":"http://192.168.1.103:3003/images/avatar-sample.jpeg"
+        "monitors":[
+            {
+                "id": "1",
+                "name": "Rene Souza",
+                "concilType": "CRM",
+                "concilNumber": 1234567890
+            }
+        ],
+        "monitoreds":[],
+        "subscription":null,
+        "image":"http://192.168.0.13:3003/images/avatar-sample.jpeg"
     },
     {
         "id":"5",
         "name": "Ricardo Reis",
+        "cpf": 45645645656,
+        "email": "ricardoreis@gmail.com",
         "time": 240,
-        "monitor":{
-            "id": "2",
-            "name": "Outra pessoa"
-        },
-        "image":"http://192.168.1.103:3003/images/avatar-sample.jpeg"
+        "monitors":[
+                {
+                "id": "2",
+                "name": "Outra pessoa",
+                "concilType": "CRM",
+                "concilNumber": 1234567890
+            }
+        ],
+        "monitoreds":[],
+        "subscription":null,
+        "image":"http://192.168.0.13:3003/images/avatar-sample.jpeg"
         
     },
     {
-        "id":"",
+        "id":"6",
         "name": "José Rodolfo",
+        "cpf": 14615615616,
+        "email": "joserodolfo@gmail.com",
         "time": 60,
-        "monitor":{
-            "id": "1",
-            "name": "Rene Souza"
-        },
+        "monitors":[
+            {
+                "id": "1",
+                "name": "Rene Souza",
+                "concilType": "CRM",
+                "concilNumber": 1234567890
+            }
+        ],
+        "monitoreds":[
+            {
+                "id":"2",
+                "name": "João da Silva"
+            },
+            {
+                "id":"3",
+                "name": "Maria de Lourdes"
+            }
+        ],
+        "subscription":null,
         "image":null
     }
 ]

@@ -31,5 +31,12 @@ module.exports = {
     sleepMeterMonthly: require("./graphics/sleepMeterMonthly.json"),
     plans: require("./plans/plans.json"),
     subscriptions: require("./subscriptions/subscriptions.json"),
+    paymentsTypes: require("./payments/paymentsTypes.json"),
+    paymentMethods: require("./payments/paymentMethods.json"),
+    paymnetsHistory: require("./payments/paymnetsHistory.json"),
+    devices: require("./devices/devices.json"),
+    persons: require("./persons/persons.json"),
+    monitors: require("./monitored/monitorsSearch.json"),
+    records: require("./records/records.json"),
 };
   

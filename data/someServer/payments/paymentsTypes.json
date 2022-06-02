@@ -1,0 +1,34 @@
+[
+    {
+        "id":"1",
+        "userId":"1",
+        "type": "credit",
+        "bin":"visa",
+        "lastDigits":7138,
+        "recurrencyDay": 5
+    },
+    {
+        "id":"2",
+        "userId":"1",
+        "type": "credit",
+        "bin":"visa",
+        "lastDigits":4305,
+        "recurrencyDay": 5
+    },
+    {
+        "id":"3",
+        "userId":"1",
+        "type": "credit",
+        "bin":"master",
+        "lastDigits":6557,
+        "recurrencyDay": 5
+    },
+    {
+        "id":"4",
+        "userId":"1",
+        "type": "boleto",
+        "bin":null,
+        "lastDigits":null,
+        "recurrencyDay": 5
+    }
+]

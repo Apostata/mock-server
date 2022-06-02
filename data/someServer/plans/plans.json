@@ -2,8 +2,9 @@
     {
         "id":"1",
         "name":"Trial",
+        "daysTrail": 7,
         "value": 0.0,
-        "featrures":[
+        "features":[
             "7 dias de utilização",
             "2 min de monitoramento"
         ]
@@ -11,8 +12,9 @@
     {
         "id":"2",
         "name":"Plano 2",
+        "daysTrail": 0,
         "value": 100.0,
-        "featrures":[
+        "features":[
             "2 min de monitoramento",
             "Outra informação",
             "Outra informação vem aqui",
@@ -22,8 +24,9 @@
     {
         "id":"3",
         "name":"Plano 3",
+        "daysTrail": 0,
         "value": 50.0,
-        "featrures":[
+        "features":[
             "2 min de monitoramento",
             "Outra informação",
             "Outra informação vem aqui",

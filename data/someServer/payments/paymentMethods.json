@@ -1,0 +1,50 @@
+[
+    {
+        "id":"1",
+        "type":"credit",
+        "cardNumber": 4716087312077138,
+        "name": "Rene Souza",
+        "cpfCnpj": 32472682636,
+        "expirationDate": 2048554800000,
+        "cvv": 123,
+        "alias": "cartão do Rene"
+    },
+    {
+        "id":"2",
+        "type":"credit",
+        "cardNumber": 4988438843884305,
+        "name": "Rene Souza",
+        "cpfCnpj": 32472682636,
+        "expirationDate": 2048554800000,
+        "cvv": 123,
+        "alias": "teste"
+    },
+    {
+        "id": "3",
+        "type": "debit",
+        "cardNumber": 1745383639363937,
+        "name": "Rene Souza",
+        "cpfCnpj": 32472682636,
+        "expirationDate": 2048554800000,
+        "alias":null
+    },
+    {
+        "id": "4",
+        "type": "boleto",
+        "name": "Rene Souza",
+        "cpfCnpj": 32472682636,
+        "expirationDate": 2048554800000,
+        "alias": null
+    },
+    {
+        "id": "5",
+        "type": "credit",
+        "cardNumber": 4012888888881881,
+        "name": "Rene Souza",
+        "cpfCnpj": 32472682636,
+        "expirationDate": 2048554800000,
+        "cvv": 123,
+        "alias": null
+    }
+    
+]

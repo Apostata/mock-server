@@ -7,18 +7,33 @@
         "end":1649991600000,
         "active": true,
         "payment":{
+            "id":"1",
+            "type": "credit",
             "bin":"visa",
-            "lastDigits":3453
+            "lastDigits":4305,
+            "recurrencyDay": 5
         },
         "plan": {
             "id":"1",
             "name":"Trial",
+            "daysTrail": 7,
             "value": 100.0,
             "features":[
                 "7 dias de utilização",
                 "2 min de monitoramento"
             ]
+        },
+        "devices":[
+            {
+                "id": "1",
+                "name":"device 1"
+            }
+        ], 
+        "monitored":{ 
+            "id": "2",
+            "name":"João da Silva"
         }
+        
     },
     {
         "id":"2",
@@ -28,17 +43,96 @@
         "end":1649991600000,
         "active": true,
         "payment":{
-            "bin":"master",
-            "lastDigits":3453
+            "id":"1",
+            "type": "credit",
+            "bin":"visa",
+            "lastDigits":4305,
+            "recurrencyDay": 5
         },
         "plan": {
             "id":"2",
             "name":"Plano 2",
-            "value": 213.0,
+            "daysTrail": 7,
+            "value": 100.0,
             "features":[
-                "7 dias de utilização",
-                "2 min de monitoramento"
+                "2 min de monitoramento",
+                "Outra informação",
+                "Outra informação vem aqui",
+                "2 TB"
             ]
+        },
+        "devices":[
+            {
+                "id": "1",
+                "name":"device 1"
+            }
+        ],
+        "monitored":{ 
+            "id": "3",
+            "name":"Maria de Lourdes"
         }
+    },
+    {
+        "id":"3",
+        "userId":"1",
+        "name":"Assinatura 3",
+        "start": 1649818800000,
+        "end":1649991600000,
+        "active": true,
+        "payment":{
+            "id":"1",
+            "type": "credit",
+            "bin":"visa",
+            "lastDigits":4305,
+            "recurrencyDay": 5
+        },
+        "plan": {
+            "id":"2",
+            "name":"Plano 2",
+            "daysTrail": 7,
+            "value": 100.0,
+            "features":[
+                "2 min de monitoramento",
+                "Outra informação",
+                "Outra informação vem aqui",
+                "2 TB"
+            ]
+        },
+        "devices":[
+            {
+                "id": "1",
+                "name":"device 1"
+            }
+        ],
+        "monitored":null
+    },
+    {
+        "id":"4",
+        "userId":"1",
+        "name":"Assinatura 4",
+        "start": 1649818800000,
+        "end":1649991600000,
+        "active": true,
+        "payment":{
+            "id":"1",
+            "type": "credit",
+            "bin":"visa",
+            "lastDigits":4305,
+            "recurrencyDay": 5
+        },
+        "plan": {
+            "id":"2",
+            "name":"Plano 2",
+            "daysTrail": 7,
+            "value": 100.0,
+            "features":[
+                "2 min de monitoramento",
+                "Outra informação",
+                "Outra informação vem aqui",
+                "2 TB"
+            ]
+        },
+        "devices":[],
+        "monitored":null
     }
 ]

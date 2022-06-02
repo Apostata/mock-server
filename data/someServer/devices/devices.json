@@ -1,0 +1,50 @@
+[
+    {
+      "id":"1",
+      "manufacturer": "manufacturer1",
+      "model": "model1",
+      "bleName": "bleName1",
+      "autonomous": false,
+      "name": "deviceName1",
+      "macAddress": "macAdressiiiii",
+      "userId":"1",
+      "monitoring":{
+        "subscriptionId":"1",
+        "subscriptionName":"Subscription Name 1",
+        "monitors":[
+          {
+            "id":"1",
+            "name":"Monitor 1"
+          },
+          {
+            "id":"2",
+            "name":"Monitor 2"
+          }
+        ]
+      }
+    },
+    {
+      "id":"2",
+      "manufacturer": "manufacturer2",
+      "model": "model2",
+      "bleName": "bleName2",
+      "autonomous": false,
+      "name": "deviceName2",
+      "macAddress": "macAdressiiiii",
+      "userId":"1",
+      "monitoring":{
+        "subscriptionId":"2",
+        "subscriptionName":"Subscription Name 2",
+        "monitors":[
+          {
+            "id":"1",
+            "name":"Monitor 1"
+          },
+          {
+            "id":"2",
+            "name":"Monitor 2"
+          }
+        ]
+      }
+    }
+]

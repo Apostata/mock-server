@@ -1,0 +1,56 @@
+[
+    {
+        "id":"1",
+        "userId":"1",
+        "entry":{
+            "message":"Hoje acordem muito disposta, andei com meu cachorro e fui para academia logo depois, na volta para casa ainda passei no supermercado e encontrei a vizinha, conversamos bastante! Chegando em casa subi as escadas sem cansar e ainda brinquei com meu neto!",
+            "feeling":"good"
+        },
+        "date":1654052400000
+    },
+    {
+        "id":"2",
+        "userId":"1",
+        "entry":{
+            "message":"Hoje acordem muito mal. Não fiz nada o dia todo e ainda estou com preguiça",
+            "feeling":"bad"
+        },
+        "date":1654052400000
+    },
+    {
+        "id":"3",
+        "userId":"1",
+        "entry":{
+            "message":"Hoje ainda não aconteceu, pq este registro está no futuro. Quem sabe alguém lê isso num futuro próximo?",
+            "feeling":"normal"
+        },
+        "date":1717210800000
+    },
+    {
+        "id":"4",
+        "userId":"1",
+        "entry":{
+            "message":"Hoje acordem muito disposto, andei com meu cachorro e fui para academia logo depois, na volta para casa ainda passei no supermercado e encontrei a vizinha, conversamos bastante!",
+            "feeling":"good"
+        },
+        "date":1654052400000
+    },
+    {
+        "id":"5",
+        "userId":"1",
+        "entry":{
+            "message":"Hoje acordem muito mal. Não fiz nada o dia todo e ainda estou com preguiça",
+            "feeling":"bad"
+        },
+        "date":1654052400000
+    },
+    {
+        "id":"6",
+        "userId":"1",
+        "entry":{
+            "message":"Hoje ainda não aconteceu, pq este registro está no futuro. Quem sabe alguém lê isso num futuro próximo?",
+            "feeling":"normal"
+        },
+        "date":1717210800000
+    }
+]
