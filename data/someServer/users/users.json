@@ -1,0 +1,28 @@
+[
+    {
+        "id":"1",
+        "fullName": "Rene Souza",
+        "birthDate":460436400000,
+        "documentType": "CPF",
+        "documentNumber":33265205810,
+        "age":37,
+        "gender":"M",
+        "email1": "rene.souza@gmail.com",
+        "email2": "rene.souza@gmail.com.br",
+        "phoneNumber1": 11998236454,
+        "phoneNumber2": 11998236455,
+        "phoneNumber3": 11998236456,
+        "mainAddress": "rua ali do lado",
+        "compAddress": "",
+        "country":"Brasil",
+        "state":"SP",
+        "city":"Indaiatuba",
+        "postalCode": "1450638",
+        "password": "PassW0rd!",
+        "type":{
+            "id":"1", 
+            "name":"Administrador"
+        },
+        "image":"http://192.168.0.21:3003/images/avatar-sample.jpeg"
+    }
+]

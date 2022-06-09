@@ -27,7 +27,7 @@
                 "name":"Trial"
             }
         },
-        "image":"http://192.168.0.13:3003/images/avatar-sample.jpeg"
+        "image":"http://192.168.0.21:3003/images/avatar-sample.jpeg"
     },
     {
         "id":"3",
@@ -57,7 +57,7 @@
                 "name":"Plano 2"
             }
         },
-        "image":"http://192.168.0.13:3003/images/avatar-sample.jpeg"
+        "image":"http://192.168.0.21:3003/images/avatar-sample.jpeg"
     },
     {
         "id":"4",
@@ -75,7 +75,7 @@
         ],
         "monitoreds":[],
         "subscription":null,
-        "image":"http://192.168.0.13:3003/images/avatar-sample.jpeg"
+        "image":"http://192.168.0.21:3003/images/avatar-sample.jpeg"
     },
     {
         "id":"5",
@@ -93,7 +93,7 @@
         ],
         "monitoreds":[],
         "subscription":null,
-        "image":"http://192.168.0.13:3003/images/avatar-sample.jpeg"
+        "image":"http://192.168.0.21:3003/images/avatar-sample.jpeg"
         
     },
     {

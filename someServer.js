@@ -34,8 +34,7 @@ server.use(async (req, res, next) => {
       const database = router.db;
       const { body:{email, password} } = req;
       console.log(req.body);
-      console.log(database.toJSON)
-      const authUser = database.get("users").find({email:email, password:password }).value() || null
+      const authUser = database.get("auth").find({email:email, password:password }).value() || null
       console.log(authUser)
       setTimeout(() => {
         if(authUser){
@@ -55,22 +54,22 @@ server.use(async (req, res, next) => {
       console.log(req.body);
       console.log(database.toJSON)
       const authUser = database.get("users").find({ cpf:cpf }).value() || null
-      const hasConcilNum = database.get("concils").find({number: concilNumber}).value() || null
+      // const hasConcilNum = database.get("concils").find({number: concilNumber}).value() || null
       setTimeout(() => {
-        console.log(hasConcilNum)
+        // console.log(hasConcilNum)
         console.log(authUser)
-        if(!authUser && hasConcilNum){
+        if(!authUser ){
           const id = cpf==33265205819? '1': `${db.users.length + 1}`;
-        const newUser = {id: id, ...req.body}
-        // console.log(newUser)
+        const newUser = {id:id, ...req.body, image:'http://192.168.0.21:3003/images/avatar-sample.jpeg'}
+        console.log(newUser)
         res.status(200).jsonp(newUser);
       } else{
         if(authUser){
           res.status(400).jsonp({message:'userError'});
         }
-        if(!hasConcilNum){
-          res.status(400).jsonp({message:'concilError'});
-        }
+        // if(!hasConcilNum){
+        //   res.status(400).jsonp({message:'concilError'});
+        // }
       }
     }, 1000);
       
@@ -679,7 +678,10 @@ server.use(async (req, res, next) => {
     }
 
     if(req.url.includes("/users")){
+        let end = false;
+        
         if (req.url.includes("/subscription")) {
+          end = true;
           const getIdRegex = /[0-9]+/g;
           const id = req.url.match(getIdRegex)[0];
           console.log(id);
@@ -695,6 +697,7 @@ server.use(async (req, res, next) => {
 
         }
         if (req.url.includes("/paymentTypes")) {
+          end = true;
           const getIdRegex = /[0-9]+/g;
           const id = req.url.match(getIdRegex)[0];
           console.log(id);
@@ -710,6 +713,7 @@ server.use(async (req, res, next) => {
 
         }
         if (req.url.includes("/devices")) {
+          end = true;
           const getIdRegex = /[0-9]+/g;
           const id = req.url.match(getIdRegex)[0];
           console.log(id);
@@ -725,6 +729,7 @@ server.use(async (req, res, next) => {
 
         }
         if (req.url.includes("/paymentHistory")) {
+          end = true;
           const getIdRegex = /[0-9]+/g;
           const id = req.url.match(getIdRegex)[0];
           const database = router.db;
@@ -742,7 +747,7 @@ server.use(async (req, res, next) => {
           
         }
         if (req.url.includes("/records")) {
-          console.log('oplessssss')
+          end = true;
           const getIdRegex = /[0-9]+/g;
           const id = req.url.match(getIdRegex)[0];
           let {query:{start, end}} = req;
@@ -757,10 +762,24 @@ server.use(async (req, res, next) => {
           // 
           console.log(id);
           const database = router.db;
-          const records = database.get("records").filter((rec)=> rec.date >= start && rec.date <= end ).value() || null
+          const records = database.get("records").filter((rec)=> rec.date >= start && rec.date <= end && rec.userId === id ).value() || null
           setTimeout(() => {
             if(records){
               res.status(200).jsonp(records);
+            } else{
+              res.status(401).jsonp(null);
+            }
+          }, 1000);
+        }
+        if(!end){
+          console.log('teste')
+          const getIdRegex = /[0-9]+/g;
+          const id = req.url.match(getIdRegex)[0];
+          const database = router.db;
+          const theUser = database.get("users").find((user)=> user.id === id).value() || null
+          setTimeout(() => {
+            if(theUser){
+              res.status(200).jsonp(theUser);
             } else{
               res.status(401).jsonp(null);
             }
@@ -1005,6 +1024,22 @@ server.use(async (req, res, next) => {
       console.log(id);
       const database = router.db;
       const authCode = database.get("subscription").filter((dev)=> dev.userId === id).value() || null
+      setTimeout(() => {
+        if(authCode){
+          res.status(200).jsonp('OK');
+        } else{
+          res.status(401).jsonp(null);
+        }
+      }, 1000);
+
+    }
+
+    if (req.url.includes("/monitored")) {
+      const getIdRegex = /[0-9]+/g;
+      const id = req.url.match(getIdRegex)[0];
+      console.log(id);
+      const database = router.db;
+      const authCode = database.get("monitored").filter((dev)=> dev.userId === id).value() || null
       setTimeout(() => {
         if(authCode){
           res.status(200).jsonp('OK');

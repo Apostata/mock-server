@@ -1,5 +1,6 @@
 module.exports = {
-    users: require("./auth/auth.json"),
+    auth: require("./auth/auth.json"),
+    users: require("./users/users.json"),
     getcode: require("./auth/auth.json"),
     verifycode: require("./codes/codes.json"),
     concils: require("./concils/concils.json"),
