@@ -27,7 +27,12 @@
                 "name":"Trial"
             }
         },
-        "image":"http://192.168.0.21:3003/images/avatar-sample.jpeg"
+        "image":"http://192.168.0.21:3003/images/avatar-sample.jpeg",
+        "controls":[{
+            "name":"Rodar app em plano de fundo",
+            "value": true
+        }],
+        "phoneNumber":11994545434
     },
     {
         "id":"3",
@@ -57,7 +62,12 @@
                 "name":"Plano 2"
             }
         },
-        "image":"http://192.168.0.21:3003/images/avatar-sample.jpeg"
+        "image":"http://192.168.0.21:3003/images/avatar-sample.jpeg",
+        "controls":[{
+            "name":"Rodar app em plano de fundo",
+            "value": true
+        }],
+        "phoneNumber":11994545434
     },
     {
         "id":"4",
@@ -75,7 +85,12 @@
         ],
         "monitoreds":[],
         "subscription":null,
-        "image":"http://192.168.0.21:3003/images/avatar-sample.jpeg"
+        "image":"http://192.168.0.21:3003/images/avatar-sample.jpeg",
+        "controls":[{
+            "name":"Rodar app em plano de fundo",
+            "value": false
+        }],
+        "phoneNumber":11994545434
     },
     {
         "id":"5",
@@ -93,8 +108,12 @@
         ],
         "monitoreds":[],
         "subscription":null,
-        "image":"http://192.168.0.21:3003/images/avatar-sample.jpeg"
-        
+        "image":"http://192.168.0.21:3003/images/avatar-sample.jpeg",
+        "controls":[{
+            "name":"Rodar app em plano de fundo",
+            "value": true
+        }],
+        "phoneNumber":11994545434
     },
     {
         "id":"6",
@@ -121,6 +140,11 @@
             }
         ],
         "subscription":null,
-        "image":null
+        "image":null,
+        "controls":[{
+            "name":"Rodar app em plano de fundo",
+            "value": true
+        }],
+        "phoneNumber":11994545434
     }
 ]

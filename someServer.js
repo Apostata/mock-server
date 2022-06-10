@@ -239,6 +239,21 @@ server.use(async (req, res, next) => {
         } else{
           let end = false;
 
+          // if(req.url.includes('/controls')){
+          //   end = true;
+          //   const getIdRegex = /[0-9]+/g;
+          //     const id = req.url.match(getIdRegex)[0];
+          //     console.log(id);
+          //     const database = router.db;
+          //     const controls = database.get("monitoredControls").find((control)=> control.userId === id).value() || null
+          //     setTimeout(() => {
+          //       if(controls){
+          //         res.status(200).jsonp(controls);
+          //       } else{
+          //         res.status(401).jsonp(null);
+          //       }
+          //     }, 1000);
+          // }
           if (req.url.includes("/heartfrequency")) {
             end = true;
             if (req.url.includes("/daily")) {
@@ -615,7 +630,6 @@ server.use(async (req, res, next) => {
               }
             }, 1000);
           }
-         
         }
       }
     }
@@ -962,11 +976,12 @@ server.use(async (req, res, next) => {
       const database = router.db;
       const { body } = req;
       const monitored = database.get("monitored").find({id: id }).value() || null
-      console.log(monitored, id);
+      // console.log(monitored, id);
       setTimeout(() => {
         if(monitored){
         const newMonitored = {...monitored, ...body}
         // console.log(newUser)
+        // res.status(400)
         res.status(200).jsonp(newMonitored);
       } else{
         if(monitored){

@@ -6,6 +6,7 @@ module.exports = {
     concils: require("./concils/concils.json"),
     monitored: require("./monitored/monitored.json"),
     monitoredStats: require("./monitored/monitoredStatistics.json"),
+    // monitoredControls: require("./monitored/monitoredControls.json"),
     heartFrequencyDaily: require("./graphics/heartFrequencyDaily.json"),
     heartFrequencyWeekly: require("./graphics/hertFrequencyWeekly.json"),
     heartFrequencyMonthly: require("./graphics/heartFrequencyMonthly.json"),
