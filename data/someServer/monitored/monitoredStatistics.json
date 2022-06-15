@@ -3,79 +3,469 @@
         "id": "1",
         "userId":"1",
         "date": 1651666500000,
-        "heartFrequency":{"value": 52, "status":"normal"},
-        "oxygenattion":{"value": 95, "status":"low"},
-        "temperature":{"value": 36.5, "status":"normal"},
-        "respiratoryFrequency":{"value": 16, "status":"normal"},
-        "bloodPresure":{"value": "120/90", "status":"normal"},
-        "stepMeter":{"value": 700, "status":"normal"},
-        "calories":{"value": 200, "status":"normal"},
-        "sleepMeter":{"value": 30600, "status":"normal"}
+        "heartFrequency":{
+            "value": 52, 
+            "status":"normal", 
+            "calibration":{
+                "min":40, 
+                "max": 115,
+                "target":null
+                
+            }
+        },
+        "oxygenattion":{
+            "value": 95, 
+            "status":"low",
+            "calibration":{
+                "min":80, 
+                "max": 99,
+                "target":null
+            }
+        },
+        "temperature":{
+            "value": 36.5, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":36
+            }
+        },
+        "respiratoryFrequency":{
+            "value": 16, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":20
+            }
+        },
+        "bloodPresure":{
+            "value": "120/90", 
+            "status":"normal",
+            "calibration":{
+                "sis":"90/70", 
+                "dia": "150/110",
+                "target":null
+            }
+        },
+        "stepMeter":{
+            "value": 700, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":750
+            }
+        },
+        "calories":{
+            "value": 200, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":null
+            }
+        },
+        "sleepMeter":{
+            "value": 30600, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":null
+            }
+        }
     },
     {
         "id": "2",
         "userId":"2",
         "date": 1651666500000,
-        "heartFrequency":{"value": 52, "status":"high"},
-        "oxygenattion":{"value": 95, "status":"normal"},
-        "temperature":{"value": 36.5, "status":"normal"},
-        "respiratoryFrequency":{"value": 16, "status":"normal"},
-        "bloodPresure":{"value": "120/90", "status":"low"},
-        "stepMeter":{"value": 700, "status":"normal"},
-        "calories":{"value": 200, "status":"normal"},
-        "sleepMeter":{"value": 30600, "status":"normal"}
+        "heartFrequency":{
+            "value": 52, 
+            "status":"normal", 
+            "calibration":{
+                "min":40, 
+                "max": 115,
+                "target":null
+                
+            }
+        },
+        "oxygenattion":{
+            "value": 95, 
+            "status":"low",
+            "calibration":{
+                "min":80, 
+                "max": 99,
+                "target":null
+            }
+        },
+        "temperature":{
+            "value": 36.5, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":36
+            }
+        },
+        "respiratoryFrequency":{
+            "value": 16, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":20
+            }
+        },
+        "bloodPresure":{
+            "value": "120/90", 
+            "status":"normal",
+            "calibration":{
+                "sis":"90/70", 
+                "dia": "150/110",
+                "target":null
+            }
+        },
+        "stepMeter":{
+            "value": 700, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":750
+            }
+        },
+        "calories":{
+            "value": 200, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":null
+            }
+        },
+        "sleepMeter":{
+            "value": 30600, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":null
+            }
+        }
     },
     {
         "id": "3",
         "userId":"3",
         "date": 1651666500000,
-        "heartFrequency":{"value": 52, "status":"high"},
-        "oxygenattion":{"value": 95, "status":"normal"},
-        "temperature":{"value": 36.5, "status":"normal"},
-        "respiratoryFrequency":{"value": 16, "status":"normal"},
-        "bloodPresure":{"value": "120/90", "status":"low"},
-        "stepMeter":{"value": 700, "status":"normal"},
-        "calories":{"value": 200, "status":"normal"},
-        "sleepMeter":{"value": 30600, "status":"normal"}
+        "heartFrequency":{
+            "value": 52, 
+            "status":"normal", 
+            "calibration":{
+                "min":40, 
+                "max": 115,
+                "target":null
+                
+            }
+        },
+        "oxygenattion":{
+            "value": 95, 
+            "status":"low",
+            "calibration":{
+                "min":80, 
+                "max": 99,
+                "target":null
+            }
+        },
+        "temperature":{
+            "value": 36.5, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":36
+            }
+        },
+        "respiratoryFrequency":{
+            "value": 16, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":20
+            }
+        },
+        "bloodPresure":{
+            "value": "120/90", 
+            "status":"normal",
+            "calibration":{
+                "sis":"90/70", 
+                "dia": "150/110",
+                "target":null
+            }
+        },
+        "stepMeter":{
+            "value": 700, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":750
+            }
+        },
+        "calories":{
+            "value": 200, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":null
+            }
+        },
+        "sleepMeter":{
+            "value": 30600, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":null
+            }
+        }
     },
     {
         "id": "4",
         "userId":"4",
         "date": 1651666500000,
-        "heartFrequency":{"value": 52, "status":"high"},
-        "oxygenattion":{"value": 95, "status":"normal"},
-        "temperature":{"value": 36.5, "status":"normal"},
-        "respiratoryFrequency":{"value": 16, "status":"normal"},
-        "bloodPresure":{"value": "120/90", "status":"low"},
-        "stepMeter":{"value": 700, "status":"normal"},
-        "calories":{"value": 200, "status":"normal"},
-        "sleepMeter":{"value": 30600, "status":"normal"}
+        "heartFrequency":{
+            "value": 52, 
+            "status":"normal", 
+            "calibration":{
+                "min":40, 
+                "max": 115,
+                "target":null
+                
+            }
+        },
+        "oxygenattion":{
+            "value": 95, 
+            "status":"low",
+            "calibration":{
+                "min":80, 
+                "max": 99,
+                "target":null
+            }
+        },
+        "temperature":{
+            "value": 36.5, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":36
+            }
+        },
+        "respiratoryFrequency":{
+            "value": 16, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":20
+            }
+        },
+        "bloodPresure":{
+            "value": "120/90", 
+            "status":"normal",
+            "calibration":{
+                "sis":"90/70", 
+                "dia": "150/110",
+                "target":null
+            }
+        },
+        "stepMeter":{
+            "value": 700, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":750
+            }
+        },
+        "calories":{
+            "value": 200, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":null
+            }
+        },
+        "sleepMeter":{
+            "value": 30600, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":null
+            }
+        }
     },
     {
         "id": "5",
         "userId":"5",
         "date": 1651666500000,
-        "heartFrequency":{"value": 52, "status":"high"},
-        "oxygenattion":{"value": 95, "status":"normal"},
-        "temperature":{"value": 36.5, "status":"normal"},
-        "respiratoryFrequency":{"value": 16, "status":"normal"},
-        "bloodPresure":{"value": "120/90", "status":"low"},
-        "stepMeter":{"value": 700, "status":"normal"},
-        "calories":{"value": 200, "status":"normal"},
-        "sleepMeter":{"value": 30600, "status":"normal"}
+        "heartFrequency":{
+            "value": 52, 
+            "status":"normal", 
+            "calibration":{
+                "min":40, 
+                "max": 115,
+                "target":null
+                
+            }
+        },
+        "oxygenattion":{
+            "value": 95, 
+            "status":"low",
+            "calibration":{
+                "min":80, 
+                "max": 99,
+                "target":null
+            }
+        },
+        "temperature":{
+            "value": 36.5, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":36
+            }
+        },
+        "respiratoryFrequency":{
+            "value": 16, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":20
+            }
+        },
+        "bloodPresure":{
+            "value": "120/90", 
+            "status":"normal",
+            "calibration":{
+                "sis":"90/70", 
+                "dia": "150/110",
+                "target":null
+            }
+        },
+        "stepMeter":{
+            "value": 700, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":750
+            }
+        },
+        "calories":{
+            "value": 200, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":null
+            }
+        },
+        "sleepMeter":{
+            "value": 30600, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":null
+            }
+        }
     },
     {
         "id": "6",
         "userId":"6",
         "date": 1651666500000,
-        "heartFrequency":{"value": 52, "status":"high"},
-        "oxygenattion":{"value": 95, "status":"normal"},
-        "temperature":{"value": 36.5, "status":"normal"},
-        "respiratoryFrequency":{"value": 16, "status":"normal"},
-        "bloodPresure":{"value": "120/90", "status":"low"},
-        "stepMeter":{"value": 700, "status":"normal"},
-        "calories":{"value": 200, "status":"normal"},
-        "sleepMeter":{"value": 30600, "status":"normal"}
+        "heartFrequency":{
+            "value": 52, 
+            "status":"normal", 
+            "calibration":{
+                "min":40, 
+                "max": 115,
+                "target":null
+                
+            }
+        },
+        "oxygenattion":{
+            "value": 95, 
+            "status":"low",
+            "calibration":{
+                "min":80, 
+                "max": 99,
+                "target":null
+            }
+        },
+        "temperature":{
+            "value": 36.5, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":36
+            }
+        },
+        "respiratoryFrequency":{
+            "value": 16, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":20
+            }
+        },
+        "bloodPresure":{
+            "value": "120/90", 
+            "status":"normal",
+            "calibration":{
+                "sis":"90/70", 
+                "dia": "150/110",
+                "target":null
+            }
+        },
+        "stepMeter":{
+            "value": 700, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":750
+            }
+        },
+        "calories":{
+            "value": 200, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":null
+            }
+        },
+        "sleepMeter":{
+            "value": 30600, 
+            "status":"normal",
+            "calibration":{
+                "min":null, 
+                "max": null,
+                "target":null
+            }
+        }
     }
    
 ]

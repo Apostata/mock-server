@@ -40,5 +40,6 @@ module.exports = {
     persons: require("./persons/persons.json"),
     monitors: require("./monitored/monitorsSearch.json"),
     records: require("./records/records.json"),
+    monitorConfig: require("./monitorConfig/monitorConfig.json"),
 };
   

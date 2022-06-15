@@ -37,15 +37,28 @@ server.use(async (req, res, next) => {
       const authUser = database.get("auth").find({email:email, password:password }).value() || null
       console.log(authUser)
       setTimeout(() => {
-        if(authUser){
-        const {password:pass,  ...newUser} = authUser;
-        // console.log(newUser)
-        res.status(200).jsonp(newUser);
-      } else{
-        res.status(401).jsonp(null);
-      }
-    }, 1000);
-      
+          if(authUser){
+          const {password:pass,  ...newUser} = authUser;
+          // console.log(newUser)
+          res.status(200).jsonp(newUser);
+        } else{
+          res.status(401).jsonp(null);
+        }
+      }, 1000);
+    }
+
+    if (req.url === "/isAdmin") {
+      const database = router.db;
+      const { body:{ password} } = req;
+      console.log(req.body);
+      const authUser = database.get("auth").find({ password:password }).value() || null
+      setTimeout(() => {
+          if(authUser){
+          res.status(200).jsonp(true);
+        } else{
+          res.status(401).jsonp(null);
+        }
+      }, 1000);
     }
 
     if (req.url === "/users") {
@@ -60,7 +73,7 @@ server.use(async (req, res, next) => {
         console.log(authUser)
         if(!authUser ){
           const id = cpf==33265205819? '1': `${db.users.length + 1}`;
-        const newUser = {id:id, ...req.body, image:'http://192.168.0.21:3003/images/avatar-sample.jpeg'}
+        const newUser = {id:id, ...req.body, image:'http://192.168.1.103:3003/images/avatar-sample.jpeg'}
         console.log(newUser)
         res.status(200).jsonp(newUser);
       } else{
@@ -179,6 +192,7 @@ server.use(async (req, res, next) => {
   }
 
   if(req.method === "GET"){
+   
     if (req.url.includes("/verifycode")) {
       console.log(req.url, req.query, req.path, req.body, req.headers)
       const getIdRegex = /[0-9]+[^\/]/g;
@@ -780,6 +794,22 @@ server.use(async (req, res, next) => {
           setTimeout(() => {
             if(records){
               res.status(200).jsonp(records);
+            } else{
+              res.status(401).jsonp(null);
+            }
+          }, 1000);
+        }
+        if (req.url.includes("/config")) {
+          end = true;
+          console.log(req.url, req.query, req.path, req.body, req.headers)
+          const getIdRegex = /[0-9]+/g;
+          const id = req.url.match(getIdRegex)[0];
+          console.log(id)
+          const database = router.db;
+          const authCode = database.get("monitorConfig").find({userId: id }).value() || null
+          setTimeout(() => {
+            if(authCode){
+              res.status(200).jsonp(authCode);
             } else{
               res.status(401).jsonp(null);
             }
