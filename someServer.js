@@ -706,10 +706,8 @@ server.use(async (req, res, next) => {
     }
 
     if(req.url.includes("/users")){
-        let end = false;
         
         if (req.url.includes("/subscription")) {
-          end = true;
           const getIdRegex = /[0-9]+/g;
           const id = req.url.match(getIdRegex)[0];
           console.log(id);
@@ -724,8 +722,7 @@ server.use(async (req, res, next) => {
           }, 1000);
 
         }
-        if (req.url.includes("/paymentTypes")) {
-          end = true;
+        else if (req.url.includes("/paymentTypes")) {
           const getIdRegex = /[0-9]+/g;
           const id = req.url.match(getIdRegex)[0];
           console.log(id);
@@ -740,8 +737,7 @@ server.use(async (req, res, next) => {
           }, 1000);
 
         }
-        if (req.url.includes("/devices")) {
-          end = true;
+        else if (req.url.includes("/devices")) {
           const getIdRegex = /[0-9]+/g;
           const id = req.url.match(getIdRegex)[0];
           console.log(id);
@@ -756,8 +752,7 @@ server.use(async (req, res, next) => {
           }, 1000);
 
         }
-        if (req.url.includes("/paymentHistory")) {
-          end = true;
+        else if (req.url.includes("/paymentHistory")) {
           const getIdRegex = /[0-9]+/g;
           const id = req.url.match(getIdRegex)[0];
           const database = router.db;
@@ -774,8 +769,7 @@ server.use(async (req, res, next) => {
         }, 1000);
           
         }
-        if (req.url.includes("/records")) {
-          end = true;
+        else if (req.url.includes("/records")) {
           const getIdRegex = /[0-9]+/g;
           const id = req.url.match(getIdRegex)[0];
           let {query:{start, end}} = req;
@@ -799,8 +793,7 @@ server.use(async (req, res, next) => {
             }
           }, 1000);
         }
-        if (req.url.includes("/config")) {
-          end = true;
+        else if (req.url.includes("/config")) {
           console.log(req.url, req.query, req.path, req.body, req.headers)
           const getIdRegex = /[0-9]+/g;
           const id = req.url.match(getIdRegex)[0];
@@ -815,7 +808,7 @@ server.use(async (req, res, next) => {
             }
           }, 1000);
         }
-        if(!end){
+        else{
           console.log('teste')
           const getIdRegex = /[0-9]+/g;
           const id = req.url.match(getIdRegex)[0];
@@ -950,26 +943,74 @@ server.use(async (req, res, next) => {
     }
 
     if (req.url.includes("/monitored")) {
-      const getIdRegex = /[0-9]+/g;
-      const id = req.url.match(getIdRegex)[0];
+      if (req.url.includes("/stats")) {
+        const getIdRegex = /(?<=\/)(\d+)(?=\/)/g;
+        console.log(req.url.match(getIdRegex));
+        const id = req.url.match(getIdRegex)[0];
+        const database = router.db;
+        const { body } = req;
+        const monitored = database.get("monitoredStats").find({userId: id }).value() || null
+        
+        setTimeout(() => {
+          if(monitored){
+            const newmonitored = {...monitored, body}
+            console.log(newmonitored)
+            res.status(200).jsonp(newmonitored);
+          } else{
+            if(monitored){
+              res.status(400).jsonp({message:'monitoredError'});
+            }
+          }
+        }, 1000);
+      
+    } else{
+        const getIdRegex = /[0-9]+/g;
+        const id = req.url.match(getIdRegex)[0];
+        const database = router.db;
+        const { body } = req;
+        console.log(body)
+        const monitored = database.get("monitored").find({id: id }).value() || null
+        
+        setTimeout(() => {
+          if(monitored){
+            const newmonitored = {...monitored, body}
+            console.log(newmonitored)
+            res.status(200).jsonp(newmonitored);
+          } else{
+            if(monitored){
+              res.status(400).jsonp({message:'monitoredError'});
+            }
+          }
+        }, 1000);
+      }
+    }
+
+    if (req.url === "/paymentMethods") {
       const database = router.db;
       const { body } = req;
-      console.log(body)
-      const monitored = database.get("monitored").find({id: id }).value() || null
-      
+      console.log(req.body);
+      console.log(database.toJSON)
+      let hasCard = false;
+
+     if(body.type === "credit" || body.type === "debit"){
+      hasCard = database.get("paymentMethods").find({cardNumber: Number(body.cardNumber)}).value() || false
+     }
+
+     const id = Number(body.cardNumber) === 4716087312077138? hasCard.id:`${db.paymentMethods.length + 1}`
+       
       setTimeout(() => {
-        if(monitored){
-          const newmonitored = {...monitored, body}
-          console.log(newmonitored)
-          res.status(200).jsonp(newmonitored);
-        } else{
-          if(monitored){
-            res.status(400).jsonp({message:'monitoredError'});
-          }
-        }
-      }, 1000);
-    
-  }
+        if(!hasCard || Number(body.cardNumber) === 4716087312077138){
+          
+          const newSubscription = {id: id, ...body}
+        // console.log(newUser)
+        res.status(200).jsonp(newSubscription);
+      } else{
+          res.status(400).jsonp({message:'paymentMethods'});
+        
+      }
+    }, 1000);
+      
+    }
 
   }
 

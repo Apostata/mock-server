@@ -75,7 +75,22 @@
                 "max": null,
                 "target":null
             }
-        }
+        },
+        "recieveMailOnReachRange": true,
+        "emergencyContacts":[
+            {
+                "id":"1",
+                "name":"Clodoaldo Sanches",
+                "phoneNumber":11992746193,
+                "image":"http://192.168.1.103:3003/images/avatar-sample.jpeg"
+            },
+            {
+                "id":"2",
+                "name":"Jonas Gomes",
+                "phoneNumber":11985746195,
+                "image":"http://192.168.1.103:3003/images/avatar-sample.jpeg"
+            }
+        ]
     },
     {
         "id": "2",
@@ -153,7 +168,22 @@
                 "max": null,
                 "target":null
             }
-        }
+        },
+        "recieveMailOnReachRange": true,
+        "emergencyContacts":[
+            {
+                "id":"1",
+                "name":"Clodoaldo Sanches",
+                "phoneNumber":11992746193,
+                "image":"http://192.168.1.103:3003/images/avatar-sample.jpeg"
+            },
+            {
+                "id":"2",
+                "name":"Jonas Gomes",
+                "phoneNumber":11985746195,
+                "image":"http://192.168.1.103:3003/images/avatar-sample.jpeg"
+            }
+        ]
     },
     {
         "id": "3",
@@ -231,7 +261,22 @@
                 "max": null,
                 "target":null
             }
-        }
+        },
+        "recieveMailOnReachRange": true,
+        "emergencyContacts":[
+            {
+                "id":"1",
+                "name":"Clodoaldo Sanches",
+                "phoneNumber":11992746193,
+                "image":"http://192.168.1.103:3003/images/avatar-sample.jpeg"
+            },
+            {
+                "id":"2",
+                "name":"Jonas Gomes",
+                "phoneNumber":11985746195,
+                "image":"http://192.168.1.103:3003/images/avatar-sample.jpeg"
+            }
+        ]
     },
     {
         "id": "4",
@@ -309,7 +354,22 @@
                 "max": null,
                 "target":null
             }
-        }
+        },
+        "recieveMailOnReachRange": true,
+        "emergencyContacts":[
+            {
+                "id":"1",
+                "name":"Clodoaldo Sanches",
+                "phoneNumber":11992746193,
+                "image":"http://192.168.1.103:3003/images/avatar-sample.jpeg"
+            },
+            {
+                "id":"2",
+                "name":"Jonas Gomes",
+                "phoneNumber":11985746195,
+                "image":"http://192.168.1.103:3003/images/avatar-sample.jpeg"
+            }
+        ]
     },
     {
         "id": "5",
@@ -387,7 +447,22 @@
                 "max": null,
                 "target":null
             }
-        }
+        },
+        "recieveMailOnReachRange": true,
+        "emergencyContacts":[
+            {
+                "id":"1",
+                "name":"Clodoaldo Sanches",
+                "phoneNumber":11992746193,
+                "image":"http://192.168.1.103:3003/images/avatar-sample.jpeg"
+            },
+            {
+                "id":"2",
+                "name":"Jonas Gomes",
+                "phoneNumber":11985746195,
+                "image":"http://192.168.1.103:3003/images/avatar-sample.jpeg"
+            }
+        ]
     },
     {
         "id": "6",
@@ -465,7 +540,22 @@
                 "max": null,
                 "target":null
             }
-        }
+        },
+        "recieveMailOnReachRange": true,
+        "emergencyContacts":[
+            {
+                "id":"1",
+                "name":"Clodoaldo Sanches",
+                "phoneNumber":11992746193,
+                "image":"http://192.168.1.103:3003/images/avatar-sample.jpeg"
+            },
+            {
+                "id":"2",
+                "name":"Jonas Gomes",
+                "phoneNumber":11985746195,
+                "image":"http://192.168.1.103:3003/images/avatar-sample.jpeg"
+            }
+        ]
     }
    
 ]
