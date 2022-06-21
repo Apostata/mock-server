@@ -47,7 +47,7 @@ server.use(async (req, res, next) => {
       }, 1000);
     }
 
-    if (req.url === "/isAdmin") {
+    else if (req.url === "/isAdmin") {
       const database = router.db;
       const { body:{ password} } = req;
       console.log(req.body);
@@ -61,7 +61,7 @@ server.use(async (req, res, next) => {
       }, 1000);
     }
 
-    if (req.url === "/users") {
+    else if (req.url === "/users") {
       const database = router.db;
       const { body:{cpf, concilNumber} } = req;
       console.log(req.body);
@@ -88,7 +88,7 @@ server.use(async (req, res, next) => {
       
     }
 
-    if (req.url === "/getcode") {
+    else if (req.url === "/getcode") {
       const database = router.db;
       const { body:{email} } = req;
       console.log(req.body);
@@ -104,7 +104,7 @@ server.use(async (req, res, next) => {
       },100)
     }
 
-    if (req.url === "/resetPassword") {
+    else if (req.url === "/resetPassword") {
       const database = router.db;
       const { body:{email, password} } = req;
       console.log(req.body);
@@ -120,7 +120,7 @@ server.use(async (req, res, next) => {
       },1000)
     }
 
-    if (req.url === "/subscriptions") {
+    else if (req.url === "/subscriptions") {
       const database = router.db;
       const { body } = req;
       console.log(req.body);
@@ -142,7 +142,7 @@ server.use(async (req, res, next) => {
       
     }
 
-    if (req.url === "/paymentMethods") {
+    else if (req.url === "/paymentMethods") {
       const database = router.db;
       const { body } = req;
       console.log(req.body);
@@ -169,7 +169,7 @@ server.use(async (req, res, next) => {
       
     }
 
-    if (req.url.includes("/monitored")) {
+    else if (req.url.includes("/monitored")) {
    
       const database = router.db;
       const { body } = req;
@@ -187,6 +187,32 @@ server.use(async (req, res, next) => {
       }
     }, 1000);
       
+    }
+
+    else if (req.url.includes("/records")) {
+      const getIdRegex = /[0-9]+/g;
+      const id = req.url.match(getIdRegex)[0];
+      const { body } = req;
+      let {query:{start, end}} = req;
+      //forçando data
+      if(end - start >= 2592000000){
+        //mes
+      }
+      else{ //dia
+        start = 1654052400000
+        end = 1654052400000
+      }
+      // 
+      const recId = `${db.records.length + 1}`;
+      console.log(body)
+      const record = {...body, id:recId, userId:id}
+      setTimeout(() => {
+        if(record){
+          res.status(200).jsonp(record);
+        } else{
+          res.status(401).jsonp(null);
+        }
+      }, 1000);
     }
     
   }
