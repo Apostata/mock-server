@@ -193,7 +193,6 @@ server.use(async (req, res, next) => {
       const getIdRegex = /[0-9]+/g;
       const id = req.url.match(getIdRegex)[0];
       const { body } = req;
-      let {query:{start, end}} = req;
       //forçando data
       if(end - start >= 2592000000){
         //mes
