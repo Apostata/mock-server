@@ -27,7 +27,7 @@
                 "name":"Trial"
             }
         },
-        "image":"http://192.168.1.103:3003/images/avatar-sample.jpeg",
+        "image":"http://192.168.0.21:3003/images/avatar-sample.jpeg",
         "controls":[{
             "name":"Rodar app em plano de fundo",
             "value": true
@@ -62,7 +62,7 @@
                 "name":"Plano 2"
             }
         },
-        "image":"http://192.168.1.103:3003/images/avatar-sample.jpeg",
+        "image":"http://192.168.0.21:3003/images/avatar-sample.jpeg",
         "controls":[{
             "name":"Rodar app em plano de fundo",
             "value": true
@@ -85,7 +85,7 @@
         ],
         "monitoreds":[],
         "subscription":null,
-        "image":"http://192.168.1.103:3003/images/avatar-sample.jpeg",
+        "image":"http://192.168.0.21:3003/images/avatar-sample.jpeg",
         "controls":[{
             "name":"Rodar app em plano de fundo",
             "value": false
@@ -108,7 +108,7 @@
         ],
         "monitoreds":[],
         "subscription":null,
-        "image":"http://192.168.1.103:3003/images/avatar-sample.jpeg",
+        "image":"http://192.168.0.21:3003/images/avatar-sample.jpeg",
         "controls":[{
             "name":"Rodar app em plano de fundo",
             "value": true

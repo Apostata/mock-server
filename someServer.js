@@ -73,7 +73,7 @@ server.use(async (req, res, next) => {
         console.log(authUser)
         if(!authUser ){
           const id = cpf==33265205819? '1': `${db.users.length + 1}`;
-        const newUser = {id:id, ...req.body, image:'http://192.168.1.103:3003/images/avatar-sample.jpeg'}
+        const newUser = {id:id, ...req.body, image:'http://192.168.0.21:3003/images/avatar-sample.jpeg'}
         console.log(newUser)
         res.status(200).jsonp(newUser);
       } else{
