@@ -2,7 +2,7 @@
     {
         "id":"2",
         "name": "João da Silva",
-        "cpf": 12312312312,
+        "cpf": "12312312312",
         "email": "joaosilva@gmail.com",
         "time": 360,
         "monitors":[
@@ -32,12 +32,12 @@
             "name":"Rodar app em plano de fundo",
             "value": true
         }],
-        "phoneNumber":11994545434
+        "phoneNumber":"11994545434"
     },
     {
         "id":"3",
         "name": "Maria de Lourdes",
-        "cpf": 23423423434,
+        "cpf": "23423423434",
         "email": "marialourdes@gmail.com",
         "time": 120,
         "monitors":[
@@ -67,12 +67,12 @@
             "name":"Rodar app em plano de fundo",
             "value": true
         }],
-        "phoneNumber":11994545434
+        "phoneNumber":"11994545434"
     },
     {
         "id":"4",
         "name": "David Cardoso",
-        "cpf": 34534534534,
+        "cpf": "34534534534",
         "email": "davidcardoso@gmail.com",
         "time": 180,
         "monitors":[
@@ -90,12 +90,12 @@
             "name":"Rodar app em plano de fundo",
             "value": false
         }],
-        "phoneNumber":11994545434
+        "phoneNumber":"11994545434"
     },
     {
         "id":"5",
         "name": "Ricardo Reis",
-        "cpf": 45645645656,
+        "cpf": "45645645656",
         "email": "ricardoreis@gmail.com",
         "time": 240,
         "monitors":[
@@ -113,12 +113,12 @@
             "name":"Rodar app em plano de fundo",
             "value": true
         }],
-        "phoneNumber":11994545434
+        "phoneNumber":"11994545434"
     },
     {
         "id":"6",
         "name": "José Rodolfo",
-        "cpf": 14615615616,
+        "cpf": "14615615616",
         "email": "joserodolfo@gmail.com",
         "time": 60,
         "monitors":[
@@ -145,6 +145,6 @@
             "name":"Rodar app em plano de fundo",
             "value": true
         }],
-        "phoneNumber":11994545434
+        "phoneNumber":"11994545434"
     }
 ]
