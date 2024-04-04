@@ -4,7 +4,8 @@
   "description": "mock server para o portal de cadastro",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon someServer.js",
+    "watch": "nodemon someServer.js",
+    "start": "node someServer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
